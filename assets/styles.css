@@ -348,3 +348,23 @@ a, button, input { touch-action: manipulation; }
 #filterBody fieldset { padding: 0 !important; margin-top: 28px !important; }
 #filterBody legend { float: left; width: 100%; margin-bottom: 12px; }
 #filterBody .chips { clear: both; margin-top: 0 !important; }
+
+/* ---------- Motion standard (see assets/app.js) ---------- */
+.page-body { position: relative; z-index: 2; background: var(--paper); padding-bottom: 64px; }
+.page-body.st-cover { border-radius: 16px 16px 0 0; margin-top: -16px; }
+.st-hero > :first-child { padding-bottom: 80px !important; }
+.st-hero { position: relative; z-index: 1; background: var(--paper); will-change: transform; }
+.st-overlay { position: absolute; inset: 0; pointer-events: none; opacity: 0; background: #1E0906; z-index: 2; will-change: opacity; }
+.foot { margin-top: 0; position: sticky; bottom: 0; z-index: 0; will-change: transform; }
+.foot .st-overlay { background: #000; }
+.line-mask { display: block; overflow: hidden; overflow: clip; overflow-clip-margin: .06em; padding-bottom: .14em; margin-bottom: -.14em; }
+.line { display: block; transform-origin: 0 100%; }
+.pre .line { transform: translate3d(0, 110%, 0); }
+.pre-img { clip-path: inset(100% 0 0 0); }
+.ghost { pointer-events: none; }
+.ghost img.ph { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .pre .line { transform: none; }
+  .pre-img { clip-path: none; }
+  .foot { position: relative; }
+}
