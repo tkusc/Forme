@@ -261,7 +261,7 @@
       var on = d.id === dept.id;
       return '<button role="tab" class="label" aria-selected="' + on + '" data-go="collection:' + d.id + '">' + (on ? '<i class="dot"></i>' : '') + d.label + '</button>';
     }).join('') + '</div></div>';
-    h += '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 class="page-title">' + dept.label + '<sup class="cnt">' + OBJECTS.filter(function (o) { return o.dept === dept.id; }).length + '</sup></h1><p class="lede read">' + esc(dept.lede) + '</p></section>';
+    h += '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 class="page-title">' + dept.label + '<sup class="cnt" aria-hidden="true">' + OBJECTS.filter(function (o) { return o.dept === dept.id; }).length + '</sup></h1><p class="lede read">' + esc(dept.lede) + '</p></section>';
     h += '<div class="wrap"><nav class="types g" aria-label="' + dept.label + ' types" style="margin-top:48px">' + types + '</nav></div>';
     var side = '<aside class="coll-side" aria-label="Browse the collection">' + DEPTS.map(function (d) {
       var on = d.id === dept.id;
