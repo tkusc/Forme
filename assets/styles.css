@@ -286,3 +286,65 @@ a, button, input { touch-action: manipulation; }
   .plate.fade svg { animation: none; }
   .plate:has(> img.ph:not(.in):not(.err))::after, .sthumb:has(> img.ph:not(.in):not(.err))::after { transform: none; background: rgba(255, 253, 248, .4); animation: pulse 1.6s ease-in-out infinite; }
 }
+
+/* ---------- Object page columns ---------- */
+.gslide { height: min(125vw, 72vh); }
+.latest-lede { display: none; }
+.navlinks { display: none; }
+
+/* ---------- Desktop (960px and up) ----------
+   One idea: the object stays in view while you read about it.
+   Wider gutters, inline navigation, side panel for filters, larger editorial type. */
+@media (min-width: 960px) {
+  :root { --gl: max(40px, env(safe-area-inset-left, 0px)); --gr: max(40px, env(safe-area-inset-right, 0px)); --t64: 88px; --t48: 64px; }
+  .nav-in { height: 64px; }
+  .sfield { top: 10px; }
+  .spanel { top: calc(64px + env(safe-area-inset-top, 0px)); }
+  .navlinks { display: flex; gap: 28px; margin-left: 56px; font-size: var(--t14); transition: opacity 160ms ease; }
+  .navlinks a { height: 44px; display: flex; align-items: center; gap: 8px; color: var(--muted); }
+  .navlinks a:hover, .navlinks a[aria-current] { color: var(--ink); }
+  .navlinks a[aria-current]::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--signal); }
+  .searching .navlinks { opacity: 0; pointer-events: none; }
+  .burger { display: none; }
+  .sfield { transform: translateX(var(--slot)); }
+  .searching .sfield { transform: none; }
+
+  .hero-h1 { max-width: 980px !important; }
+
+  .scard.latest { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 0 40px; align-items: end; }
+  .scard.latest > .g { padding-left: 0; padding-bottom: 8px; }
+  .scard.latest .title { font-size: 52px; line-height: 1; }
+  .scard.latest .latest-lede { display: block; margin-top: 16px; font-size: var(--t18); line-height: 1.5; color: var(--muted); max-width: 420px; }
+  .wrap > .scard.latest { padding-left: var(--gl); padding-right: var(--gr); }
+
+  .obj-top { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); max-width: 1180px; margin: 0 auto; align-items: start; }
+  .obj-media { position: sticky; top: calc(64px + env(safe-area-inset-top, 0px)); padding-left: var(--gl); padding-top: 8px; }
+  .obj-media .gslide { height: calc(100vh - 64px - 48px); max-height: 980px; }
+  .obj-body { padding-left: 24px; }
+  .obj-body > .obj-head { padding-top: 8px !important; }
+  .obj-body .wrap { max-width: none; }
+
+  /* Desktop: everything sits inside the same gutter; images stop bleeding to the edge. */
+  .wrap:not(.g) > .grid, .wrap:not(.g) > .story-list, .wrap:not(.g) > .read { padding-left: var(--gl); padding-right: var(--gr); }
+  .grid { gap: 48px 16px; }
+  .grid .card:nth-child(n) .cap { padding: 0 !important; }
+  .scard > .g { padding-left: 0; padding-right: 0; }
+  .dept { display: none; }
+
+  .foot-in { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px 48px; align-items: end; }
+  .foot .mark { font-size: 160px; }
+  .foot .links { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .foot .legal { grid-column: 1 / -1; }
+
+  #filterSheet { left: auto; right: 0; top: 0; bottom: 0; width: 440px; max-width: none; max-height: none; margin: 0; border-radius: 0; transform: translateX(105%); padding-top: env(safe-area-inset-top, 0px); }
+  #filterSheet.open { transform: none; }
+  #filterSheet .handle { display: none; }
+}
+@media (min-width: 960px) and (prefers-reduced-motion: reduce) {
+  #filterSheet { transform: none; }
+}
+
+/* Filter groups: legend above its chips with even spacing (fieldset legends sit on the border by default) */
+#filterBody fieldset { padding: 0 !important; margin-top: 28px !important; }
+#filterBody legend { float: left; width: 100%; margin-bottom: 12px; }
+#filterBody .chips { clear: both; margin-top: 0 !important; }

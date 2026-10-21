@@ -222,9 +222,9 @@
     var recent = OBJECTS.slice().sort(function (a, b) { return b.added - a.added; }).slice(0, 4);
     var profiled = DESIGNERS.filter(function (d) { return d.page; });
     var h = '';
-    h += '<section class="wrap g" style="padding-top:64px;display:flex;flex-direction:column;gap:24px"><h1 class="serif" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance;max-width:720px">The stories behind iconic design.</h1>' +
+    h += '<section class="wrap g" style="padding-top:64px;display:flex;flex-direction:column;gap:24px"><h1 class="serif hero-h1" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance;max-width:720px">The stories behind iconic design.</h1>' +
       '<p class="muted" style="font-size:var(--t16);line-height:1.6;max-width:330px">A showroom for the lamps, chairs and objects that shaped design history, and the ideas behind them.</p></section>';
-    h += '<div class="wrap" style="margin-top:64px">' + link('story:' + latest.slug, '<div style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div></div>', 'scard') + '</div>';
+    h += '<div class="wrap" style="margin-top:64px">' + link('story:' + latest.slug, '<div style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div><p class="latest-lede">' + esc(latest.lede) + '</p></div>', 'scard latest') + '</div>';
     h += '<section class="sec wrap"><div class="g">' + secHead('Recently added', 'collection:lighting') + '</div><div class="grid" style="margin-top:24px">' + recent.map(objCard).join('') + '</div></section>';
     h += '<section class="sec wrap g">' + secHead('Collection') + '<div style="margin-top:8px">' + DEPTS.map(function (d, i) {
       var n = OBJECTS.filter(function (o) { return o.dept === d.id; }).length;
@@ -307,19 +307,22 @@
     more = more.slice(0, 2);
     var dept = deptOf(o.dept);
     var h = '';
-    var slides = PHOTOS[o.slug] ? ['<div class="plate fade" style="height:min(125vw,72vh)' + (PHOTOS[o.slug].bg ? ';background:' + PHOTOS[o.slug].bg : '') + '">' + photoTag(o.slug, o.art) + '</div>', '<div class="plate fade" style="background:' + TONES[1] + ';height:min(125vw,72vh)">' + art(o.art) + '</div>']
-      : TONES.map(function (t) { return '<div class="plate fade" style="background:' + t + ';height:min(125vw,72vh)">' + art(o.art) + '</div>'; });
+    var slides = PHOTOS[o.slug] ? ['<div class="plate fade gslide"' + (PHOTOS[o.slug].bg ? ' style="background:' + PHOTOS[o.slug].bg + '"' : '') + '>' + photoTag(o.slug, o.art) + '</div>', '<div class="plate fade gslide" style="background:' + TONES[1] + '">' + art(o.art) + '</div>']
+      : TONES.map(function (t) { return '<div class="plate fade gslide" style="background:' + t + '">' + art(o.art) + '</div>'; });
     state.slides = slides.length;
+    h += '<div class="obj-top"><div class="obj-media">';
     h += '<div class="wrap gwrap"><div class="gallery" id="gallery" tabindex="0" role="region" aria-label="Images of ' + esc(o.name) + '">' + slides.join('') + '</div>' +
       (slides.length > 1 ? '<button class="gnav prev sq" data-gal="-1" aria-label="Previous image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="gnav next sq" data-gal="1" aria-label="Next image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>' : '') +
       '<div class="gcount" id="gcount" aria-live="polite">1 / ' + slides.length + '</div></div>';
-    h += '<section class="wrap g" style="padding-top:24px;display:flex;flex-direction:column;gap:12px">' +
+    h += '</div><div class="obj-body">';
+    h += '<section class="wrap g obj-head" style="padding-top:24px;display:flex;flex-direction:column;gap:12px">' +
       '<nav class="label muted" aria-label="Breadcrumb" style="display:flex;gap:8px">' + link('collection:' + dept.id, dept.label) + '<span aria-hidden="true">/</span><button data-type-go="' + o.type + '" class="label">' + esc(o.type) + '</button></nav>' +
       '<h1 class="serif" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance">' + esc(o.name) + '</h1><div style="font-size:var(--t16)">' + designerLink + '</div></section>';
     h += '<section class="wrap g" style="margin-top:48px"><div class="inshort read"><h2 class="label" style="font-weight:400">In short</h2><p class="lede">' + esc(o.inShort) + '</p></div></section>';
     h += '<section class="sec wrap g"><div class="read">' + secHead('Facts') + '<dl class="facts">' + facts.map(function (f) { return '<div><dt>' + f[0] + '</dt><dd>' + f[1] + '</dd></div>'; }).join('') + '</dl></div></section>';
     h += '<article class="sec wrap g"><div class="read"><div class="sec-head"><h2 class="label" style="font-weight:400">The story</h2><span class="label muted">' + Math.max(2, o.story.length + 1) + ' min</span></div>' +
       '<div class="prose" style="margin-top:32px">' + o.story.map(function (p) { return '<h2>' + esc(p[0]) + '</h2><p>' + esc(p[1]) + '</p>'; }).join('') + '</div></div></article>';
+    h += '</div></div>';
     h += '<section class="sec wrap"><div class="g">' + secHead('Related story', 'stories') + '</div><div style="margin-top:24px" class="read">' + storyCard(related) + '</div></section>';
     h += '<section class="sec wrap"><div class="g">' + secHead('More from the collection', 'collection:' + dept.id) + '</div><div class="grid" style="margin-top:24px">' + more.map(objCard).join('') + '</div></section>';
     h += follow() + credits(creditsFor([o])) + footer();
@@ -410,6 +413,8 @@
     var parts = state.route.split(':');
     var fn = views[parts[0]] || views.home;
     app.innerHTML = fn(parts[1]);
+    var top = ({ collection: 'collection:' + state.dept, object: 'collection:' + state.dept, story: 'stories', stories: 'stories', designer: 'designers', designers: 'designers', about: 'about' })[parts[0]];
+    Array.prototype.forEach.call(document.querySelectorAll('.navlinks a'), function (l) { if (l.getAttribute('data-go') === top) l.setAttribute('aria-current', 'page'); else l.removeAttribute('aria-current'); });
     var t = titleFor(parts);
     document.title = (t ? t + ' · ' : '') + 'formé';
     var hero = app.querySelector('#gallery img.ph');
