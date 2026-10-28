@@ -58,9 +58,9 @@ The stylesheet contains the source mask/clipping rules and turns off balanced wr
 
 ## Header navigation
 
-The shared header follows the Details.so layout with formé's own branding and links: Lighting, Furniture and Objects beside the wordmark, a centered search pill, and Stories, Designers, About and the menu control on the right. The primary navigation has a moving selection pill for hover and keyboard focus. The bar measures 72px on larger layouts and 56px on phones; below 1120px, all six links remain available through the anchored dropdown.
+The shared header follows the Details.so layout with formé's own branding and links: Lighting, Furniture and Objects beside the wordmark, a centered search pill, and Stories, Designers and About on the right. There is no separate hamburger. Opening Search (or pressing F) expands the pill into one search/navigation surface with all six destinations, social/legal links and suggestions. Typing replaces suggestions with matching objects, stories and designers.
 
-Search opens the existing formé results in a floating panel, supports the F shortcut, Escape, outside click and keyboard focus containment. The dropdown can be toggled with the hamburger or dismissed with Escape/outside click. Its contents and the collection filter remain unchanged. The menu is non-modal with the page surface inert; filters retain their modal side/bottom sheet. Listeners are scoped to the incoming Swup header and disposed on replacement. Reduced motion removes selection-pill travel.
+Width, position, corner radius, clipping and opacity share the morph easing; the close icon and panel content enter with staggered timing. The primary navigation retains its moving selection pill for pointer and keyboard focus. The bar measures 72px on larger layouts and 56px on phones. Escape, outside click or the integrated close button closes the surface and restores trigger focus. The background page and unrelated header links are inert while open; the keyboard stays within search controls/results. Persistent overlay listeners are installed once, while header listeners are disposed and rebound after Swup replacement. Reduced motion removes morph travel. The collection filter retains its modal sheet.
 
 ### Photography
 
@@ -74,3 +74,8 @@ labelled as a white patterned vintage variant; Akari now shows the correct 1A.
 JPEGs are capped at 1600px for the newly imported images. Error-only illustrations
 remain as a fallback when an image fails to load. Update the content snapshots
 when deliberately changing the catalogue's image markup or credits.
+
+All photographic surfaces use centered cover cropping to fill their frame, with
+the same paper background and multiply treatment. Pipistrello and Taccia lead
+with their quieter studio photographs. Sources and known licence metadata remain
+attached when gallery ordering changes.

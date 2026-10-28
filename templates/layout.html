@@ -40,7 +40,8 @@
         <span class="search-label" aria-hidden="true">Lamps, chairs, designers…</span>
         <label for="q" class="sr">Search formé</label>
         <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="Lamps, chairs, designers…" tabindex="-1" aria-controls="spanel" aria-hidden="true" disabled>
-        <button class="sopen" id="openSearch" aria-label="Search" aria-keyshortcuts="F" aria-controls="spanel" aria-expanded="false"></button>
+        <button class="cancel" id="closeSearch" tabindex="-1" aria-label="Close search and menu"><span></span><span></span></button>
+        <button class="sopen" id="openSearch" aria-label="Search and menu" aria-keyshortcuts="F" aria-controls="spanel" aria-expanded="false"></button>
       </div>
     </div>
     <div class="nav-right">
@@ -50,23 +51,17 @@
         <a href="/designers" data-go="designers" class="nav-solid">Designers</a>
         <a href="/about" data-go="about" class="nav-outline">About</a>
       </nav>
-      <div class="slot">
-        <button class="icon-btn burger" id="openMenu" aria-label="Open menu" aria-controls="menuSheet" aria-expanded="false"><span></span><span></span></button>
-        <button class="cancel" id="closeSearch" tabindex="-1">Cancel</button>
-      </div>
+
     </div>
   </div>
 </header>
 
-<div class="spanel" id="spanel" aria-live="polite"><div class="wrap g" id="sresults"></div></div>
+<div class="spanel" id="spanel" role="region" aria-label="Navigation and search results" inert><div class="search-content"><div class="wrap g" id="sresults" aria-live="polite"></div></div></div>
 
 <main id="swup" class="transition-swup hide-scrollbar{{home}}" data-route="{{route}}" data-dept="{{dept}}" tabindex="-1"><!-- PAGE --></main>
 
 <div class="scrim" id="scrim"></div>
-<section class="sheet" id="menuSheet" role="dialog" aria-label="Menu" aria-modal="false">
-  <div class="handle" aria-hidden="true"></div>
-  <div class="sheet-body g" id="menuBody"></div>
-</section>
+
 <section class="sheet" id="filterSheet" role="dialog" aria-label="Filter" aria-modal="true">
   <div class="handle" aria-hidden="true"></div>
   <div class="g" style="height: 56px; display: flex; justify-content: space-between; align-items: center; flex: none;">

@@ -20,6 +20,7 @@ test('every object gallery contains only locally hosted photographs with recorde
     for (const image of images) {
       assert.ok(image.width >= 400 && image.height >= 400, image.src);
       assert.match(image.page, /^https:\/\//);
+      assert.equal(image.fit, 'cover', image.src + ' fills its image frame');
       assert.ok(image.lic || image.rights, image.src);
       const bytes = await readFile(new URL('..' + image.src, import.meta.url));
       assert.equal(bytes.readUInt16BE(0), 0xffd8, image.src + ' is a valid JPEG');

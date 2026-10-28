@@ -31,13 +31,17 @@ export function setupOnce(navigateTo) {
 }
 
 // Persistent overlays and document listeners are mounted exactly once.
-var closeSearch, closeSheets, openSearch, renderSearch, renderMenu, showSheet, measure, toggleMenu;
+var closeSearch, closeSheets, openSearch, renderSearch, renderMenu, showSheet, measure;
 function setupInteractions() {
   /* ---------- Search ---------- */
   var spanel = document.getElementById('spanel');
   var sres = document.getElementById('sresults');
   var searchOpen = false, clearTimer = null, openSheet = null;
-  measure = function () { updateNavPill(); };
+  measure = function () {
+    updateNavPill();
+    var center = nav.querySelector('.nav-center');
+    spanel.style.setProperty('--closed-search-width', getComputedStyle(center).getPropertyValue('--closed-search-width'));
+  };
   openSearch = function () {
     if (searchOpen) return;
     if (openSheet) closeSheets(true);
@@ -45,6 +49,7 @@ function setupInteractions() {
     nav.classList.remove('hide');
     nav.classList.add('searching'); document.body.classList.add('searching');
     renderSearch();
+    spanel.inert = false;
     spanel.classList.add('open', 'stagger');
     scrim.classList.add('open', 'search-scrim');
     nav.querySelector('#openSearch').setAttribute('aria-expanded', 'true');
@@ -61,6 +66,7 @@ function setupInteractions() {
     q.blur();
     nav.classList.remove('searching'); document.body.classList.remove('searching');
     spanel.classList.remove('open', 'stagger');
+    spanel.inert = true;
     scrim.classList.remove('open', 'search-scrim');
     nav.querySelector('#openSearch').setAttribute('aria-expanded', 'false');
     nav.querySelectorAll('.navlinks, .brand').forEach(function (el) { el.inert = false; });
@@ -76,7 +82,7 @@ function setupInteractions() {
   renderSearch = function () {
     var t = q.value.trim().toLowerCase();
     if (!t) {
-      sres.innerHTML = '<div class="sgroup"><div class="label muted">Popular designers</div><div style="margin-top:8px">' +
+      sres.innerHTML = renderMenu() + '<div class="sgroup"><div class="label muted">Popular designers</div><div style="margin-top:8px">' +
         ['poul-henningsen', 'charles-and-ray-eames', 'arne-jacobsen', 'alvar-aalto'].map(function (id) { var d = dById[id]; return link('designer:' + id, '<span class="nm">' + esc(d.name) + '</span><span class="meta">' + d.count + '</span>', 'irow'); }).join('') +
         '</div></div><div class="sgroup"><div class="label muted">Browse</div><div class="chips" style="margin-top:12px">' +
         [['lighting', 'Pendant'], ['lighting', 'Desk'], ['furniture', 'Lounge'], ['furniture', 'Chair'], ['objects', 'Vase']].map(function (p) { return '<button class="chip sq" data-dept-type="' + p[0] + '|' + p[1] + '">' + p[1] + '</button>'; }).join('') + '</div></div>' +
@@ -104,7 +110,6 @@ function setupInteractions() {
 
   /* ---------- Sheets ---------- */
   var scrim = document.getElementById('scrim');
-  var menuSheet = document.getElementById('menuSheet');
   var filterSheet = document.getElementById('filterSheet');
   var returnFocus = null;
   function focusables(root) { return Array.prototype.filter.call(root.querySelectorAll('a[href],button:not([disabled]),input'), function (x) { return x.offsetParent !== null; }); }
@@ -112,18 +117,13 @@ function setupInteractions() {
     closeSearch(); returnFocus = document.activeElement; openSheet = el;
     scrim.classList.add('open'); el.classList.add('open');
     app.style.overflowY = 'hidden';
-    app.inert = true; nav.inert = el !== menuSheet;
-    if (el === menuSheet) {
-      scrim.classList.add('menu-scrim');
-      nav.querySelector('#openMenu').setAttribute('aria-expanded', 'true');
-    }
+    app.inert = true; nav.inert = true;
     setTimeout(function () { var f = focusables(el)[0]; if (f) { try { f.focus({ preventScroll: true }); } catch (e) { f.focus(); } } }, 80);
   }
   closeSheets = function (navigating) {
     var wasOpen = !!openSheet;
-    [menuSheet, filterSheet].forEach(function (s) { s.classList.remove('open'); s.style.transform = ''; });
+    [filterSheet].forEach(function (s) { s.classList.remove('open'); s.style.transform = ''; });
     scrim.classList.remove('open', 'menu-scrim');
-    nav.querySelector('#openMenu').setAttribute('aria-expanded', 'false');
     openSheet = null; if (!searchOpen) app.style.overflowY = '';
     app.inert = false; nav.inert = false;
     if (wasOpen && navigating !== true && returnFocus && returnFocus.focus) { try { returnFocus.focus({ preventScroll: true }); } catch (e) {} }
@@ -131,7 +131,7 @@ function setupInteractions() {
   }
   scrim.addEventListener('click', function () { if (searchOpen) closeSearch(); else closeSheets(); });
   document.addEventListener('keydown', function (e) {
-    if (e.key !== 'Tab' || openSheet === menuSheet) return;
+    if (e.key !== 'Tab') return;
     var f = openSheet ? focusables(openSheet) : searchOpen ? [q, cancelBtn].concat(focusables(spanel)) : [];
     if (!f.length) return;
     if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
@@ -167,15 +167,10 @@ function setupInteractions() {
     var cur = state.route.split(':')[0];
     var active = (cur === 'collection' || cur === 'object') ? 'collection:' + state.dept : ({ stories: 'stories', story: 'stories', designers: 'designers', designer: 'designers', about: 'about' })[cur];
     var items = [['collection:lighting', 'Lighting'], ['collection:furniture', 'Furniture'], ['collection:objects', 'Objects'], ['stories', 'Stories'], ['designers', 'Designers'], ['about', 'About']];
-    document.getElementById('menuBody').innerHTML = '<div style="margin-top:16px">' + items.map(function (m) {
+    return '<nav class="search-navigation" aria-label="Main navigation">' + items.map(function (m) {
       return link(m[0], '<span class="mslot">' + (active === m[0] ? '<i class="dot"></i>' : '') + '</span>' + m[1], 'menu-link', active === m[0] ? ' aria-current="page"' : '');
-    }).join('') + '</div><div style="margin-top:32px;display:flex;flex-direction:column;gap:16px"><div style="display:flex;gap:8px"><a class="btn sq" href="https://www.instagram.com/" target="_blank" rel="noopener" style="height:44px">Instagram</a><a class="btn sq" href="https://www.threads.com/" target="_blank" rel="noopener" style="height:44px">Threads</a></div><div class="label muted" style="display:flex;gap:16px">' + link('page:imprint', 'Imprint') + link('page:privacy', 'Privacy') + link('page:credits', 'Credits') + '</div></div>';
+    }).join('') + '</nav><div class="search-meta" style="display:flex;flex-direction:column;gap:16px"><div style="display:flex;gap:8px"><a class="btn sq" href="https://www.instagram.com/" target="_blank" rel="noopener" style="height:44px">Instagram</a><a class="btn sq" href="https://www.threads.com/" target="_blank" rel="noopener" style="height:44px">Threads</a></div><div class="label muted" style="display:flex;gap:16px">' + link('page:imprint', 'Imprint') + link('page:privacy', 'Privacy') + link('page:credits', 'Credits') + '</div></div>';
   }
-
-  toggleMenu = function () {
-    if (openSheet === menuSheet) closeSheets();
-    else { renderMenu(); showSheet(menuSheet); }
-  };
 
   var draft = {};
   function renderFilter() {
@@ -251,7 +246,6 @@ export function initHeader(scope) {
   cancelBtn = scope.querySelector('#closeSearch');
   q = scope.querySelector('#q');
   scope.querySelector('#openSearch').addEventListener('click', openSearch, options);
-  scope.querySelector('#openMenu').addEventListener('click', toggleMenu, options);
   cancelBtn.addEventListener('click', closeSearch, options);
   q.addEventListener('input', function () { document.getElementById('spanel').classList.remove('stagger'); renderSearch(); }, options);
   q.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeSearch(); }, options);
