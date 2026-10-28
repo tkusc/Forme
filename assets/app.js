@@ -37,11 +37,7 @@ function setupInteractions() {
   var spanel = document.getElementById('spanel');
   var sres = document.getElementById('sresults');
   var searchOpen = false, clearTimer = null, openSheet = null;
-  measure = function () {
-    updateNavPill();
-    var center = nav.querySelector('.nav-center');
-    spanel.style.setProperty('--closed-search-width', getComputedStyle(center).getPropertyValue('--closed-search-width'));
-  };
+  measure = function () { updateNavPill(); };
   openSearch = function () {
     if (searchOpen) return;
     if (openSheet) closeSheets(true);

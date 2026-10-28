@@ -66,10 +66,10 @@ ol, ul { padding: 0; list-style: none; }
 .navlinks .nav-outline { border-color: var(--line); }
 .navlinks .nav-outline:hover, .navlinks .nav-outline[aria-current] { background: var(--nav-wash); }
 .nav-divider { width: 1px; height: 16px; background: var(--line); margin-right: 8px; }
-/* The search pill and persistent panel form one expanding navigation surface. */
+/* The search pill morphs independently of the detached navigation panel. */
 .nav-center { --closed-search-width: min(400px, calc(100vw - 200px)); position: absolute; left: 50%; top: 12px; transform: translateX(-50%); width: var(--closed-search-width); transition: width .6s var(--ease-morph), left .6s var(--ease-morph); }
 .sfield { position: relative; height: 48px; width: 100%; background: var(--nav-wash); border-radius: 999px; transition: background .35s ease, border-radius .6s var(--ease-morph), box-shadow .6s var(--ease-morph); }
-.sframe { position: absolute; inset: 0; border: 1px solid var(--line); border-bottom: 0; border-radius: inherit; opacity: 0; pointer-events: none; transition: opacity .3s ease; }
+.sframe { position: absolute; inset: 0; border: 1px solid var(--line); border-radius: inherit; opacity: 0; pointer-events: none; transition: opacity .3s ease; }
 .sicon { position: absolute; left: 2px; top: 0; width: 44px; height: 48px; display: flex; align-items: center; justify-content: center; pointer-events: none; transition: transform .55s var(--ease-morph); }
 .search-label { position: absolute; left: 46px; right: 16px; top: 0; line-height: 48px; font-size: 15px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; transition: opacity .18s ease, transform .4s var(--ease-morph); }
 .sfield input { position: absolute; left: 44px; top: 0; width: calc(100% - 100px); height: 48px; border: 0; background: transparent; font: inherit; font-size: 15px; color: var(--ink); padding: 0 8px 0 2px; outline: none; opacity: 0; pointer-events: none; transform: translateX(8px); transition: opacity .3s ease .1s, transform .5s var(--ease-morph); }
@@ -83,7 +83,7 @@ ol, ul { padding: 0; list-style: none; }
 .cancel span:last-child { transform: rotate(-45deg); }
 .nav-left, .nav-right { transition: opacity .25s ease, transform .55s var(--ease-morph); }
 .header.searching .nav-center { left: 50%; width: min(640px, calc(100vw - 32px)); }
-.searching .sfield { background: var(--paper); border-radius: 24px 24px 0 0; }
+.searching .sfield { background: var(--paper); border-radius: 999px; }
 .searching .sframe { opacity: 1; }
 .sfield:focus-within .sframe { border-color: var(--line); }
 .searching .search-label { opacity: 0; transform: translateX(-8px); }
@@ -110,11 +110,11 @@ ol, ul { padding: 0; list-style: none; }
   .header.searching .nav-center { width: calc(100vw - 24px); }
 }
 
-.spanel { --closed-search-width: min(400px, calc(100vw - 200px)); position: fixed; top: calc(var(--header-height) - 12px); left: 50%; width: var(--closed-search-width); max-height: calc(100dvh - var(--header-height) - 20px); z-index: 90; background: var(--paper); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 24px 24px; box-shadow: 0 20px 48px rgba(46,15,11,.14); overflow: hidden; opacity: 0; visibility: hidden; pointer-events: none; transform: translate(-50%, -16px) scale(.96); transform-origin: top center; clip-path: inset(0 0 100% 0); transition: width .6s var(--ease-morph), opacity .25s ease, transform .6s var(--ease-morph), clip-path .6s var(--ease-morph), visibility 0s linear .6s; }
-.spanel.open { width: min(640px, calc(100vw - 32px)); opacity: 1; visibility: visible; pointer-events: auto; transform: translate(-50%, 0) scale(1); clip-path: inset(0 0 0 0); transition: width .6s var(--ease-morph), opacity .3s ease, transform .6s var(--ease-morph), clip-path .6s var(--ease-morph); }
-.search-content { max-height: calc(100dvh - var(--header-height) - 20px); overflow-y: auto; overscroll-behavior: contain; padding-bottom: 24px; }
+.spanel { position: fixed; top: calc(var(--header-height) + 16px); left: 50%; width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - var(--header-height) - 48px); z-index: 90; background: var(--paper); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 16px 48px rgba(46,15,11,.14); overflow: hidden; opacity: 0; visibility: hidden; pointer-events: none; transform: translate(-50%, 10px) scale(.98); transform-origin: top center; transition: opacity .18s ease, transform .28s var(--ease-out), visibility 0s linear .28s; }
+.spanel.open { opacity: 1; visibility: visible; pointer-events: auto; transform: translate(-50%, 0) scale(1); transition: opacity .22s ease .1s, transform .32s var(--ease-out) .1s; }
+.search-content { max-height: calc(100dvh - var(--header-height) - 48px); overflow-y: auto; overscroll-behavior: contain; padding-bottom: 24px; }
 #sresults { padding-inline: 24px; }
-.search-navigation { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; border-top: 1px solid var(--line); padding-top: 16px; }
+.search-navigation { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding-top: 16px; }
 .search-navigation .menu-link { display: flex; align-items: center; height: 48px; padding: 0 14px; font-size: 18px; border: 0; border-radius: 12px; transition: background .2s ease, transform .3s var(--ease-out); }
 .search-navigation .menu-link:hover, .search-navigation .menu-link[aria-current] { background: var(--nav-wash); }
 .search-navigation .menu-link:hover { transform: translateX(3px); }
@@ -122,7 +122,7 @@ ol, ul { padding: 0; list-style: none; }
 .search-meta { border-bottom: 1px solid var(--line); padding-block: 20px; }
 .search-meta .btn { border-radius: 999px; font-size: 14px; }
 .spanel.stagger .search-navigation, .spanel.stagger .search-meta { animation: rise .5s var(--ease-out) .12s both; }
-@media (max-width: 680px) { .spanel { top: 50px; } .spanel.open { width: calc(100vw - 24px); } #sresults { padding-inline: 16px; } }
+@media (max-width: 680px) { .spanel { width: calc(100vw - 24px); } #sresults { padding-inline: 16px; } }
 @media (prefers-reduced-motion: reduce) { .nav-pill, .nav-center, .nav-left, .nav-right, .sfield, .sicon, .search-label, .sfield input, .cancel, .spanel, .search-navigation .menu-link { transition: none !important; } .spanel.stagger .search-navigation, .spanel.stagger .search-meta { animation: none; } }
 
 .sgroup { padding-top: var(--s32); }
