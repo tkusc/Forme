@@ -2,7 +2,7 @@ import { initTextReveals, disposeTextReveals } from './text-reveal.js';
 
 /* Browser interactions. Views and content are shared with the static build. */
 var { views, state, pathFor, wireImages, FILTERS, passes, optsFor,
-  esc, link, dFull, deptOf, visual, plateBg, designerRows } = globalThis.Forme;
+  esc, link, dFull, deptOf, visual, plateBg, designerRows, setPhotoMode } = globalThis.Forme;
 var app, nav, sfield, sicon, cancelBtn, q;
 var navigate;
 var pageEvents, headerEvents;
@@ -209,6 +209,8 @@ function setupInteractions() {
     var fill = t.closest('[data-fill]');
     if (fill) { q.value = fill.dataset.fill; spanel.classList.remove('stagger'); renderSearch(); q.focus(); return; }
     if (!app.contains(t)) return;
+    var lighting = t.closest('button[data-photo-mode]');
+    if (lighting) { setPhotoMode(lighting.dataset.photoMode); return; }
     var ty = t.closest('[data-type]');
     if (ty) { state.type = state.type === ty.dataset.type ? null : ty.dataset.type; state.shown = 8; render(); return; }
     var vb = t.closest('[data-view]');
@@ -272,6 +274,12 @@ export function initPage(scope, reset = true, snapshot) {
   var hero = scope.querySelector('#gallery img.ph');
   if (hero) { hero.loading = 'eager'; hero.setAttribute('fetchpriority', 'high'); }
   wireImages(scope);
+  scope.querySelectorAll('#gallery img.ph, .home-gallery img.ph').forEach(function (image) {
+    var alternateSrc = image.getAttribute('src') === image.dataset.nightSrc ? image.dataset.daySrc : image.dataset.nightSrc;
+    if (alternateSrc && alternateSrc !== image.getAttribute('src')) {
+      var alternate = new Image(); alternate.src = alternateSrc;
+    }
+  });
   initTextReveals(scope, document.documentElement.classList.contains('is-changing') ? 0.7 : 0);
   var gallery = scope.querySelector('#gallery');
   if (gallery) gallery.addEventListener('scroll', function () {

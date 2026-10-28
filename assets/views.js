@@ -56,6 +56,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/anglepoise-1227.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/anglepoise-1227.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/anglepoise-1227.jpg",
@@ -72,6 +81,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/anglepoise-1227.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/anglepoise-1227.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -89,6 +107,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/anglepoise-1227-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/anglepoise-1227-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -109,6 +136,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/ph-artichoke.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ph-artichoke.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/ph-artichoke.jpg",
@@ -125,6 +161,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/ph-artichoke.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ph-artichoke.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -142,6 +187,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/ph-artichoke-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ph-artichoke-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -162,6 +216,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/arco.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/arco.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/arco.jpg",
@@ -178,6 +241,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/arco.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/arco.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -195,6 +267,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/arco-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/arco-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -215,6 +296,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/tizio.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tizio.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/tizio.jpg",
@@ -231,6 +321,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/tizio.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tizio.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -248,6 +347,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/tizio-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tizio-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -268,6 +376,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/thonet-no-14.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/thonet-no-14.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/thonet-no-14.jpg",
@@ -284,6 +401,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/thonet-no-14.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/thonet-no-14.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -301,6 +427,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/thonet-no-14-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/thonet-no-14-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -321,6 +456,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/wassily-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/wassily-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/wassily-chair.jpg",
@@ -337,6 +481,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/wassily-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wassily-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -354,6 +507,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/wassily-chair-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wassily-chair-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -374,6 +536,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/lc4.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/lc4.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/lc4.jpg",
@@ -390,6 +561,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/lc4.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/lc4.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -407,6 +587,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/lc4-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/lc4-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -427,6 +616,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/barcelona-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/barcelona-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/barcelona-chair.jpg",
@@ -443,6 +641,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/barcelona-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/barcelona-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -463,6 +670,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/paimio-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/paimio-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/paimio-chair.jpg",
@@ -479,6 +695,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/paimio-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/paimio-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -496,6 +721,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/paimio-chair-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/paimio-chair-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -516,6 +750,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/noguchi-table.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/noguchi-table.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/noguchi-table.jpg",
@@ -532,6 +775,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/noguchi-table.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/noguchi-table.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -549,6 +801,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/noguchi-table-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/noguchi-table-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -569,6 +830,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/butterfly-stool.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/butterfly-stool.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/butterfly-stool.jpg",
@@ -585,6 +855,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/butterfly-stool.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/butterfly-stool.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -605,6 +884,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/series-7.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/series-7.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/series-7.jpg",
@@ -621,6 +909,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/series-7.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/series-7.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -638,6 +935,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/series-7-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/series-7-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -658,6 +964,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/eames-lounge-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/eames-lounge-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/eames-lounge-chair.jpg",
@@ -674,6 +989,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/eames-lounge-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/eames-lounge-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -691,6 +1015,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/eames-lounge-chair-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/eames-lounge-chair-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -711,6 +1044,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/tulip-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tulip-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/tulip-chair.jpg",
@@ -727,6 +1069,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/tulip-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tulip-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -744,6 +1095,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/tulip-chair-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tulip-chair-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -764,6 +1124,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/egg-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/egg-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/egg-chair.jpg",
@@ -780,6 +1149,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/egg-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/egg-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -797,6 +1175,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/egg-chair-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/egg-chair-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -817,6 +1204,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/aalto-vase.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/aalto-vase.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/aalto-vase.jpg",
@@ -833,6 +1229,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/aalto-vase.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/aalto-vase.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -850,6 +1255,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/aalto-vase-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/aalto-vase-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -870,6 +1284,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/ball-clock.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ball-clock.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/ball-clock.jpg",
@@ -886,6 +1309,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/ball-clock.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ball-clock.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -903,6 +1335,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/ball-clock-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ball-clock-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -923,6 +1364,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/hang-it-all.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/hang-it-all.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/hang-it-all.jpg",
@@ -939,6 +1389,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/hang-it-all.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/hang-it-all.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -956,6 +1415,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/hang-it-all-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/hang-it-all-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -976,6 +1444,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/juicy-salif.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/juicy-salif.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/juicy-salif.jpg",
@@ -992,6 +1469,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/juicy-salif.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/juicy-salif.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1009,6 +1495,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/juicy-salif-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/juicy-salif-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1029,6 +1524,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/ph-5.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/ph-5.jpg",
@@ -1045,6 +1549,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/ph-5.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1062,6 +1575,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/ph-5-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ph-5-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1082,6 +1604,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/akari-1a.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/akari-1a.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/akari-1a.jpg",
@@ -1098,6 +1629,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/akari-1a.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/akari-1a.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1115,6 +1655,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/akari-1a-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/akari-1a-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1135,6 +1684,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/kubus.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/kubus.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/kubus.jpg",
@@ -1151,6 +1709,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/kubus.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kubus.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1168,6 +1735,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/kubus-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kubus-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1189,6 +1765,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/murano-globe.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/murano-globe.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/murano-globe.jpg",
@@ -1206,6 +1791,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/murano-globe.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/murano-globe.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1226,6 +1820,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/pipistrello-2.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pipistrello-2.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/pipistrello-2.jpg",
@@ -1242,6 +1845,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/pipistrello-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pipistrello-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1259,6 +1871,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/pipistrello.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pipistrello.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1280,6 +1901,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/taccia-archive.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/taccia-archive.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/taccia-archive.jpg",
@@ -1297,6 +1927,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/taccia-archive.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/taccia-archive.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1314,6 +1953,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/taccia.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/taccia.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1334,6 +1982,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/atollo.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/atollo.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/atollo.jpg",
@@ -1350,6 +2007,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/atollo.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/atollo.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1367,6 +2033,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/atollo-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/atollo-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1385,6 +2060,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/atollo-archive.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/atollo-archive.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1405,6 +2089,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/tolomeo.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tolomeo.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/tolomeo.jpg",
@@ -1421,6 +2114,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/tolomeo.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tolomeo.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1439,6 +2141,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/tolomeo-archive.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tolomeo-archive.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1459,6 +2170,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/wishbone-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/wishbone-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/wishbone-chair.jpg",
@@ -1475,6 +2195,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/wishbone-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wishbone-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1493,6 +2222,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/wishbone-chair-archive.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wishbone-chair-archive.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1513,6 +2251,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/panton-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/panton-chair.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/panton-chair.jpg",
@@ -1529,6 +2276,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/panton-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/panton-chair.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1547,6 +2303,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/panton-chair-archive.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/panton-chair-archive.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1567,6 +2332,15 @@
       "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
       "styleReference": "/photos/studio/ph-5.jpg"
     },
+    "nightSrc": "/photos/night/panthella.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/panthella.jpg",
+      "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+      "styleReference": "/photos/night/ph-5.jpg"
+    },
     "images": [
       {
         "src": "/photos/studio/panthella.jpg",
@@ -1583,6 +2357,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/panthella.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/panthella.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       },
       {
@@ -1600,6 +2383,15 @@
           "tool": "built-in image_gen",
           "treatment": "Background and lighting harmonized to a cinematic editorial studio style",
           "styleReference": "/photos/studio/ph-5.jpg"
+        },
+        "nightSrc": "/photos/night/panthella-2.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/panthella-2.jpg",
+          "treatment": "Matching cozy nighttime exposure; lamp on or warm external practical light",
+          "styleReference": "/photos/night/ph-5.jpg"
         }
       }
     ]
@@ -1611,10 +2403,38 @@
   /* The illustration sits underneath as a fallback: hidden while the photo loads, shown if it fails. */
   function photoTag(slug, fallbackArt, index) {
     var p = PHOTOS[slug].images[index || 0];
-    return (fallbackArt ? art(fallbackArt) : '') + '<img class="ph" ' + (SLOW ? 'data-src' : 'src') + '="' + p.src + '" alt="' + esc(altFor(slug) + (p.note ? '. ' + p.note : '')) + '" width="' + p.width + '" height="' + p.height + '" decoding="async" loading="lazy" style="object-fit:' + p.fit + '">';
+    return (fallbackArt ? art(fallbackArt) : '') + '<img class="ph" ' + (SLOW ? 'data-src' : 'src') + '="' + p.src + '" data-day-src="' + p.src + '" data-night-src="' + (p.nightSrc || p.src) + '" alt="' + esc(altFor(slug) + (p.note ? '. ' + p.note : '')) + '" width="' + p.width + '" height="' + p.height + '" decoding="async" loading="lazy" style="object-fit:' + p.fit + '">';
   }
   function altFor(slug) { var o = oBySlug[slug]; return o ? o.name + (dFull(o) ? ' by ' + dFull(o) : '') : ''; }
   function visual(o) { return PHOTOS[o.slug] ? photoTag(o.slug, o.art) : art(o.art); }
+  var photoMode = 'day';
+  try { photoMode = localStorage.getItem('forme-photo-mode') === 'night' ? 'night' : 'day'; } catch (e) {}
+  function applyPhotoMode(root) {
+    document.documentElement.dataset.photoMode = photoMode;
+    Array.prototype.forEach.call(root.querySelectorAll('img.ph'), function (im) {
+      var src = im.getAttribute(photoMode === 'night' ? 'data-night-src' : 'data-day-src');
+      if (!src) return;
+      if (im.hasAttribute('data-src')) { im.setAttribute('data-src', src); return; }
+      if (im.getAttribute('src') !== src) {
+        im.classList.remove('in', 'err');
+        im.setAttribute('src', src);
+        if (im.complete && im.naturalWidth) im.classList.add('in');
+      }
+    });
+    Array.prototype.forEach.call(root.querySelectorAll('button[data-photo-mode]'), function (button) {
+      button.setAttribute('aria-pressed', String(button.dataset.photoMode === photoMode));
+    });
+  }
+  function setPhotoMode(mode) {
+    photoMode = mode === 'night' ? 'night' : 'day';
+    try { localStorage.setItem('forme-photo-mode', photoMode); } catch (e) {}
+    applyPhotoMode(document);
+  }
+  function photoModeControls() {
+    return '<div class="photo-mode" role="group" aria-label="Photo lighting">' + ['day', 'night'].map(function (mode) {
+      return '<button type="button" data-photo-mode="' + mode + '" aria-pressed="' + (photoMode === mode) + '">' + (mode === 'day' ? 'Day' : 'Night') + '</button>';
+    }).join('') + '</div>';
+  }
   function wireImages(root) {
     Array.prototype.forEach.call(root.querySelectorAll('img.ph'), function (im) {
       function done() { im.classList.add('in'); }
@@ -1624,13 +2444,14 @@
         setTimeout(function () { im.src = im.getAttribute('data-src'); im.removeAttribute('data-src'); }, 1000 + Math.random() * 1500);
       } else if (im.complete && im.naturalWidth) { done(); }
     });
+    applyPhotoMode(root);
   }
   function plateBg(o) { return PHOTOS[o.slug] && PHOTOS[o.slug].bg ? ' style="background:' + PHOTOS[o.slug].bg + '"' : ''; }
   function creditLine(o) {
     return esc(o.name) + ': ' + PHOTOS[o.slug].images.map(function (p, i) {
       var label = p.artist ? 'photo by ' + p.artist + ' · ' + p.lic : p.source;
       return '<a class="link" href="' + esc(p.page) + '" target="_blank" rel="noopener">' + esc(label) + '</a>' + (p.note ? ' (' + esc(p.note) + ')' : '');
-    }).join('; ') + '. Background and lighting harmonized with AI.';
+    }).join('; ') + '. Day and night lighting harmonized with AI.';
   }
 
   /* ---------- Helpers ---------- */
@@ -1666,8 +2487,8 @@
   }
   function pad(n) { return String(n).padStart(2, '0'); }
 
-  function secHead(label, route, linkText) {
-    return '<div class="sec-head"><h2 class="label" style="font-weight:400">' + label + '</h2>' + (route ? link(route, linkText || 'View all') : '') + '</div>';
+  function secHead(label, route, linkText, lighting) {
+    return '<div class="sec-head"><h2 class="label" style="font-weight:400">' + label + '</h2>' + '<div class="sec-actions">' + (lighting ? photoModeControls() : '') + (route ? link(route, linkText || 'View all') : '') + '</div></div>';
   }
   function objCard(o) {
     return link('object:' + o.slug,
@@ -1738,7 +2559,7 @@
     var h = '';
     h += '<section class="wrap g home-intro"><h1 data-reveal-01="words" class="serif hero-h1">The stories behind iconic design.</h1>' +
       '<p class="muted home-description">A showroom for the lamps, chairs and objects that shaped design history, and the ideas behind them.</p></section>';
-    h += '<section class="sec wrap home-recent"><div class="g">' + secHead('Recently added', 'collection:lighting') + '</div><div class="grid home-gallery">' + recent.map(objCard).join('') + '</div></section>';
+    h += '<section class="sec wrap home-recent"><div class="g">' + secHead('Recently added', 'collection:lighting', 'View all', true) + '</div><div class="grid home-gallery">' + recent.map(objCard).join('') + '</div></section>';
     h += '<div class="wrap home-feature">' + link('story:' + latest.slug, '<div class="home-feature-image" style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div><p class="latest-lede">' + esc(latest.lede) + '</p></div>', 'scard latest') + '</div>';
     h += '<section class="sec wrap g">' + secHead('Collection') + '<div style="margin-top:8px">' + DEPTS.map(function (d, i) {
       var n = OBJECTS.filter(function (o) { return o.dept === d.id; }).length;
@@ -1781,7 +2602,7 @@
       '<button class="icon-btn vbtn' + (state.view === 'grid' ? ' on' : '') + '" data-view="grid" aria-label="Grid view" aria-pressed="' + (state.view === 'grid') + '" style="margin-left:-12px"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="1.5" y="1.5" width="7" height="7"/><rect x="11.5" y="1.5" width="7" height="7"/><rect x="1.5" y="11.5" width="7" height="7"/><rect x="11.5" y="11.5" width="7" height="7"/></svg></button>' +
       '<button class="icon-btn vbtn' + (state.view === 'list' ? ' on' : '') + '" data-view="list" aria-label="List view" aria-pressed="' + (state.view === 'list') + '"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><line x1="1" y1="4" x2="19" y2="4"/><line x1="1" y1="10" x2="19" y2="10"/><line x1="1" y1="16" x2="19" y2="16"/></svg></button>' +
       '<span class="count">' + list.length + (list.length === 1 ? ' object' : ' objects') + ' · by year</span>' +
-      '<button class="chip sq" id="openFilter" style="border-color:var(--ink)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/><circle cx="15" cy="7" r="2.5" fill="#F5F2EC"/><circle cx="8" cy="17" r="2.5" fill="#F5F2EC"/></svg>Filter</button></div>';
+      photoModeControls() + '<button class="chip sq" id="openFilter" style="border-color:var(--ink)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/><circle cx="15" cy="7" r="2.5" fill="#F5F2EC"/><circle cx="8" cy="17" r="2.5" fill="#F5F2EC"/></svg>Filter</button></div>';
     var act = activeSel();
     if (act.length || state.type) {
       h += '<div class="chips" style="margin-top:12px">' + (state.type ? '<button class="chip sq on" data-cleartype="1">' + state.type + ' <span aria-hidden="true">×</span><span class="sr">Remove</span></button>' : '') +
@@ -1826,7 +2647,7 @@
     });
     state.slides = slides.length;
     h += '<div class="obj-top"><div class="obj-media">';
-    h += '<div class="wrap gwrap"><div class="gallery" id="gallery" tabindex="0" role="region" aria-label="Images of ' + esc(o.name) + '">' + slides.join('') + '</div>' +
+    h += '<div class="wrap gwrap">' + photoModeControls() + '<div class="gallery" id="gallery" tabindex="0" role="region" aria-label="Images of ' + esc(o.name) + '">' + slides.join('') + '</div>' +
       (slides.length > 1 ? '<button class="gnav prev sq" data-gal="-1" aria-label="Previous image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="gnav next sq" data-gal="1" aria-label="Next image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>' : '') +
       '<div class="gcount" id="gcount" aria-live="polite">1 / ' + slides.length + '</div></div>';
     h += '</div><div class="obj-body">';
@@ -1930,7 +2751,7 @@
     if (p === 'page') return ({ imprint: 'Imprint', privacy: 'Privacy', credits: 'Credits' })[id] || '';
     return ({ stories: 'Stories', designers: 'Designers', about: 'About', notfound: 'Not found' })[p] || '';
   }
-  globalThis.Forme = { views, state, pathFor, routeFor, titleFor, wireImages,
+  globalThis.Forme = { views, state, pathFor, routeFor, titleFor, wireImages, setPhotoMode,
     FILTERS, passes, optsFor, esc, link, dFull, deptOf, visual,
     plateBg, designerRows };
 })();

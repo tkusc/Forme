@@ -101,3 +101,20 @@ existing paths. `photos/studio/prompts.json` contains the exact prompt for each
 asset. `photos/sources.json` retains original attribution, original asset paths
 and AI-edit metadata. Page credits identify the AI lighting/background edits.
 The baked colour grade is displayed without the earlier CSS multiply tint.
+
+### Day / Night photographs
+
+Each of the 58 daytime studio views has a corresponding cozy nighttime edit in
+`photos/night/`, referenced by `nightSrc` and `nightEdit` in the source manifest.
+The night edit prompt locks the daytime camera, framing, geometry and pose.
+Lighting products are switched on with warm, physically appropriate light;
+non-lighting objects receive warm off-camera practical lighting without emitting
+light themselves. Daytime files are unchanged. Exact night prompts are saved in
+`photos/night/prompts.json`.
+
+Day/Night controls appear in the homepage's recent section, collection toolbar
+and object galleries. They switch photographic exposures only, preserving the
+active gallery view and scroll position. The preference is stored separately
+from per-page navigation state and reapplied to incoming Swup pages, local
+rerenders and search results. Gallery/home night counterparts preload for a
+smoother first switch. The page colour theme remains unchanged.

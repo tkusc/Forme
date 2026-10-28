@@ -23,6 +23,10 @@ test('every object gallery contains only locally hosted photographs with recorde
       assert.equal(image.fit, 'cover', image.src + ' fills its image frame');
       assert.match(image.src, /^\/photos\/studio\//, image.src + ' uses the shared AI studio treatment');
       assert.equal(image.aiEdit?.tool, 'built-in image_gen');
+      assert.match(image.nightSrc, /^\/photos\/night\//);
+      assert.equal(image.nightEdit?.daySource, image.src);
+      const nightBytes = await readFile(new URL('..' + image.nightSrc, import.meta.url));
+      assert.equal(nightBytes.readUInt16BE(0), 0xffd8, image.nightSrc + ' is a valid nighttime JPEG');
       await readFile(new URL('..' + image.originalSrc, import.meta.url));
       assert.ok(image.lic || image.rights, image.src);
       const bytes = await readFile(new URL('..' + image.src, import.meta.url));

@@ -767,3 +767,13 @@ html.is-changing .transition-swup.header:not(.is-previous-container) {
 /* AI studio grading is baked into the photos; display without additional colour blending. */
 .plate img.ph, .sthumb img.ph { object-fit: cover; object-position: center; mix-blend-mode: normal; }
 .plate:has(> img.ph), .sthumb:has(> img.ph) { background-color: #C9C0B3 !important; }
+
+/* Paired photographic exposures, independent of the site colour theme. */
+.sec-actions { display: flex; align-items: center; gap: 16px; }
+.sec-head:has(.photo-mode) { flex-wrap: wrap; align-items: center; gap: 12px; }
+.photo-mode { display: inline-flex; flex: none; padding: 3px; gap: 2px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); }
+.photo-mode button { min-width: 46px; min-height: 36px; padding: 4px 10px; border-radius: 999px; font-size: 12px; line-height: 1; transition: background .2s ease, color .2s ease; }
+.photo-mode button[aria-pressed="true"] { background: var(--ink); color: var(--on-ink); }
+.gwrap > .photo-mode { position: absolute; z-index: 3; top: 16px; right: 16px; }
+html[data-photo-mode="night"] .plate:has(> img.ph), html[data-photo-mode="night"] .sthumb:has(> img.ph) { background-color: #2B211B !important; }
+@media (prefers-reduced-motion: reduce) { .photo-mode button { transition: none; } }
