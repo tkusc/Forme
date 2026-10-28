@@ -55,3 +55,9 @@ GSAP, SplitText and ScrollTrigger are bundled locally. Primary headings opt in w
 `initPage()` initializes the incoming page after its markup exists, waiting for `document.fonts.ready`. The helper uses `autoSplit: true`, returned `onSplit()` tweens and default accessible SplitText labels. Scroll triggers explicitly use the containing `#swup`. `visit:end` refreshes trigger geometry after the parallel transition. Before navigation, tweens and triggers are stopped and font/resize observers detached while outgoing text stays visually frozen. Local collection/FAQ rerenders revert and dispose their previous splits first. Pending font work is cancelled when its page is left.
 
 The stylesheet contains the source mask/clipping rules and turns off balanced wrapping only for opted-in elements so SplitText can measure real line breaks. Automatic reveals are skipped for reduced motion, and the shared template provides a `noscript` visibility fallback. No content or demo sections were added.
+
+## Header navigation
+
+The shared header follows the Details.so layout with formé's own branding and links: Lighting, Furniture and Objects beside the wordmark, a centered search pill, and Stories, Designers, About and the menu control on the right. The primary navigation has a moving selection pill for hover and keyboard focus. The bar measures 72px on larger layouts and 56px on phones; below 1120px, all six links remain available through the anchored dropdown.
+
+Search opens the existing formé results in a floating panel, supports the F shortcut, Escape, outside click and keyboard focus containment. The dropdown can be toggled with the hamburger or dismissed with Escape/outside click. Its contents and the collection filter remain unchanged. The menu is non-modal with the page surface inert; filters retain their modal side/bottom sheet. Listeners are scoped to the incoming Swup header and disposed on replacement. Reduced motion removes selection-pill travel.
