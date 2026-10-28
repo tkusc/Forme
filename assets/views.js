@@ -2403,7 +2403,9 @@
   /* The illustration sits underneath as a fallback: hidden while the photo loads, shown if it fails. */
   function photoTag(slug, fallbackArt, index) {
     var p = PHOTOS[slug].images[index || 0];
-    return (fallbackArt ? art(fallbackArt) : '') + '<img class="ph" ' + (SLOW ? 'data-src' : 'src') + '="' + p.src + '" data-day-src="' + p.src + '" data-night-src="' + (p.nightSrc || p.src) + '" alt="' + esc(altFor(slug) + (p.note ? '. ' + p.note : '')) + '" width="' + p.width + '" height="' + p.height + '" decoding="async" loading="lazy" style="object-fit:' + p.fit + '">';
+    var shared = ' width="' + p.width + '" height="' + p.height + '" decoding="async" loading="lazy" style="object-fit:' + p.fit + '">';
+    return (fallbackArt ? art(fallbackArt) : '') + '<img class="ph ph-day" ' + (SLOW ? 'data-src' : 'src') + '="' + p.src + '" alt="' + esc(altFor(slug) + (p.note ? '. ' + p.note : '')) + '"' + shared +
+      '<img class="ph ph-night" ' + (SLOW ? 'data-src' : 'src') + '="' + (p.nightSrc || p.src) + '" alt="" aria-hidden="true"' + shared;
   }
   function altFor(slug) { var o = oBySlug[slug]; return o ? o.name + (dFull(o) ? ' by ' + dFull(o) : '') : ''; }
   function visual(o) { return PHOTOS[o.slug] ? photoTag(o.slug, o.art) : art(o.art); }
@@ -2411,16 +2413,6 @@
   try { photoMode = localStorage.getItem('forme-photo-mode') === 'night' ? 'night' : 'day'; } catch (e) {}
   function applyPhotoMode(root) {
     document.documentElement.dataset.photoMode = photoMode;
-    Array.prototype.forEach.call(root.querySelectorAll('img.ph'), function (im) {
-      var src = im.getAttribute(photoMode === 'night' ? 'data-night-src' : 'data-day-src');
-      if (!src) return;
-      if (im.hasAttribute('data-src')) { im.setAttribute('data-src', src); return; }
-      if (im.getAttribute('src') !== src) {
-        im.classList.remove('in', 'err');
-        im.setAttribute('src', src);
-        if (im.complete && im.naturalWidth) im.classList.add('in');
-      }
-    });
     Array.prototype.forEach.call(root.querySelectorAll('button[data-photo-mode]'), function (button) {
       button.setAttribute('aria-pressed', String(button.dataset.photoMode === photoMode));
     });
@@ -2429,11 +2421,6 @@
     photoMode = mode === 'night' ? 'night' : 'day';
     try { localStorage.setItem('forme-photo-mode', photoMode); } catch (e) {}
     applyPhotoMode(document);
-  }
-  function photoModeControls() {
-    return '<div class="photo-mode" role="group" aria-label="Photo lighting">' + ['day', 'night'].map(function (mode) {
-      return '<button type="button" data-photo-mode="' + mode + '" aria-pressed="' + (photoMode === mode) + '">' + (mode === 'day' ? 'Day' : 'Night') + '</button>';
-    }).join('') + '</div>';
   }
   function wireImages(root) {
     Array.prototype.forEach.call(root.querySelectorAll('img.ph'), function (im) {
@@ -2488,7 +2475,7 @@
   function pad(n) { return String(n).padStart(2, '0'); }
 
   function secHead(label, route, linkText, lighting) {
-    return '<div class="sec-head"><h2 class="label" style="font-weight:400">' + label + '</h2>' + '<div class="sec-actions">' + (lighting ? photoModeControls() : '') + (route ? link(route, linkText || 'View all') : '') + '</div></div>';
+    return '<div class="sec-head"><h2 class="label" style="font-weight:400">' + label + '</h2>' + '<div class="sec-actions">' + (route ? link(route, linkText || 'View all') : '') + '</div></div>';
   }
   function objCard(o) {
     return link('object:' + o.slug,
@@ -2602,7 +2589,7 @@
       '<button class="icon-btn vbtn' + (state.view === 'grid' ? ' on' : '') + '" data-view="grid" aria-label="Grid view" aria-pressed="' + (state.view === 'grid') + '" style="margin-left:-12px"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="1.5" y="1.5" width="7" height="7"/><rect x="11.5" y="1.5" width="7" height="7"/><rect x="1.5" y="11.5" width="7" height="7"/><rect x="11.5" y="11.5" width="7" height="7"/></svg></button>' +
       '<button class="icon-btn vbtn' + (state.view === 'list' ? ' on' : '') + '" data-view="list" aria-label="List view" aria-pressed="' + (state.view === 'list') + '"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><line x1="1" y1="4" x2="19" y2="4"/><line x1="1" y1="10" x2="19" y2="10"/><line x1="1" y1="16" x2="19" y2="16"/></svg></button>' +
       '<span class="count">' + list.length + (list.length === 1 ? ' object' : ' objects') + ' · by year</span>' +
-      photoModeControls() + '<button class="chip sq" id="openFilter" style="border-color:var(--ink)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/><circle cx="15" cy="7" r="2.5" fill="#F5F2EC"/><circle cx="8" cy="17" r="2.5" fill="#F5F2EC"/></svg>Filter</button></div>';
+      '<button class="chip sq" id="openFilter" style="border-color:var(--ink)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/><circle cx="15" cy="7" r="2.5" fill="#F5F2EC"/><circle cx="8" cy="17" r="2.5" fill="#F5F2EC"/></svg>Filter</button></div>';
     var act = activeSel();
     if (act.length || state.type) {
       h += '<div class="chips" style="margin-top:12px">' + (state.type ? '<button class="chip sq on" data-cleartype="1">' + state.type + ' <span aria-hidden="true">×</span><span class="sr">Remove</span></button>' : '') +
@@ -2647,7 +2634,7 @@
     });
     state.slides = slides.length;
     h += '<div class="obj-top"><div class="obj-media">';
-    h += '<div class="wrap gwrap">' + photoModeControls() + '<div class="gallery" id="gallery" tabindex="0" role="region" aria-label="Images of ' + esc(o.name) + '">' + slides.join('') + '</div>' +
+    h += '<div class="wrap gwrap"><div class="gallery" id="gallery" tabindex="0" role="region" aria-label="Images of ' + esc(o.name) + '">' + slides.join('') + '</div>' +
       (slides.length > 1 ? '<button class="gnav prev sq" data-gal="-1" aria-label="Previous image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="gnav next sq" data-gal="1" aria-label="Next image"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>' : '') +
       '<div class="gcount" id="gcount" aria-live="polite">1 / ' + slides.length + '</div></div>';
     h += '</div><div class="obj-body">';

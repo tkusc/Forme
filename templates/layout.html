@@ -17,7 +17,7 @@
 <script defer src="/assets/data.js"></script>
 <script defer src="/assets/views.js"></script>
 <script defer src="/assets/app.bundle.js"></script>
-<noscript><style>[data-reveal-01] { visibility: visible; } .plate img.ph { opacity: 1; } .plate:has(> img.ph)::after { display: none; }</style></noscript>
+<noscript><style>[data-reveal-01] { visibility: visible; } .plate img.ph-day { opacity: 1; } .plate img.ph-night { display: none; } .plate:has(> img.ph)::after { display: none; }</style></noscript>
 </head>
 <body>
 <div class="app">
@@ -39,6 +39,10 @@
       </div>
     </div>
     <div class="nav-right">
+      <div class="photo-mode" role="group" aria-label="Photo lighting">
+        <button type="button" data-photo-mode="day" aria-pressed="true">Day</button>
+        <button type="button" data-photo-mode="night" aria-pressed="false">Night</button>
+      </div>
       <nav class="navlinks nav-secondary" aria-label="More pages">
         <a href="/stories" data-go="stories">Stories</a>
         <span class="nav-divider" aria-hidden="true"></span>

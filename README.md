@@ -118,3 +118,5 @@ active gallery view and scroll position. The preference is stored separately
 from per-page navigation state and reapplied to incoming Swup pages, local
 rerenders and search results. Gallery/home night counterparts preload for a
 smoother first switch. The page colour theme remains unchanged.
+
+The shared navbar now owns the only Day/Night control. Each photographic frame keeps its day image mounted beneath an aria-hidden night exposure. Changing mode animates the night layer’s opacity for 1.4 seconds, so the light dims smoothly without replacing URLs or moving the gallery. Reduced motion removes the fade. Header replacements restore the saved pressed state.

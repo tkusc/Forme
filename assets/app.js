@@ -49,7 +49,7 @@ function setupInteractions() {
     spanel.classList.add('open', 'stagger');
     searchScrim.classList.add('open');
     nav.querySelector('#openSearch').setAttribute('aria-expanded', 'true');
-    nav.querySelectorAll('.navlinks, .brand').forEach(function (el) { el.inert = true; });
+    nav.querySelectorAll('.navlinks, .brand, .photo-mode').forEach(function (el) { el.inert = true; });
     app.inert = true;
     q.disabled = false; q.removeAttribute('aria-hidden');
     q.tabIndex = 0; cancelBtn.tabIndex = 0;
@@ -65,7 +65,7 @@ function setupInteractions() {
     spanel.inert = true;
     searchScrim.classList.remove('open');
     nav.querySelector('#openSearch').setAttribute('aria-expanded', 'false');
-    nav.querySelectorAll('.navlinks, .brand').forEach(function (el) { el.inert = false; });
+    nav.querySelectorAll('.navlinks, .brand, .photo-mode').forEach(function (el) { el.inert = false; });
     app.inert = !!openSheet;
     q.disabled = true; q.setAttribute('aria-hidden', 'true');
     q.tabIndex = -1; cancelBtn.tabIndex = -1;
@@ -208,9 +208,9 @@ function setupInteractions() {
     if (dt) { var pp = dt.dataset.deptType.split('|'); go('collection:' + pp[0], pp[1]); return; }
     var fill = t.closest('[data-fill]');
     if (fill) { q.value = fill.dataset.fill; spanel.classList.remove('stagger'); renderSearch(); q.focus(); return; }
-    if (!app.contains(t)) return;
     var lighting = t.closest('button[data-photo-mode]');
     if (lighting) { setPhotoMode(lighting.dataset.photoMode); return; }
+    if (!app.contains(t)) return;
     var ty = t.closest('[data-type]');
     if (ty) { state.type = state.type === ty.dataset.type ? null : ty.dataset.type; state.shown = 8; render(); return; }
     var vb = t.closest('[data-view]');
@@ -249,6 +249,7 @@ export function initHeader(scope) {
   cancelBtn.addEventListener('click', closeSearch, options);
   q.addEventListener('input', function () { document.getElementById('spanel').classList.remove('stagger'); renderSearch(); }, options);
   q.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeSearch(); }, options);
+  wireImages(scope);
 }
 
 export function initPage(scope, reset = true, snapshot) {
@@ -274,12 +275,6 @@ export function initPage(scope, reset = true, snapshot) {
   var hero = scope.querySelector('#gallery img.ph');
   if (hero) { hero.loading = 'eager'; hero.setAttribute('fetchpriority', 'high'); }
   wireImages(scope);
-  scope.querySelectorAll('#gallery img.ph, .home-gallery img.ph').forEach(function (image) {
-    var alternateSrc = image.getAttribute('src') === image.dataset.nightSrc ? image.dataset.daySrc : image.dataset.nightSrc;
-    if (alternateSrc && alternateSrc !== image.getAttribute('src')) {
-      var alternate = new Image(); alternate.src = alternateSrc;
-    }
-  });
   initTextReveals(scope, document.documentElement.classList.contains('is-changing') ? 0.7 : 0);
   var gallery = scope.querySelector('#gallery');
   if (gallery) gallery.addEventListener('scroll', function () {

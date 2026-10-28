@@ -16,7 +16,7 @@ test('every object gallery contains only locally hosted photographs with recorde
     const images = sources[slug];
     assert.ok(images?.length, slug);
     const gallery = render(route).html.match(/<div class="gallery"[\s\S]*?<\/div><\/div>/)[0];
-    assert.equal((gallery.match(/<img /g) || []).length, images.length, slug);
+    assert.equal((gallery.match(/<img /g) || []).length, images.length * 2, slug);
     for (const image of images) {
       assert.ok(image.width >= 400 && image.height >= 400, image.src);
       assert.match(image.page, /^https:\/\//);
@@ -46,12 +46,12 @@ test('collection type tiles, list thumbnails and story cards use real photos', (
     const html = Forme.views.collection(dept);
     const thumbnails = [...html.matchAll(/<span class="sthumb">([\s\S]*?)<\/span>/g)];
     assert.ok(thumbnails.length > 0, dept);
-    for (const [, thumbnail] of thumbnails) assert.match(thumbnail, /<img class="ph"/);
+    for (const [, thumbnail] of thumbnails) assert.match(thumbnail, /<img class="ph ph-day"/);
     for (const [, tile] of html.matchAll(/<button class="type"[\s\S]*?<div class="plate"[^>]*>([\s\S]*?)<\/div>/g)) {
-      assert.match(tile, /<img class="ph"/);
+      assert.match(tile, /<img class="ph ph-day"/);
     }
   }
   for (const route of routes.filter(route => route.startsWith('story:'))) {
-    assert.match(render(route).html, /<img class="ph"/);
+    assert.match(render(route).html, /<img class="ph ph-day"/);
   }
 });
