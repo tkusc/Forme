@@ -14,10 +14,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap">
 <link rel="stylesheet" href="/assets/styles.css">
+<script defer src="/assets/data.js"></script>
+<script defer src="/assets/views.js"></script>
+<script defer src="/assets/app.bundle.js"></script>
+<noscript><style>.plate img.ph { opacity: 1; } .plate:has(> img.ph)::after { display: none; }</style></noscript>
 </head>
 <body>
-<a class="skip" href="#app">Skip to content</a>
-<header class="nav" id="nav">
+<div class="app">
+<a class="skip" href="#swup">Skip to content</a>
+<header class="header nav transition-swup{{home}}" id="nav">
   <div class="wrap nav-in" style="padding-left: var(--gl)">
     <a href="/" class="brand" data-go="home" aria-label="formé, home" translate="no">formé</a>
     <nav class="navlinks" aria-label="Main">
@@ -45,7 +50,7 @@
 
 <div class="spanel" id="spanel" aria-live="polite"><div class="wrap g" id="sresults"></div></div>
 
-<main id="app" tabindex="-1"></main>
+<main id="swup" class="transition-swup hide-scrollbar{{home}}" data-route="{{route}}" data-dept="{{dept}}" tabindex="-1"><!-- PAGE --></main>
 
 <div class="scrim" id="scrim"></div>
 <section class="sheet" id="menuSheet" role="dialog" aria-label="Menu" aria-modal="true">
@@ -64,7 +69,7 @@
   </div>
 </section>
 
-<script src="/assets/data.js"></script>
-<script src="/assets/app.js"></script>
+</div>
+<div id="route-status" class="sr" role="status" aria-live="polite" aria-atomic="true"></div>
 </body>
 </html>

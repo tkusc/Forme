@@ -1,0 +1,19 @@
+{
+  "name": "forme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@swup/head-plugin": "2.3.1",
+    "@swup/parallel-plugin": "0.4.0",
+    "@swup/preload-plugin": "3.2.12",
+    "swup": "4.10.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
