@@ -767,6 +767,6 @@ html.is-changing .transition-swup.header:not(.is-previous-container) {
   [data-reveal-01]:not([data-manual]) { visibility: visible; }
 }
 
-/* One photographic treatment across cards, galleries and search thumbnails. */
-.plate img.ph, .sthumb img.ph { object-fit: cover; object-position: center; mix-blend-mode: multiply; }
-.plate:has(> img.ph), .sthumb:has(> img.ph) { background-color: var(--paper) !important; }
+/* AI studio grading is baked into the photos; display without additional colour blending. */
+.plate img.ph, .sthumb img.ph { object-fit: cover; object-position: center; mix-blend-mode: normal; }
+.plate:has(> img.ph), .sthumb:has(> img.ph) { background-color: #C9C0B3 !important; }

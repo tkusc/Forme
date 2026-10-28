@@ -75,8 +75,7 @@ JPEGs are capped at 1600px for the newly imported images. Error-only illustratio
 remain as a fallback when an image fails to load. Update the content snapshots
 when deliberately changing the catalogue's image markup or credits.
 
-All photographic surfaces use centered cover cropping to fill their frame, with
-the same paper background and multiply treatment. Pipistrello and Taccia lead
+All photographic surfaces use centered cover cropping to fill their frame. Pipistrello and Taccia lead
 with their quieter studio photographs. Sources and known licence metadata remain
 attached when gallery ordering changes.
 
@@ -86,3 +85,19 @@ elements with fixed colour and stacking order, so closing search only fades its
 backdrop opacity. Entry animations finish before their classes are cleaned up.
 The page footer reserves the progressive blur height plus 32px (and safe area)
 below its legal row, keeping those links above the blurred viewport edge.
+
+### AI studio photography
+
+Every displayed photograph, including gallery variants, is individually edited
+with the built-in image_gen tool. Image 1 supplies the actual product; the edited
+PH 5 master supplies only the shared background and lighting reference. The
+prompt locks product geometry, materials, finish, colour and viewpoint while
+replacing backgrounds with a warm greige seamless studio and soft upper-left
+key light, negative fill and grounded shadows. Wall-mounted and suspended
+objects retain physically appropriate staging.
+
+Edited JPEGs live in `photos/studio/`; original source JPEGs remain at their
+existing paths. `photos/studio/prompts.json` contains the exact prompt for each
+asset. `photos/sources.json` retains original attribution, original asset paths
+and AI-edit metadata. Page credits identify the AI lighting/background edits.
+The baked colour grade is displayed without the earlier CSS multiply tint.
