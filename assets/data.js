@@ -3,10 +3,10 @@
   var DEPTS = [
     { id: 'lighting', label: 'Lighting', lede: 'The lamps that shaped design history, each with the story of how it came to be.',
       about: 'A lamp becomes a design icon when it solves a problem of light in a way nobody had tried before, and keeps doing it for decades. The lamps here come from different countries and decades, but they share that clarity. Some are still produced by their original makers, others survive only as vintage pieces.',
-      types: ['Pendant', 'Table', 'Desk', 'Floor'] },
+      types: ['Pendant', 'Table', 'Desk', 'Floor', 'Wall', 'Ceiling'] },
     { id: 'furniture', label: 'Furniture', lede: 'Chairs, tables and stools that changed how we sit, live and build.',
       about: 'Many of the most important pieces of modern furniture were experiments with a new material: tubular steel, moulded plywood, fibreglass, plastic. Each one shows a designer pushing a technique until it became a form. Most are still made today, often by the same companies that first produced them.',
-      types: ['Chair', 'Lounge', 'Table', 'Stool'] },
+      types: ['Chair', 'Lounge', 'Table', 'Stool', 'Bench', 'Sofa', 'Storage', 'Desk'] },
     { id: 'objects', label: 'Objects', lede: 'Small things with big ideas: vases, clocks and tools for everyday life.',
       about: 'Design classics are not only chairs and lamps. Some of the most recognisable objects of the twentieth century are small enough to hold in one hand, and they carry the same ideas about material, form and use.',
       types: ['Vase', 'Clock', 'Kitchen', 'Candleholder', 'Wall'] }
@@ -151,6 +151,3258 @@
       inShort: 'A citrus squeezer by Philippe Starck from 1990, made by Alessi. Its body and long legs look like a creature from science fiction, and it divides opinion as a kitchen tool.',
       story: [['A sketch on a napkin', 'According to the often-told story, Starck sketched the first idea on a napkin while eating squid on the Italian coast.'], ['Object or tool', 'Many owners keep it on a shelf rather than use it. That tension between sculpture and utensil is part of why it became famous.']] })
   ];
+  /* 100 additional objects; provenance in data/catalogue-sources.json. */
+  var ADDITIONAL_DESIGNERS = [
+  {
+    "id": "achille-castiglioni-pio-manzu",
+    "name": "Achille Castiglioni & Pio Manzù",
+    "sort": "Castiglioni & Manzù",
+    "short": "Castiglioni & Manzù",
+    "country": "Italy"
+  },
+  {
+    "id": "achille-castiglioni",
+    "name": "Achille Castiglioni",
+    "sort": "Castiglioni",
+    "short": "Castiglioni",
+    "country": "Italy"
+  },
+  {
+    "id": "gino-sarfatti",
+    "name": "Gino Sarfatti",
+    "sort": "Sarfatti",
+    "short": "Sarfatti",
+    "country": "Italy"
+  },
+  {
+    "id": "tobia-scarpa",
+    "name": "Tobia Scarpa",
+    "sort": "Scarpa",
+    "short": "Scarpa",
+    "country": "Italy"
+  },
+  {
+    "id": "mario-bellini",
+    "name": "Mario Bellini",
+    "sort": "Bellini",
+    "short": "Bellini",
+    "country": "Italy"
+  },
+  {
+    "id": "jasper-morrison",
+    "name": "Jasper Morrison",
+    "sort": "Morrison",
+    "short": "Morrison",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "konstantin-grcic",
+    "name": "Konstantin Grcic",
+    "sort": "Grcic",
+    "short": "Grcic",
+    "country": "Germany"
+  },
+  {
+    "id": "sebastian-wrong",
+    "name": "Sebastian Wrong",
+    "sort": "Wrong",
+    "short": "Wrong",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "michael-anastassiades",
+    "name": "Michael Anastassiades",
+    "sort": "Anastassiades",
+    "short": "Anastassiades",
+    "country": "Cyprus"
+  },
+  {
+    "id": "ronan-erwan-bouroullec",
+    "name": "Ronan & Erwan Bouroullec",
+    "sort": "Bouroullec",
+    "short": "Bouroullec",
+    "country": "France"
+  },
+  {
+    "id": "edward-barber-jay-osgerby",
+    "name": "Edward Barber & Jay Osgerby",
+    "sort": "Barber & Osgerby",
+    "short": "Barber & Osgerby",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "patricia-urquiola",
+    "name": "Patricia Urquiola",
+    "sort": "Urquiola",
+    "short": "Urquiola",
+    "country": "Spain"
+  },
+  {
+    "id": "piero-lissoni",
+    "name": "Piero Lissoni",
+    "sort": "Lissoni",
+    "short": "Lissoni",
+    "country": "Italy"
+  },
+  {
+    "id": "johanna-grawunder",
+    "name": "Johanna Grawunder",
+    "sort": "Grawunder",
+    "short": "Grawunder",
+    "country": "USA"
+  },
+  {
+    "id": "rodolfo-dordoni",
+    "name": "Rodolfo Dordoni",
+    "sort": "Dordoni",
+    "short": "Dordoni",
+    "country": "Italy"
+  },
+  {
+    "id": "formafantasma",
+    "name": "Formafantasma",
+    "sort": "Formafantasma",
+    "short": "Formafantasma",
+    "country": "Italy"
+  },
+  {
+    "id": "yrjo-kukkapuro",
+    "name": "Yrjö Kukkapuro",
+    "sort": "Kukkapuro",
+    "short": "Kukkapuro",
+    "country": "Finland"
+  },
+  {
+    "id": "ilmari-tapiovaara",
+    "name": "Ilmari Tapiovaara",
+    "sort": "Tapiovaara",
+    "short": "Tapiovaara",
+    "country": "Finland"
+  },
+  {
+    "id": "anna-maija-jaatinen",
+    "name": "Anna-Maija Jaatinen",
+    "sort": "Jaatinen",
+    "short": "Jaatinen",
+    "country": "Finland"
+  },
+  {
+    "id": "eero-aarnio",
+    "name": "Eero Aarnio",
+    "sort": "Aarnio",
+    "short": "Aarnio",
+    "country": "Finland"
+  },
+  {
+    "id": "aino-aalto",
+    "name": "Aino Aalto",
+    "sort": "Aalto",
+    "short": "Aalto",
+    "country": "Finland"
+  },
+  {
+    "id": "michael-graves",
+    "name": "Michael Graves",
+    "sort": "Graves",
+    "short": "Graves",
+    "country": "USA"
+  },
+  {
+    "id": "aldo-rossi",
+    "name": "Aldo Rossi",
+    "sort": "Rossi",
+    "short": "Rossi",
+    "country": "Italy"
+  },
+  {
+    "id": "alessandro-mendini",
+    "name": "Alessandro Mendini",
+    "sort": "Mendini",
+    "short": "Mendini",
+    "country": "Italy"
+  },
+  {
+    "id": "ettore-sottsass-alberto-gozzi",
+    "name": "Ettore Sottsass & Alberto Gozzi",
+    "sort": "Sottsass & Gozzi",
+    "short": "Sottsass & Gozzi",
+    "country": "Italy"
+  },
+  {
+    "id": "alejandro-ruiz-csa",
+    "name": "Alejandro Ruiz & CSA",
+    "sort": "Ruiz & CSA",
+    "short": "Ruiz & CSA",
+    "country": "Argentina · Italy"
+  },
+  {
+    "id": "michele-de-lucchi-solo",
+    "name": "Michele De Lucchi",
+    "sort": "Lucchi",
+    "short": "Lucchi",
+    "country": "Italy"
+  },
+  {
+    "id": "giulio-iacchetti",
+    "name": "Giulio Iacchetti",
+    "sort": "Iacchetti",
+    "short": "Iacchetti",
+    "country": "Italy"
+  },
+  {
+    "id": "david-chipperfield",
+    "name": "David Chipperfield",
+    "sort": "Chipperfield",
+    "short": "Chipperfield",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "emma-silvestris-lpwk",
+    "name": "Emma Silvestris & LPWK",
+    "sort": "Silvestris & LPWK",
+    "short": "Silvestris & LPWK",
+    "country": "Italy"
+  },
+  {
+    "id": "adam-cornish",
+    "name": "Adam Cornish",
+    "sort": "Cornish",
+    "short": "Cornish",
+    "country": "Australia"
+  },
+  {
+    "id": "michel-boucquillon-donia-maaoui",
+    "name": "Michel Boucquillon & Donia Maaoui",
+    "sort": "Boucquillon & Maaoui",
+    "short": "Boucquillon & Maaoui",
+    "country": "Belgium · Tunisia"
+  },
+  {
+    "id": "fernando-humberto-campana",
+    "name": "Fernando & Humberto Campana",
+    "sort": "Campana",
+    "short": "Campana",
+    "country": "Brazil"
+  },
+  {
+    "id": "mario-trimarchi",
+    "name": "Mario Trimarchi",
+    "sort": "Trimarchi",
+    "short": "Trimarchi",
+    "country": "Italy"
+  },
+  {
+    "id": "ettore-sottsass",
+    "name": "Ettore Sottsass",
+    "sort": "Sottsass",
+    "short": "Sottsass",
+    "country": "Italy"
+  },
+  {
+    "id": "stefano-giovannoni",
+    "name": "Stefano Giovannoni",
+    "sort": "Giovannoni",
+    "short": "Giovannoni",
+    "country": "Italy"
+  },
+  {
+    "id": "miriam-mirri",
+    "name": "Miriam Mirri",
+    "sort": "Mirri",
+    "short": "Mirri",
+    "country": "Italy"
+  },
+  {
+    "id": "stefano-giovannoni-guido-venturini",
+    "name": "Stefano Giovannoni & Guido Venturini",
+    "sort": "King-Kong",
+    "short": "King-Kong",
+    "country": "Italy"
+  },
+  {
+    "id": "valerio-sommella",
+    "name": "Valerio Sommella",
+    "sort": "Sommella",
+    "short": "Sommella",
+    "country": "Italy"
+  }
+];
+  ADDITIONAL_DESIGNERS.forEach(function (d) { DESIGNERS.push(d); dById[d.id] = d; });
+  var ADDITIONAL_OBJECTS = [
+  {
+    "dept": "lighting",
+    "slug": "snoopy",
+    "name": "Snoopy",
+    "year": 1967,
+    "type": "Table",
+    "material": [
+      "Metal",
+      "Marble",
+      "Glass"
+    ],
+    "materials": "Metal, Marble, Glass",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Snoopy is a table lamp by Achille & Pier Giacomo Castiglioni, from 1967, produced by Flos. A tilted marble cylinder supports an enamelled reflector whose long nose gives the lamp its cartoon-like profile.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tilted marble cylinder supports an enamelled reflector whose long nose gives the lamp its cartoon-like profile."
+      ],
+      [
+        "The idea in use",
+        "Its heavy base and broad head make balance visible, while the concealed light falls directly onto the surface below."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/snoopy/",
+    "expansion": true,
+    "added": 130,
+    "designer": "castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "gatto",
+    "name": "Gatto",
+    "year": 1960,
+    "type": "Table",
+    "material": [
+      "Metal",
+      "Resin"
+    ],
+    "materials": "Metal, Resin",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Gatto is a table lamp by Achille & Pier Giacomo Castiglioni, from 1960, produced by Flos. A thin cocoon skin stretches around a ribbed frame, making the lamp resemble a small lantern.",
+    "story": [
+      [
+        "Shape and construction",
+        "A thin cocoon skin stretches around a ribbed frame, making the lamp resemble a small lantern."
+      ],
+      [
+        "The idea in use",
+        "The coating softens the ribs without hiding them, so construction and diffused light share the same rounded envelope."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/gatto/",
+    "expansion": true,
+    "added": 127,
+    "designer": "castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "viscontea",
+    "name": "Viscontea",
+    "year": 1960,
+    "type": "Pendant",
+    "material": [
+      "Metal",
+      "Resin"
+    ],
+    "materials": "Metal, Resin",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Viscontea is a pendant lamp by Achille & Pier Giacomo Castiglioni, from 1960, produced by Flos. A suspended steel frame is wrapped in translucent cocoon resin, with a gently pinched outline.",
+    "story": [
+      [
+        "Shape and construction",
+        "A suspended steel frame is wrapped in translucent cocoon resin, with a gently pinched outline."
+      ],
+      [
+        "The idea in use",
+        "The surface reads as a continuous membrane in daylight and becomes a luminous volume when the lamp is switched on."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/viscontea/",
+    "expansion": true,
+    "added": 124,
+    "designer": "castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "taraxacum",
+    "name": "Taraxacum",
+    "year": 1960,
+    "type": "Pendant",
+    "material": [
+      "Metal",
+      "Resin"
+    ],
+    "materials": "Metal, Resin",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Taraxacum is a pendant lamp by Achille & Pier Giacomo Castiglioni, from 1960, produced by Flos. The cocoon diffuser follows an irregular frame, creating a cloud-like cluster of rounded projections.",
+    "story": [
+      [
+        "Shape and construction",
+        "The cocoon diffuser follows an irregular frame, creating a cloud-like cluster of rounded projections."
+      ],
+      [
+        "The idea in use",
+        "Its sculptural surface distributes light through a thin skin rather than through a conventional open shade."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/taraxacum/",
+    "expansion": true,
+    "added": 121,
+    "designer": "castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "toio",
+    "name": "Toio",
+    "year": 1962,
+    "type": "Floor",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Toio is a floor lamp by Achille & Pier Giacomo Castiglioni, from 1962, produced by Flos. A car-headlamp-like light source sits on a slender telescopic stem above an openly engineered base.",
+    "story": [
+      [
+        "Shape and construction",
+        "A car-headlamp-like light source sits on a slender telescopic stem above an openly engineered base."
+      ],
+      [
+        "The idea in use",
+        "Industrial components are brought into the living room without concealing how they work; the upward beam lights the ceiling."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/toio/",
+    "expansion": true,
+    "added": 118,
+    "designer": "castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "parentesi",
+    "name": "Parentesi",
+    "year": 1971,
+    "type": "Floor",
+    "material": [
+      "Metal",
+      "Rubber"
+    ],
+    "materials": "Metal, Rubber",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Parentesi is a floor lamp by Achille Castiglioni & Pio Manzù, from 1971, produced by Flos. A bent tubular bracket grips a tensioned cable, carrying a spotlight that can slide vertically.",
+    "story": [
+      [
+        "Shape and construction",
+        "A bent tubular bracket grips a tensioned cable, carrying a spotlight that can slide vertically."
+      ],
+      [
+        "The idea in use",
+        "The cable replaces a conventional rigid stand, allowing height and direction to change while the footprint remains small."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/parentesi/",
+    "expansion": true,
+    "added": 115,
+    "designer": "achille-castiglioni-pio-manzu"
+  },
+  {
+    "dept": "lighting",
+    "slug": "lampadina",
+    "name": "Lampadina",
+    "year": 1972,
+    "type": "Table",
+    "material": [
+      "Metal",
+      "Glass",
+      "Plastic"
+    ],
+    "materials": "Metal, Glass, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Lampadina is a table lamp by Achille Castiglioni, from 1972, produced by Flos. An oversized partly frosted bulb sits above a compact holder and a reel-shaped metal base.",
+    "story": [
+      [
+        "Shape and construction",
+        "An oversized partly frosted bulb sits above a compact holder and a reel-shaped metal base."
+      ],
+      [
+        "The idea in use",
+        "The base stores spare cable, turning an ordinary electrical component into a deliberately compact piece of domestic lighting."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/lampadina/",
+    "expansion": true,
+    "added": 112,
+    "designer": "achille-castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "2097",
+    "name": "2097",
+    "year": 1958,
+    "type": "Pendant",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "2097 is a pendant lamp by Gino Sarfatti, from 1958, produced by Flos. A central stem carries slim arms and exposed bulbs, with curved electrical cords left in view.",
+    "story": [
+      [
+        "Shape and construction",
+        "A central stem carries slim arms and exposed bulbs, with curved electrical cords left in view."
+      ],
+      [
+        "The idea in use",
+        "The arrangement borrows the scale of a chandelier while replacing ornamental decoration with the visible equipment of electric light."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/2097/",
+    "expansion": true,
+    "added": 109,
+    "designer": "gino-sarfatti"
+  },
+  {
+    "dept": "lighting",
+    "slug": "biagio",
+    "name": "Biagio",
+    "year": 1968,
+    "type": "Table",
+    "material": [
+      "Marble"
+    ],
+    "materials": "Marble",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Biagio is a table lamp by Tobia Scarpa, from 1968, produced by Flos. A single sculptural marble body curves around the light source, combining a rounded head with a broad foot.",
+    "story": [
+      [
+        "Shape and construction",
+        "A single sculptural marble body curves around the light source, combining a rounded head with a broad foot."
+      ],
+      [
+        "The idea in use",
+        "Stone gives the compact lamp both weight and a strong outline; the hollowed opening directs the light downwards."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/biagio/",
+    "expansion": true,
+    "added": 106,
+    "designer": "tobia-scarpa"
+  },
+  {
+    "dept": "lighting",
+    "slug": "chiara",
+    "name": "Chiara Table",
+    "year": 1969,
+    "type": "Table",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Chiara began as Mario Bellini’s folded-metal lighting design in 1969. The photograph shows the later compact table version. A reflective metal sheet folds into a cylindrical body and an angled hood, outlined by a dark edge.",
+    "story": [
+      [
+        "Shape and construction",
+        "A reflective metal sheet folds into a cylindrical body and an angled hood, outlined by a dark edge."
+      ],
+      [
+        "The idea in use",
+        "The sheet itself becomes structure and reflector, showing how a largely flat material can produce a complete lamp."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/chiara/",
+    "expansion": true,
+    "yearLabel": "1969 · family",
+    "added": 103,
+    "designer": "mario-bellini"
+  },
+  {
+    "dept": "lighting",
+    "slug": "glo-ball",
+    "name": "Glo-Ball C/W",
+    "year": 1998,
+    "type": "Ceiling",
+    "material": [
+      "Glass",
+      "Metal"
+    ],
+    "materials": "Glass, Metal",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Glo-Ball C/W is a ceiling lamp by Jasper Morrison, from 1998, produced by Flos. A gently flattened opal glass globe conceals its supporting hardware and spreads soft light.",
+    "story": [
+      [
+        "Shape and construction",
+        "A gently flattened opal glass globe conceals its supporting hardware and spreads soft light."
+      ],
+      [
+        "The idea in use",
+        "The slightly imperfect sphere gives the family its quiet character, keeping attention on light rather than on mechanical detail."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/glo-ball/",
+    "expansion": true,
+    "added": 100,
+    "designer": "jasper-morrison"
+  },
+  {
+    "dept": "lighting",
+    "slug": "mayday",
+    "name": "Mayday",
+    "year": 2000,
+    "type": "Table",
+    "material": [
+      "Plastic"
+    ],
+    "materials": "Plastic",
+    "origin": "Germany",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Mayday is a table lamp by Konstantin Grcic, from 2000, produced by Flos. A translucent cone hangs beneath a large hook that also carries the lamp and winds its cable.",
+    "story": [
+      [
+        "Shape and construction",
+        "A translucent cone hangs beneath a large hook that also carries the lamp and winds its cable."
+      ],
+      [
+        "The idea in use",
+        "It treats portable utility lighting as a domestic object, equally comfortable resting on a surface or hanging from a support."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/mayday/",
+    "expansion": true,
+    "added": 97,
+    "designer": "konstantin-grcic"
+  },
+  {
+    "dept": "lighting",
+    "slug": "spun-light",
+    "name": "Spun Light T",
+    "year": 2003,
+    "type": "Table",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Spun Light T is a table lamp by Sebastian Wrong, from 2003, produced by Flos. A broad cylindrical shade meets a sharply tapered stem and circular base, all formed with smooth rotational surfaces.",
+    "story": [
+      [
+        "Shape and construction",
+        "A broad cylindrical shade meets a sharply tapered stem and circular base, all formed with smooth rotational surfaces."
+      ],
+      [
+        "The idea in use",
+        "Its familiar table-lamp silhouette is made continuous by controlled curves and a consistent treatment of the metal."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/spun-light/",
+    "expansion": true,
+    "added": 94,
+    "designer": "sebastian-wrong"
+  },
+  {
+    "dept": "lighting",
+    "slug": "ic-lights",
+    "name": "IC Lights C/W",
+    "year": 2014,
+    "type": "Wall",
+    "material": [
+      "Metal",
+      "Glass"
+    ],
+    "materials": "Metal, Glass",
+    "origin": "Cyprus",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "IC Lights C/W is a wall lamp by Michael Anastassiades, from 2014, produced by Flos. An opal glass sphere appears to balance against a slender metal rod extending from the wall.",
+    "story": [
+      [
+        "Shape and construction",
+        "An opal glass sphere appears to balance against a slender metal rod extending from the wall."
+      ],
+      [
+        "The idea in use",
+        "The apparent instability is visual rather than structural: a fixed connection supports the globe while allowing the composition to feel light."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/ic-lights/",
+    "expansion": true,
+    "added": 91,
+    "designer": "michael-anastassiades"
+  },
+  {
+    "dept": "lighting",
+    "slug": "aim",
+    "name": "Aim",
+    "year": 2013,
+    "type": "Pendant",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "France",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Aim is a pendant lamp by Ronan & Erwan Bouroullec, from 2013, produced by Flos. Adjustable heads hang among long looping cables, making the electrical supply part of the composition.",
+    "story": [
+      [
+        "Shape and construction",
+        "Adjustable heads hang among long looping cables, making the electrical supply part of the composition."
+      ],
+      [
+        "The idea in use",
+        "Instead of prescribing one symmetrical arrangement, the system allows the light heads and cable lines to respond to the room."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/aim/",
+    "expansion": true,
+    "added": 88,
+    "designer": "ronan-erwan-bouroullec"
+  },
+  {
+    "dept": "lighting",
+    "slug": "coordinates",
+    "name": "Coordinates Wall",
+    "year": 2020,
+    "type": "Wall",
+    "material": [
+      "Metal",
+      "Silicone"
+    ],
+    "materials": "Metal, Silicone",
+    "origin": "Cyprus",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Coordinates Wall is a wall lamp by Michael Anastassiades, from 2020, produced by Flos. A linear light source sits against the wall with a compact circular mounting point.",
+    "story": [
+      [
+        "Shape and construction",
+        "A linear light source sits against the wall with a compact circular mounting point."
+      ],
+      [
+        "The idea in use",
+        "Its precise geometry translates the idea of intersecting coordinates into a lighting system whose lines can define an architectural surface."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/coordinates/",
+    "expansion": true,
+    "added": 85,
+    "designer": "michael-anastassiades"
+  },
+  {
+    "dept": "lighting",
+    "slug": "bellhop",
+    "name": "Bellhop Glass T",
+    "year": 2024,
+    "type": "Table",
+    "material": [
+      "Glass",
+      "Metal"
+    ],
+    "materials": "Glass, Metal",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Bellhop Glass T is a table lamp by Edward Barber & Jay Osgerby, from 2024, produced by Flos. A large opal glass dome rests on a cylindrical aluminium base in the Bellhop Glass T.",
+    "story": [
+      [
+        "Shape and construction",
+        "A large opal glass dome rests on a cylindrical aluminium base in the Bellhop Glass T."
+      ],
+      [
+        "The idea in use",
+        "The familiar bell-shaped family becomes a substantial table lamp, using layered glass to create an even, softly glowing surface."
+      ]
+    ],
+    "source": "https://flos.com/en/us/bellhop-glass-table/M-bellhop-glass-table.html",
+    "expansion": true,
+    "added": 82,
+    "designer": "edward-barber-jay-osgerby"
+  },
+  {
+    "dept": "lighting",
+    "slug": "arrangements",
+    "name": "Arrangements",
+    "year": 2017,
+    "type": "Pendant",
+    "material": [
+      "Metal",
+      "Silicone"
+    ],
+    "materials": "Metal, Silicone",
+    "origin": "Cyprus",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Arrangements is a pendant lamp by Michael Anastassiades, from 2017, produced by Flos. Luminous geometric elements connect into a suspended composition of loops and straight lines.",
+    "story": [
+      [
+        "Shape and construction",
+        "Luminous geometric elements connect into a suspended composition of loops and straight lines."
+      ],
+      [
+        "The idea in use",
+        "The system lets individual shapes become one light sculpture, with the supporting electrical connections integrated into their junctions."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/arrangements/",
+    "expansion": true,
+    "added": 79,
+    "designer": "michael-anastassiades"
+  },
+  {
+    "dept": "lighting",
+    "slug": "ariette",
+    "name": "Ariette",
+    "year": 1973,
+    "type": "Wall",
+    "material": [
+      "Fabric",
+      "Plastic"
+    ],
+    "materials": "Fabric, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Ariette is a wall lamp by Tobia Scarpa, from 1973, produced by Flos. A square fabric diffuser stretches over a light framework, revealing its curved supporting lines.",
+    "story": [
+      [
+        "Shape and construction",
+        "A square fabric diffuser stretches over a light framework, revealing its curved supporting lines."
+      ],
+      [
+        "The idea in use",
+        "Its shallow, textile-covered construction brings the softness of a shade to a wall or ceiling rather than to a standing lamp."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/ariette/",
+    "expansion": true,
+    "added": 76,
+    "designer": "tobia-scarpa"
+  },
+  {
+    "dept": "lighting",
+    "slug": "tatou",
+    "name": "Tatou",
+    "year": 2012,
+    "type": "Table",
+    "material": [
+      "Plastic",
+      "Metal"
+    ],
+    "materials": "Plastic, Metal",
+    "origin": "Spain",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Tatou is a table lamp by Patricia Urquiola, from 2012, produced by Flos. A perforated rounded shade covers an inner diffuser, creating a patterned shell above a slender stem.",
+    "story": [
+      [
+        "Shape and construction",
+        "A perforated rounded shade covers an inner diffuser, creating a patterned shell above a slender stem."
+      ],
+      [
+        "The idea in use",
+        "The layered surface filters direct views of the light source while allowing a fine pattern of light and shadow to appear."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/tatou/",
+    "expansion": true,
+    "added": 73,
+    "designer": "patricia-urquiola"
+  },
+  {
+    "dept": "lighting",
+    "slug": "tight-light",
+    "name": "Tight Light",
+    "year": 2009,
+    "type": "Wall",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Tight Light is a wall lamp by Piero Lissoni, from 2009, produced by Flos. A compact geometric wall fitting combines clean horizontal and vertical planes.",
+    "story": [
+      [
+        "Shape and construction",
+        "A compact geometric wall fitting combines clean horizontal and vertical planes."
+      ],
+      [
+        "The idea in use",
+        "The housing concentrates attention on the upward and downward light, allowing the surrounding wall to become part of the composition."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/tight-light/",
+    "expansion": true,
+    "added": 70,
+    "designer": "piero-lissoni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "tab",
+    "name": "Tab T",
+    "year": 2011,
+    "type": "Desk",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Tab T is a desk lamp by Edward Barber & Jay Osgerby, from 2011, produced by Flos. A slim upright stem carries a narrow angled head with a projecting tab at one end.",
+    "story": [
+      [
+        "Shape and construction",
+        "A slim upright stem carries a narrow angled head with a projecting tab at one end."
+      ],
+      [
+        "The idea in use",
+        "The small tab makes adjustment legible, while the shallow head directs light towards the working surface without a large shade."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/tab/",
+    "expansion": true,
+    "added": 67,
+    "designer": "edward-barber-jay-osgerby"
+  },
+  {
+    "dept": "lighting",
+    "slug": "smithfield",
+    "name": "Smithfield",
+    "year": 2009,
+    "type": "Pendant",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Smithfield is a pendant lamp by Jasper Morrison, from 2009, produced by Flos. A wide metal dome is closed underneath by a diffuser, giving the industrial silhouette a calm finish.",
+    "story": [
+      [
+        "Shape and construction",
+        "A wide metal dome is closed underneath by a diffuser, giving the industrial silhouette a calm finish."
+      ],
+      [
+        "The idea in use",
+        "The depth of the shade shields the light source and makes the large pendant read as one clearly defined volume."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/smithfield/",
+    "expansion": true,
+    "added": 64,
+    "designer": "jasper-morrison"
+  },
+  {
+    "dept": "lighting",
+    "slug": "wan",
+    "name": "Wan Ceiling",
+    "year": 2005,
+    "type": "Ceiling",
+    "material": [
+      "Metal",
+      "Glass"
+    ],
+    "materials": "Metal, Glass",
+    "origin": "USA",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Wan Ceiling is a ceiling lamp by Johanna Grawunder, from 2005, produced by Flos. A small bowl-shaped housing contains the recessed light source and its protective glass.",
+    "story": [
+      [
+        "Shape and construction",
+        "A small bowl-shaped housing contains the recessed light source and its protective glass."
+      ],
+      [
+        "The idea in use",
+        "The compact form gives a technical ceiling fitting a softer outline, bringing a domestic scale to directed overhead light."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/wan/",
+    "expansion": true,
+    "added": 61,
+    "designer": "johanna-grawunder"
+  },
+  {
+    "dept": "lighting",
+    "slug": "pochette",
+    "name": "Pochette",
+    "year": 2003,
+    "type": "Wall",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Pochette is a wall lamp by Rodolfo Dordoni, from 2003, produced by Flos. A folded, pocket-like wall body opens at the top, concealing the light source inside.",
+    "story": [
+      [
+        "Shape and construction",
+        "A folded, pocket-like wall body opens at the top, concealing the light source inside."
+      ],
+      [
+        "The idea in use",
+        "The wall receives the main beam, so the small fitting is read together with the much larger wash of indirect light above it."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/pochette/",
+    "expansion": true,
+    "added": 58,
+    "designer": "rodolfo-dordoni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "stylos",
+    "name": "Stylos",
+    "year": 1984,
+    "type": "Floor",
+    "material": [
+      "Plastic",
+      "Metal"
+    ],
+    "materials": "Plastic, Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Stylos is a floor lamp by Achille Castiglioni, from 1984, produced by Flos. A tall opal cylinder rises from a broad circular metal base, with very little visible detail.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tall opal cylinder rises from a broad circular metal base, with very little visible detail."
+      ],
+      [
+        "The idea in use",
+        "The column acts as a diffuser, turning a normally structural architectural form into an even vertical presence of light."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/stylos/",
+    "expansion": true,
+    "added": 55,
+    "designer": "achille-castiglioni"
+  },
+  {
+    "dept": "lighting",
+    "slug": "wirering",
+    "name": "Wirering",
+    "year": 2018,
+    "type": "Wall",
+    "material": [
+      "Rubber",
+      "Metal"
+    ],
+    "materials": "Rubber, Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Wirering is a wall lamp by Formafantasma, from 2018, produced by Flos. A circular light and a long flat cable form a spare drawing against the wall.",
+    "story": [
+      [
+        "Shape and construction",
+        "A circular light and a long flat cable form a spare drawing against the wall."
+      ],
+      [
+        "The idea in use",
+        "The electrical cable is treated as a deliberate visual element, changing the relationship between a lamp and the line that powers it."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/wirering/",
+    "expansion": true,
+    "added": 52,
+    "designer": "formafantasma"
+  },
+  {
+    "dept": "lighting",
+    "slug": "superloon",
+    "name": "Superloon",
+    "year": 2015,
+    "type": "Floor",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Superloon is a floor lamp by Jasper Morrison, from 2015, produced by Flos. A large circular light panel turns within a slender tripod support.",
+    "story": [
+      [
+        "Shape and construction",
+        "A large circular light panel turns within a slender tripod support."
+      ],
+      [
+        "The idea in use",
+        "The adjustable disc gives a broad luminous surface a precise direction, combining the scale of a reflector with a comparatively light frame."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/superloon/",
+    "expansion": true,
+    "added": 49,
+    "designer": "jasper-morrison"
+  },
+  {
+    "dept": "lighting",
+    "slug": "ok",
+    "name": "Ok",
+    "year": 2014,
+    "type": "Floor",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Germany",
+    "status": "In production",
+    "manufacturer": "Flos",
+    "inShort": "Ok is a floor lamp by Konstantin Grcic, from 2014, produced by Flos. A thin illuminated disc pivots beside a vertical tension cable and compact sliding body.",
+    "story": [
+      [
+        "Shape and construction",
+        "A thin illuminated disc pivots beside a vertical tension cable and compact sliding body."
+      ],
+      [
+        "The idea in use",
+        "The cable-based support revisits a familiar lighting idea with a flat light source, allowing both height and orientation to be adjusted."
+      ]
+    ],
+    "source": "https://professional.flos.com/en/global/family/ok/",
+    "expansion": true,
+    "added": 46,
+    "designer": "konstantin-grcic"
+  },
+  {
+    "dept": "lighting",
+    "slug": "pendant-light-a330s-golden-bell",
+    "name": "A330S Golden Bell",
+    "year": 1937,
+    "type": "Pendant",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "A330S Golden Bell is a pendant lamp by Alvar Aalto, from 1937, produced by Artek. The Golden Bell pendant is a small rounded metal shell with a perforated lower rim.",
+    "story": [
+      [
+        "Shape and construction",
+        "The Golden Bell pendant is a small rounded metal shell with a perforated lower rim."
+      ],
+      [
+        "The idea in use",
+        "The lower edge breaks up the light around the opening, while the bell-shaped body reads as a complete sculptural object."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/pendant-light-a330s-golden-bell/",
+    "expansion": true,
+    "added": 43,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "lighting",
+    "slug": "pendant-light-a331-beehive",
+    "name": "A331 Beehive",
+    "year": 1953,
+    "type": "Pendant",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "A331 Beehive is a pendant lamp by Alvar Aalto, from 1953, produced by Artek. Stacked white bands and narrow metal rings make a rounded, hive-like pendant.",
+    "story": [
+      [
+        "Shape and construction",
+        "Stacked white bands and narrow metal rings make a rounded, hive-like pendant."
+      ],
+      [
+        "The idea in use",
+        "Light escapes between the layers as well as through the opening, giving the shade a clear rhythm even when seen from the side."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/pendant-light-a331-beehive/",
+    "expansion": true,
+    "added": 40,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "lighting",
+    "slug": "pendant-light-a110-hand-grenade",
+    "name": "A110 Hand Grenade",
+    "year": 1952,
+    "type": "Pendant",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "A110 Hand Grenade is a pendant lamp by Alvar Aalto, from 1952, produced by Artek. Two cylindrical volumes meet in a compact pendant, with a perforated ring around its lower opening.",
+    "story": [
+      [
+        "Shape and construction",
+        "Two cylindrical volumes meet in a compact pendant, with a perforated ring around its lower opening."
+      ],
+      [
+        "The idea in use",
+        "The narrow neck and wider shade distinguish the suspension from the light-producing body without introducing decorative parts."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/pendant-light-a110-hand-grenade/",
+    "expansion": true,
+    "added": 38,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "lighting",
+    "slug": "pendant-light-a333-turnip",
+    "name": "A333 Turnip",
+    "year": 1950,
+    "type": "Pendant",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "A333 Turnip is a pendant lamp by Alvar Aalto, from 1950, produced by Artek. A rounded lower body is capped by a small cylindrical neck, with a discreet opening beneath.",
+    "story": [
+      [
+        "Shape and construction",
+        "A rounded lower body is capped by a small cylindrical neck, with a discreet opening beneath."
+      ],
+      [
+        "The idea in use",
+        "The organic outline softens a simple metal shade, while its interior directs the light towards the surface below."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/pendant-light-a333-turnip/",
+    "expansion": true,
+    "added": 36,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "lighting",
+    "slug": "floor-light-a805-angel-wing",
+    "name": "A805 Angel Wing",
+    "year": 1954,
+    "type": "Floor",
+    "material": [
+      "Metal",
+      "Leather"
+    ],
+    "materials": "Metal, Leather",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "A805 Angel Wing is a floor lamp by Alvar Aalto, from 1954, produced by Artek. An asymmetrical shade built from narrow metal bands spreads above a slender upright stem.",
+    "story": [
+      [
+        "Shape and construction",
+        "An asymmetrical shade built from narrow metal bands spreads above a slender upright stem."
+      ],
+      [
+        "The idea in use",
+        "The offset wing-like profile gives the light a direction, while the layered shade softens the transition between lit and shaded surfaces."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/floor-light-a805-angel-wing/",
+    "expansion": true,
+    "added": 34,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "lighting",
+    "slug": "floor-light-a808",
+    "name": "A808",
+    "year": 1955,
+    "type": "Floor",
+    "material": [
+      "Metal",
+      "Leather"
+    ],
+    "materials": "Metal, Leather",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "A808 is a floor lamp by Alvar Aalto, from 1955, produced by Artek. A delicate ringed shade sits on a gently angled upper stem above a round base.",
+    "story": [
+      [
+        "Shape and construction",
+        "A delicate ringed shade sits on a gently angled upper stem above a round base."
+      ],
+      [
+        "The idea in use",
+        "The fine metal layers conceal the bulb and create a light, open silhouette rather than one heavy opaque dome."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/floor-light-a808/",
+    "expansion": true,
+    "added": 32,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "stool-60",
+    "name": "Stool 60",
+    "year": 1933,
+    "type": "Stool",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Stool 60 is a stool by Alvar Aalto, from 1933, produced by Artek. Three bent birch legs support a plain circular seat, forming a compact stool that can also serve as a side table.",
+    "story": [
+      [
+        "Shape and construction",
+        "Three bent birch legs support a plain circular seat, forming a compact stool that can also serve as a side table."
+      ],
+      [
+        "The idea in use",
+        "The L-shaped leg is the essential joint: its bend carries the seat while keeping the number of separate components small."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/stool-60",
+    "expansion": true,
+    "added": 129,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "karuselli-lounge-chair",
+    "name": "Karuselli Lounge Chair",
+    "year": 1964,
+    "type": "Lounge",
+    "material": [
+      "Plastic",
+      "Leather",
+      "Metal"
+    ],
+    "materials": "Plastic, Leather, Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Karuselli Lounge Chair is a lounge by Yrjö Kukkapuro, from 1964, produced by Artek. An upholstered sculptural shell tilts above a pedestal base, bringing the back, arms and seat into one flowing body.",
+    "story": [
+      [
+        "Shape and construction",
+        "An upholstered sculptural shell tilts above a pedestal base, bringing the back, arms and seat into one flowing body."
+      ],
+      [
+        "The idea in use",
+        "The pronounced curves support the sitter from several directions, making comfort visible in the outline of the chair."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/karuselli-lounge-chair",
+    "expansion": true,
+    "added": 126,
+    "designer": "yrjo-kukkapuro"
+  },
+  {
+    "dept": "furniture",
+    "slug": "armchair-400-tank",
+    "name": "Armchair 400 “Tank“",
+    "year": 1936,
+    "type": "Lounge",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Armchair 400 “Tank“ is a lounge by Alvar Aalto, from 1936, produced by Artek. Broad bentwood arms wrap around a deep upholstered seat, giving Armchair 400 its substantial presence.",
+    "story": [
+      [
+        "Shape and construction",
+        "Broad bentwood arms wrap around a deep upholstered seat, giving Armchair 400 its substantial presence."
+      ],
+      [
+        "The idea in use",
+        "The generous wooden loops carry the body without a separate rear leg, combining visual weight with a resilient cantilever structure."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/armchair-400-tank",
+    "expansion": true,
+    "added": 123,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "domus-lounge-chair",
+    "name": "Domus Lounge Chair",
+    "year": 1946,
+    "type": "Lounge",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Domus Lounge Chair is a lounge by Ilmari Tapiovaara, from 1946, produced by Artek. A broad moulded seat and back sit within an open timber frame with short armrests.",
+    "story": [
+      [
+        "Shape and construction",
+        "A broad moulded seat and back sit within an open timber frame with short armrests."
+      ],
+      [
+        "The idea in use",
+        "The compact arms leave the front of the chair accessible while giving the sitter a small, clearly defined resting point."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/domus-lounge-chair",
+    "expansion": true,
+    "added": 120,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "domus-chair",
+    "name": "Domus Chair",
+    "year": 1946,
+    "type": "Chair",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Domus Chair is a chair by Ilmari Tapiovaara, from 1946, produced by Artek. A shaped seat, supportive back and abbreviated armrests make a compact wooden dining and working chair.",
+    "story": [
+      [
+        "Shape and construction",
+        "A shaped seat, supportive back and abbreviated armrests make a compact wooden dining and working chair."
+      ],
+      [
+        "The idea in use",
+        "Its rounded contact points soften the otherwise straightforward frame, showing how small changes can make an everyday chair more accommodating."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/domus-chair",
+    "expansion": true,
+    "added": 117,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "tea-trolley-901",
+    "name": "Tea Trolley 901",
+    "year": 1936,
+    "type": "Table",
+    "material": [
+      "Wood",
+      "Linoleum"
+    ],
+    "materials": "Wood, Linoleum",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Tea Trolley 901 is a table by Alvar Aalto, from 1936, produced by Artek. Two shelves sit within a continuous bentwood frame carried by a pair of large wheels.",
+    "story": [
+      [
+        "Shape and construction",
+        "Two shelves sit within a continuous bentwood frame carried by a pair of large wheels."
+      ],
+      [
+        "The idea in use",
+        "The trolley combines storage and movement in one clear structure, keeping the handle and support within the same looping outline."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/tea-trolley-901",
+    "expansion": true,
+    "added": 114,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "clothes-tree-160",
+    "name": "Clothes Tree 160",
+    "year": 1964,
+    "type": "Storage",
+    "material": [
+      "Wood",
+      "Metal"
+    ],
+    "materials": "Wood, Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Clothes Tree 160 is a storage piece by Anna-Maija Jaatinen, from 1964, produced by Artek. A slim upright tree branches into pegs of different lengths above a stable multi-foot base.",
+    "story": [
+      [
+        "Shape and construction",
+        "A slim upright tree branches into pegs of different lengths above a stable multi-foot base."
+      ],
+      [
+        "The idea in use",
+        "Longer upper hooks and shorter lower hooks create a practical hierarchy, giving coats and smaller belongings separate places to hang."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/clothes-tree-160",
+    "expansion": true,
+    "added": 111,
+    "designer": "anna-maija-jaatinen"
+  },
+  {
+    "dept": "furniture",
+    "slug": "tea-trolley-900",
+    "name": "Tea Trolley 900",
+    "year": 1937,
+    "type": "Table",
+    "material": [
+      "Wood",
+      "Ceramic",
+      "Rattan"
+    ],
+    "materials": "Wood, Ceramic, Rattan",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Tea Trolley 900 is a table by Alvar Aalto, from 1937, produced by Artek. A tiled serving surface and woven basket travel on large wheels within a curved wooden frame.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tiled serving surface and woven basket travel on large wheels within a curved wooden frame."
+      ],
+      [
+        "The idea in use",
+        "Hard, smooth tiles and soft woven storage give the trolley two different ways to hold everyday objects without enclosing them in a cabinet."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/tea-trolley-900",
+    "expansion": true,
+    "added": 108,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "armchair-402",
+    "name": "Armchair 402",
+    "year": 1933,
+    "type": "Lounge",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Armchair 402 is a lounge by Alvar Aalto, from 1933, produced by Artek. A continuous wooden cantilever supports a deep cushioned seat and a gently inclined back.",
+    "story": [
+      [
+        "Shape and construction",
+        "A continuous wooden cantilever supports a deep cushioned seat and a gently inclined back."
+      ],
+      [
+        "The idea in use",
+        "The resilient frame gives the chair its spring, letting a structural bend contribute directly to the experience of sitting."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/armchair-402",
+    "expansion": true,
+    "added": 105,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "armchair-406",
+    "name": "Armchair 406",
+    "year": 1939,
+    "type": "Lounge",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Armchair 406 is a lounge by Alvar Aalto, from 1939, produced by Artek. A woven seat and back stretch between laminated birch rails and curved wooden armrests.",
+    "story": [
+      [
+        "Shape and construction",
+        "A woven seat and back stretch between laminated birch rails and curved wooden armrests."
+      ],
+      [
+        "The idea in use",
+        "The open webbing reduces the visual mass of the chair and allows a simple wooden structure to carry a flexible sitting surface."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/armchair-406",
+    "expansion": true,
+    "added": 102,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "rocket-bar-stool",
+    "name": "Rocket Bar Stool",
+    "year": 1995,
+    "type": "Stool",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Rocket Bar Stool is a stool by Eero Aarnio, from 1995, produced by Artek. Three turned legs spread beneath a circular seat, with connecting braces that suggest a small launch structure.",
+    "story": [
+      [
+        "Shape and construction",
+        "Three turned legs spread beneath a circular seat, with connecting braces that suggest a small launch structure."
+      ],
+      [
+        "The idea in use",
+        "Its solid timber parts give the tall stool a playful silhouette while the broad leg placement keeps the composition grounded."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/rocket-bar-stool",
+    "expansion": true,
+    "added": 99,
+    "designer": "eero-aarnio"
+  },
+  {
+    "dept": "furniture",
+    "slug": "mademoiselle-lounge-chair",
+    "name": "Mademoiselle Lounge Chair",
+    "year": 1956,
+    "type": "Lounge",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Mademoiselle Lounge Chair is a lounge by Ilmari Tapiovaara, from 1956, produced by Artek. A fan of slender wooden spindles rises above a low, broad seat.",
+    "story": [
+      [
+        "Shape and construction",
+        "A fan of slender wooden spindles rises above a low, broad seat."
+      ],
+      [
+        "The idea in use",
+        "The repeated uprights make the tall back visually light, balancing a generous sitting surface with a fine linear structure."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/mademoiselle-lounge-chair",
+    "expansion": true,
+    "added": 96,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "mademoiselle-rocking-chair",
+    "name": "Mademoiselle Rocking Chair",
+    "year": 1956,
+    "type": "Lounge",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Mademoiselle Rocking Chair is a lounge by Ilmari Tapiovaara, from 1956, produced by Artek. A tall spindle back and low seat are carried on long curved rocking runners.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tall spindle back and low seat are carried on long curved rocking runners."
+      ],
+      [
+        "The idea in use",
+        "The open back preserves the lightness of the lounge-chair family while the runners extend its silhouette into a gentle rocking motion."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/mademoiselle-rocking-chair",
+    "expansion": true,
+    "added": 93,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "chair-66",
+    "name": "Chair 66",
+    "year": 1935,
+    "type": "Chair",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Chair 66 is a chair by Alvar Aalto, from 1935, produced by Artek. A circular seat and a wide pierced backrest sit on a straightforward wooden frame.",
+    "story": [
+      [
+        "Shape and construction",
+        "A circular seat and a wide pierced backrest sit on a straightforward wooden frame."
+      ],
+      [
+        "The idea in use",
+        "The broad top rail gives the compact chair a distinctive face, while the visible assembly keeps its construction easy to read."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/chair-66",
+    "expansion": true,
+    "added": 90,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "chair-69",
+    "name": "Chair 69",
+    "year": 1935,
+    "type": "Chair",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Chair 69 is a chair by Alvar Aalto, from 1935, produced by Artek. A broad seat and supportive curved back are held by sturdy timber legs.",
+    "story": [
+      [
+        "Shape and construction",
+        "A broad seat and supportive curved back are held by sturdy timber legs."
+      ],
+      [
+        "The idea in use",
+        "The chair uses restrained shaping where the body meets the wood, allowing a simple dining-chair structure to feel generous and durable."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/chair-69",
+    "expansion": true,
+    "added": 87,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "wall-shelf-112",
+    "name": "Wall Shelf 112",
+    "year": 1936,
+    "type": "Storage",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Wall Shelf 112 is a storage piece by Alvar Aalto, from 1936, produced by Artek. Two looped laminated supports carry a horizontal birch shelf.",
+    "story": [
+      [
+        "Shape and construction",
+        "Two looped laminated supports carry a horizontal birch shelf."
+      ],
+      [
+        "The idea in use",
+        "The brackets turn a necessary supporting part into the defining feature, giving a small wall shelf a clear architectural rhythm."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/wall-shelf-112",
+    "expansion": true,
+    "added": 84,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "kaari-desk",
+    "name": "Kaari Desk",
+    "year": 2015,
+    "type": "Desk",
+    "material": [
+      "Wood",
+      "Metal",
+      "Linoleum"
+    ],
+    "materials": "Wood, Metal, Linoleum",
+    "origin": "France",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Kaari Desk is a desk by Ronan & Erwan Bouroullec, from 2015, produced by Artek. Timber uprights and sweeping steel braces support a thin desk surface.",
+    "story": [
+      [
+        "Shape and construction",
+        "Timber uprights and sweeping steel braces support a thin desk surface."
+      ],
+      [
+        "The idea in use",
+        "The curved metal line ties top and legs together, making the structural reinforcement read like a continuous drawing beneath the desk."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/kaari-desk",
+    "expansion": true,
+    "added": 81,
+    "designer": "ronan-erwan-bouroullec"
+  },
+  {
+    "dept": "furniture",
+    "slug": "kiki-low-table",
+    "name": "Kiki Low Table",
+    "year": 1960,
+    "type": "Table",
+    "material": [
+      "Metal",
+      "Laminate"
+    ],
+    "materials": "Metal, Laminate",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Kiki Low Table is a table by Ilmari Tapiovaara, from 1960, produced by Artek. A slim rectangular top rests on a compact frame of oval steel tubing.",
+    "story": [
+      [
+        "Shape and construction",
+        "A slim rectangular top rests on a compact frame of oval steel tubing."
+      ],
+      [
+        "The idea in use",
+        "The repeated oval section gives the low table a precise profile, allowing it to sit beside upholstered pieces without dominating them."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/kiki-low-table",
+    "expansion": true,
+    "added": 78,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "kiki-bench",
+    "name": "Kiki Bench",
+    "year": 1960,
+    "type": "Bench",
+    "material": [
+      "Metal",
+      "Fabric"
+    ],
+    "materials": "Metal, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Kiki Bench is a bench by Ilmari Tapiovaara, from 1960, produced by Artek. A long upholstered pad sits above an open tubular steel base.",
+    "story": [
+      [
+        "Shape and construction",
+        "A long upholstered pad sits above an open tubular steel base."
+      ],
+      [
+        "The idea in use",
+        "The bench reduces seating to a clear horizontal surface, with narrow supports that keep the space below visually open."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/kiki-bench",
+    "expansion": true,
+    "added": 75,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "kiki-sofa",
+    "name": "Kiki Sofa",
+    "year": 1960,
+    "type": "Sofa",
+    "material": [
+      "Metal",
+      "Fabric"
+    ],
+    "materials": "Metal, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Kiki Sofa is a sofa by Ilmari Tapiovaara, from 1960, produced by Artek. Flat upholstered cushions sit within a restrained steel frame, making a compact linear sofa.",
+    "story": [
+      [
+        "Shape and construction",
+        "Flat upholstered cushions sit within a restrained steel frame, making a compact linear sofa."
+      ],
+      [
+        "The idea in use",
+        "Its separate seat and back volumes keep the outline legible, allowing fabric and tubular metal to do different visual jobs."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/kiki-sofa",
+    "expansion": true,
+    "added": 72,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "kiki-lounge-chair",
+    "name": "Kiki Lounge Chair",
+    "year": 1960,
+    "type": "Lounge",
+    "material": [
+      "Metal",
+      "Fabric"
+    ],
+    "materials": "Metal, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Kiki Lounge Chair is a lounge by Ilmari Tapiovaara, from 1960, produced by Artek. A low upholstered seat and straight back are carried by an oval-tube metal frame.",
+    "story": [
+      [
+        "Shape and construction",
+        "A low upholstered seat and straight back are carried by an oval-tube metal frame."
+      ],
+      [
+        "The idea in use",
+        "The open base makes the chair comparatively light in a room, while its upholstery defines a clear place to sit."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/kiki-lounge-chair",
+    "expansion": true,
+    "added": 69,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "armchair-401",
+    "name": "Armchair 401",
+    "year": 1933,
+    "type": "Lounge",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Armchair 401 is a lounge by Alvar Aalto, from 1933, produced by Artek. A high upholstered back rises above curved wooden arms and a sprung cantilever frame.",
+    "story": [
+      [
+        "Shape and construction",
+        "A high upholstered back rises above curved wooden arms and a sprung cantilever frame."
+      ],
+      [
+        "The idea in use",
+        "The tall back supports the head and shoulders, while the sweeping wood brings a continuous outline around the softer upholstered body."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/armchair-401",
+    "expansion": true,
+    "added": 66,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "bench-153a",
+    "name": "Bench 153A",
+    "year": 1945,
+    "type": "Bench",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Bench 153A is a bench by Alvar Aalto, from 1945, produced by Artek. Closely spaced timber slats form a bench carried by bent birch legs.",
+    "story": [
+      [
+        "Shape and construction",
+        "Closely spaced timber slats form a bench carried by bent birch legs."
+      ],
+      [
+        "The idea in use",
+        "The gaps reduce the visual weight of the long seat and make the relationship between surface and frame immediately visible."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/bench-153a",
+    "expansion": true,
+    "added": 63,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "bar-stool-64",
+    "name": "Bar Stool 64",
+    "year": 1935,
+    "type": "Stool",
+    "material": [
+      "Wood",
+      "Metal"
+    ],
+    "materials": "Wood, Metal",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Bar Stool 64 is a stool by Alvar Aalto, from 1935, produced by Artek. A round seat stands on four bentwood legs joined by a low circular footrest.",
+    "story": [
+      [
+        "Shape and construction",
+        "A round seat stands on four bentwood legs joined by a low circular footrest."
+      ],
+      [
+        "The idea in use",
+        "The non-directional seat works from any side, while the footrest gives a tall wooden structure an additional horizontal connection."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/bar-stool-64",
+    "expansion": true,
+    "added": 60,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "chair-65",
+    "name": "Chair 65",
+    "year": 1935,
+    "type": "Chair",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Chair 65 is a chair by Alvar Aalto, from 1935, produced by Artek. A low curved plywood back sits close above a circular wooden seat.",
+    "story": [
+      [
+        "Shape and construction",
+        "A low curved plywood back sits close above a circular wooden seat."
+      ],
+      [
+        "The idea in use",
+        "The restrained backrest provides support without rising far above the table, giving the chair a quiet, compact profile."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/chair-65",
+    "expansion": true,
+    "added": 57,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "chair-68",
+    "name": "Chair 68",
+    "year": 1935,
+    "type": "Chair",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Chair 68 is a chair by Alvar Aalto, from 1935, produced by Artek. A narrow curved rail and two upright wooden pieces form the back above a circular seat.",
+    "story": [
+      [
+        "Shape and construction",
+        "A narrow curved rail and two upright wooden pieces form the back above a circular seat."
+      ],
+      [
+        "The idea in use",
+        "The small number of clearly separated parts gives the chair a spare outline while retaining support across the lower back."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/chair-68",
+    "expansion": true,
+    "added": 54,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "chair-611",
+    "name": "Chair 611",
+    "year": 1929,
+    "type": "Chair",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Chair 611 is a chair by Alvar Aalto, from 1929, produced by Artek. Woven fabric bands cross a straight birch frame to form both seat and back.",
+    "story": [
+      [
+        "Shape and construction",
+        "Woven fabric bands cross a straight birch frame to form both seat and back."
+      ],
+      [
+        "The idea in use",
+        "The webbing adds flexibility without thick upholstery, leaving the supporting timber visible around every edge of the chair."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/chair-611",
+    "expansion": true,
+    "added": 51,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "lukki-chair",
+    "name": "Lukki Chair",
+    "year": 1951,
+    "type": "Chair",
+    "material": [
+      "Metal",
+      "Wood"
+    ],
+    "materials": "Metal, Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Lukki Chair is a chair by Ilmari Tapiovaara, from 1951, produced by Artek. A tubular metal frame carries moulded wooden panels for the seat, back and compact arms.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tubular metal frame carries moulded wooden panels for the seat, back and compact arms."
+      ],
+      [
+        "The idea in use",
+        "Its narrow supports and projecting armrests give the chair an insect-like outline while preserving a practical, compact footprint."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/lukki-chair",
+    "expansion": true,
+    "added": 48,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "rival-chair",
+    "name": "Rival Chair",
+    "year": 2014,
+    "type": "Chair",
+    "material": [
+      "Wood",
+      "Plastic",
+      "Fabric"
+    ],
+    "materials": "Wood, Plastic, Fabric",
+    "origin": "Germany",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Rival Chair is a chair by Konstantin Grcic, from 2014, produced by Artek. A rounded wooden back joins short arms above a shaped seat and widely spaced legs.",
+    "story": [
+      [
+        "Shape and construction",
+        "A rounded wooden back joins short arms above a shaped seat and widely spaced legs."
+      ],
+      [
+        "The idea in use",
+        "The backrest and legs use different ways of forming timber, bringing moulded curves and solid milled components into one chair."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/rival-chair",
+    "expansion": true,
+    "added": 45,
+    "designer": "konstantin-grcic"
+  },
+  {
+    "dept": "furniture",
+    "slug": "armchair-42",
+    "name": "Armchair 42",
+    "year": 1932,
+    "type": "Lounge",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Armchair 42 is a lounge by Alvar Aalto, from 1932, produced by Artek. A dark shaped plywood seat rests within a pale laminated birch cantilever.",
+    "story": [
+      [
+        "Shape and construction",
+        "A dark shaped plywood seat rests within a pale laminated birch cantilever."
+      ],
+      [
+        "The idea in use",
+        "The contrast makes the two structural ideas easy to see: the seat holds the body while the bent outer frame supplies support and spring."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/armchair-42",
+    "expansion": true,
+    "added": 42,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "lounge-chair-43",
+    "name": "Lounge Chair 43",
+    "year": 1937,
+    "type": "Lounge",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Lounge Chair 43 is a lounge by Alvar Aalto, from 1937, produced by Artek. A long woven reclining surface stretches over continuous curved birch supports.",
+    "story": [
+      [
+        "Shape and construction",
+        "A long woven reclining surface stretches over continuous curved birch supports."
+      ],
+      [
+        "The idea in use",
+        "The sweeping frame carries the sitter in a low position, with the resilience of the timber replacing a conventional four-leg stance."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/lounge-chair-43",
+    "expansion": true,
+    "added": 39,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "day-bed-710",
+    "name": "Day Bed 710",
+    "year": 1933,
+    "type": "Sofa",
+    "material": [
+      "Wood",
+      "Fabric"
+    ],
+    "materials": "Wood, Fabric",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Day Bed 710 is a sofa by Alvar Aalto, from 1933, produced by Artek. A slatted timber platform on bent legs supports a simple upholstered mattress.",
+    "story": [
+      [
+        "Shape and construction",
+        "A slatted timber platform on bent legs supports a simple upholstered mattress."
+      ],
+      [
+        "The idea in use",
+        "The uncomplicated frame makes the piece useful for both sitting and reclining, keeping its character closer to a platform than a bulky sofa."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/day-bed-710",
+    "expansion": true,
+    "added": 37,
+    "designer": "alvar-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "side-table-606",
+    "name": "Side Table 606",
+    "year": 1932,
+    "type": "Table",
+    "material": [
+      "Metal",
+      "Wood"
+    ],
+    "materials": "Metal, Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Side Table 606 is a table by Aino Aalto, from 1932, produced by Artek. A small plywood top sits above a tubular frame with an open, three-quarter-circle base.",
+    "story": [
+      [
+        "Shape and construction",
+        "A small plywood top sits above a tubular frame with an open, three-quarter-circle base."
+      ],
+      [
+        "The idea in use",
+        "The gap in the base allows the table to pull close to a chair or bed, putting its useful surface within reach."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/side-table-606",
+    "expansion": true,
+    "added": 35,
+    "designer": "aino-aalto"
+  },
+  {
+    "dept": "furniture",
+    "slug": "trienna-table",
+    "name": "Trienna Table",
+    "year": 1954,
+    "type": "Table",
+    "material": [
+      "Wood"
+    ],
+    "materials": "Wood",
+    "origin": "Finland",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Trienna Table is a table by Ilmari Tapiovaara, from 1954, produced by Artek. Three bent plywood sheets form a hexagonal top and three triangular supporting legs.",
+    "story": [
+      [
+        "Shape and construction",
+        "Three bent plywood sheets form a hexagonal top and three triangular supporting legs."
+      ],
+      [
+        "The idea in use",
+        "Each sheet contributes to both surface and support, so the table reads as a folded volume rather than a top placed on a separate base."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/trienna-table",
+    "expansion": true,
+    "added": 33,
+    "designer": "ilmari-tapiovaara"
+  },
+  {
+    "dept": "furniture",
+    "slug": "rope-chair",
+    "name": "Rope Chair",
+    "year": 2020,
+    "type": "Chair",
+    "material": [
+      "Metal",
+      "Rope",
+      "Wood"
+    ],
+    "materials": "Metal, Rope, Wood",
+    "origin": "France",
+    "status": "In production",
+    "manufacturer": "Artek",
+    "inShort": "Rope Chair is a chair by Ronan & Erwan Bouroullec, from 2020, produced by Artek. A slender metal frame is joined by a soft rope that forms part of the back and arms.",
+    "story": [
+      [
+        "Shape and construction",
+        "A slender metal frame is joined by a soft rope that forms part of the back and arms."
+      ],
+      [
+        "The idea in use",
+        "Rigid tubing and flexible rope meet at the points of contact, making the contrast between structural line and yielding support explicit."
+      ]
+    ],
+    "source": "https://www.artek.fi/en/products/rope-chair",
+    "expansion": true,
+    "added": 31,
+    "designer": "ronan-erwan-bouroullec"
+  },
+  {
+    "dept": "objects",
+    "slug": "9093-kettle",
+    "name": "9093",
+    "year": 1985,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "USA",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "9093 is a design object by Michael Graves, from 1985, produced by Alessi. A polished conical kettle combines a coloured arched handle with a bird-shaped whistle.",
+    "story": [
+      [
+        "Shape and construction",
+        "A polished conical kettle combines a coloured arched handle with a bird-shaped whistle."
+      ],
+      [
+        "The idea in use",
+        "The whistle gives an ordinary boiling signal a small character, placing humour directly within the working parts of the kettle."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/9093-kettle",
+    "expansion": true,
+    "added": 128,
+    "designer": "michael-graves"
+  },
+  {
+    "dept": "objects",
+    "slug": "9090-espresso-coffee-maker",
+    "name": "9090",
+    "year": 1979,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Germany",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "9090 is a design object by Richard Sapper, from 1979, produced by Alessi. A stainless-steel espresso maker uses a broad lower chamber and a compact, upright handle.",
+    "story": [
+      [
+        "Shape and construction",
+        "A stainless-steel espresso maker uses a broad lower chamber and a compact, upright handle."
+      ],
+      [
+        "The idea in use",
+        "Its strong base and carefully shaped pouring lip make the familiar coffee-making sequence visible in the form of the vessel."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/9090-espresso-coffee-maker",
+    "expansion": true,
+    "added": 125,
+    "designer": "richard-sapper"
+  },
+  {
+    "dept": "objects",
+    "slug": "la-conica-espresso-coffee-maker",
+    "name": "La conica",
+    "year": 1984,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "La conica is a design object by Aldo Rossi, from 1984, produced by Alessi. A cylindrical coffee maker rises to a sharp conical lid above a contrasting copper-coloured base.",
+    "story": [
+      [
+        "Shape and construction",
+        "A cylindrical coffee maker rises to a sharp conical lid above a contrasting copper-coloured base."
+      ],
+      [
+        "The idea in use",
+        "Simple architectural volumes turn a small kitchen tool into a composition of tower, roof and foundation."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/la-conica-espresso-coffee-maker",
+    "expansion": true,
+    "added": 122,
+    "designer": "aldo-rossi"
+  },
+  {
+    "dept": "objects",
+    "slug": "la-cupola-espresso-coffee-maker",
+    "name": "La cupola",
+    "year": 1988,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "La cupola is a design object by Aldo Rossi, from 1988, produced by Alessi. A rounded dome caps an upright coffee maker with a dark side handle.",
+    "story": [
+      [
+        "Shape and construction",
+        "A rounded dome caps an upright coffee maker with a dark side handle."
+      ],
+      [
+        "The idea in use",
+        "The domed roof gives the vessel a miniature architectural identity while leaving its everyday purpose immediately recognizable."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/la-cupola-espresso-coffee-maker",
+    "expansion": true,
+    "added": 119,
+    "designer": "aldo-rossi"
+  },
+  {
+    "dept": "objects",
+    "slug": "anna-g-corkscrew",
+    "name": "Anna G.",
+    "year": 1994,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Anna G. is a design object by Alessandro Mendini, from 1994, produced by Alessi. A smiling face and a skirt-like body turn the two arms of a winged corkscrew into a figure.",
+    "story": [
+      [
+        "Shape and construction",
+        "A smiling face and a skirt-like body turn the two arms of a winged corkscrew into a figure."
+      ],
+      [
+        "The idea in use",
+        "Its character grows out of the operating mechanism: raising and lowering the arms becomes a small theatrical gesture."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/anna-g-corkscrew",
+    "expansion": true,
+    "added": 116,
+    "designer": "alessandro-mendini"
+  },
+  {
+    "dept": "objects",
+    "slug": "alessandro-m-corkscrew",
+    "name": "Alessandro M.",
+    "year": 2003,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Alessandro M. is a design object by Alessandro Mendini, from 2003, produced by Alessi. A small figure in a hat conceals a corkscrew beneath its cylindrical body.",
+    "story": [
+      [
+        "Shape and construction",
+        "A small figure in a hat conceals a corkscrew beneath its cylindrical body."
+      ],
+      [
+        "The idea in use",
+        "The object treats opening a bottle as a playful encounter with a character, while keeping the tool compact enough for the hand."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/alessandro-m-corkscrew",
+    "expansion": true,
+    "added": 113,
+    "designer": "alessandro-mendini"
+  },
+  {
+    "dept": "objects",
+    "slug": "nuovo-milano-cutlery-set-24-pieces",
+    "name": "Nuovo Milano",
+    "year": 1987,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Nuovo Milano is a design object by Ettore Sottsass & Alberto Gozzi, from 1987, produced by Alessi. Rounded stainless-steel handles give the cutlery a smooth, pebble-like feel.",
+    "story": [
+      [
+        "Shape and construction",
+        "Rounded stainless-steel handles give the cutlery a smooth, pebble-like feel."
+      ],
+      [
+        "The idea in use",
+        "The transitions between handle and working end are softened, making an everyday place setting feel continuous rather than assembled from abrupt shapes."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/nuovo-milano-cutlery-set-24-pieces",
+    "expansion": true,
+    "added": 110,
+    "designer": "ettore-sottsass-alberto-gozzi"
+  },
+  {
+    "dept": "objects",
+    "slug": "parmenide-grater-with-cheese-cellar",
+    "name": "Parmenide",
+    "year": 1994,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Argentina · Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Parmenide is a design object by Alejandro Ruiz & CSA, from 1994, produced by Alessi. A small metal grater sits across a curved container that catches the grated cheese.",
+    "story": [
+      [
+        "Shape and construction",
+        "A small metal grater sits across a curved container that catches the grated cheese."
+      ],
+      [
+        "The idea in use",
+        "Combining preparation and storage reduces the need for a second dish and gives the grater a useful resting place."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/parmenide-grater-with-cheese-cellar",
+    "expansion": true,
+    "added": 107,
+    "designer": "alejandro-ruiz-csa"
+  },
+  {
+    "dept": "objects",
+    "slug": "plisse-electric-kettle-european-plug",
+    "name": "Plissé Kettle",
+    "year": 2018,
+    "type": "Kitchen",
+    "material": [
+      "Plastic"
+    ],
+    "materials": "Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Plissé Kettle is a design object by Michele De Lucchi, from 2018, produced by Alessi. Fine vertical pleats wrap around an electric kettle with a sharply defined spout and handle.",
+    "story": [
+      [
+        "Shape and construction",
+        "Fine vertical pleats wrap around an electric kettle with a sharply defined spout and handle."
+      ],
+      [
+        "The idea in use",
+        "The repeated folds give a familiar appliance the rhythm of folded fabric, turning the outer shell into its defining surface."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/plisse-electric-kettle-european-plug",
+    "expansion": true,
+    "added": 104,
+    "designer": "michele-de-lucchi-solo"
+  },
+  {
+    "dept": "objects",
+    "slug": "pulcina-espresso-coffee-maker-1",
+    "name": "Pulcina",
+    "year": 2015,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Pulcina is a design object by Michele De Lucchi, from 2015, produced by Alessi. Stepped metal curves build a rounded coffee maker with a dark handle and a pointed pouring spout.",
+    "story": [
+      [
+        "Shape and construction",
+        "Stepped metal curves build a rounded coffee maker with a dark handle and a pointed pouring spout."
+      ],
+      [
+        "The idea in use",
+        "The ribbed silhouette makes its volume unusually tactile, while the distinct spout gives the otherwise rounded body a clear direction."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/pulcina-espresso-coffee-maker-1",
+    "expansion": true,
+    "added": 101,
+    "designer": "michele-de-lucchi-solo"
+  },
+  {
+    "dept": "objects",
+    "slug": "caffa-travel-mug",
+    "name": "Caffa",
+    "year": 2019,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Caffa is a design object by Giulio Iacchetti, from 2019, produced by Alessi. A tapered steel travel mug is closed by a simple coloured lid.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tapered steel travel mug is closed by a simple coloured lid."
+      ],
+      [
+        "The idea in use",
+        "The contrasting materials distinguish the insulated vessel from the part handled during drinking, keeping the object visually spare and easy to identify."
+      ]
+    ],
+    "source": "https://www.giulioiacchetti.com/?p=5579",
+    "expansion": true,
+    "added": 98,
+    "designer": "giulio-iacchetti"
+  },
+  {
+    "dept": "objects",
+    "slug": "tonale-small-bowl-4-pieces",
+    "name": "Tonale Bowl",
+    "year": 2009,
+    "type": "Kitchen",
+    "material": [
+      "Ceramic"
+    ],
+    "materials": "Ceramic",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Tonale Bowl is a design object by David Chipperfield, from 2009, produced by Alessi. A small ceramic bowl uses a softly rounded wall and restrained earthy colour.",
+    "story": [
+      [
+        "Shape and construction",
+        "A small ceramic bowl uses a softly rounded wall and restrained earthy colour."
+      ],
+      [
+        "The idea in use",
+        "The quiet shape allows the material and the food it holds to remain central, fitting into a coordinated family of everyday tableware."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/tonale-small-bowl-4-pieces",
+    "expansion": true,
+    "added": 95,
+    "designer": "david-chipperfield"
+  },
+  {
+    "dept": "objects",
+    "slug": "mediterraneo-fruit-holder",
+    "name": "Mediterraneo",
+    "year": 2004,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Mediterraneo is a design object by Emma Silvestris & LPWK, from 2004, produced by Alessi. Branches cut from sheet metal rise into an open coral-like bowl.",
+    "story": [
+      [
+        "Shape and construction",
+        "Branches cut from sheet metal rise into an open coral-like bowl."
+      ],
+      [
+        "The idea in use",
+        "The empty spaces are as important as the metal, making a rigid material read as a light network rather than a solid container."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/mediterraneo-fruit-holder",
+    "expansion": true,
+    "added": 92,
+    "designer": "emma-silvestris-lpwk"
+  },
+  {
+    "dept": "objects",
+    "slug": "trinity-fruit-holder",
+    "name": "Trinity Fruit Bowl",
+    "year": 2015,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Australia",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Trinity Fruit Bowl is a design object by Adam Cornish, from 2015, produced by Alessi. A sequence of curved metal ribs spirals around the centre of an open fruit bowl.",
+    "story": [
+      [
+        "Shape and construction",
+        "A sequence of curved metal ribs spirals around the centre of an open fruit bowl."
+      ],
+      [
+        "The idea in use",
+        "The changing direction of the ribs gives a static container a sense of movement while leaving its contents visible."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/trinity-fruit-holder",
+    "expansion": true,
+    "added": 89,
+    "designer": "adam-cornish"
+  },
+  {
+    "dept": "objects",
+    "slug": "bark-centrepiece",
+    "name": "Bark Centrepiece",
+    "year": 2015,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Belgium · Tunisia",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Bark Centrepiece is a design object by Michel Boucquillon & Donia Maaoui, from 2015, produced by Alessi. A low elongated metal bowl is pierced with an irregular branching pattern.",
+    "story": [
+      [
+        "Shape and construction",
+        "A low elongated metal bowl is pierced with an irregular branching pattern."
+      ],
+      [
+        "The idea in use",
+        "The perforations lighten the broad surface and translate the texture of bark into an object for the table."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/bark-centrepiece",
+    "expansion": true,
+    "added": 86,
+    "designer": "michel-boucquillon-donia-maaoui"
+  },
+  {
+    "dept": "objects",
+    "slug": "blow-up-citrus-basket",
+    "name": "Blow Up Basket",
+    "year": 2004,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Brazil",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Blow Up Basket is a design object by Fernando & Humberto Campana, from 2004, produced by Alessi. Thin steel rods overlap in a loose-looking cluster to form an open basket.",
+    "story": [
+      [
+        "Shape and construction",
+        "Thin steel rods overlap in a loose-looking cluster to form an open basket."
+      ],
+      [
+        "The idea in use",
+        "The apparent disorder is held within a useful volume, giving a familiar container the energy of an unfinished construction."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/blow-up-citrus-basket",
+    "expansion": true,
+    "added": 83,
+    "designer": "fernando-humberto-campana"
+  },
+  {
+    "dept": "objects",
+    "slug": "la-stanza-dello-scirocco-wall-clock",
+    "name": "La Stanza dello Scirocco Clock",
+    "year": 2015,
+    "type": "Clock",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "La Stanza dello Scirocco Clock is a design object by Mario Trimarchi, from 2015, produced by Alessi. Irregular metal panels gather around the clock face like fragments caught in a gust.",
+    "story": [
+      [
+        "Shape and construction",
+        "Irregular metal panels gather around the clock face like fragments caught in a gust."
+      ],
+      [
+        "The idea in use",
+        "The moving-looking perimeter contrasts with the steady hands, turning the idea of passing time into a layered wall composition."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/la-stanza-dello-scirocco-wall-clock",
+    "expansion": true,
+    "added": 80,
+    "designer": "mario-trimarchi"
+  },
+  {
+    "dept": "objects",
+    "slug": "todo-giant-grater",
+    "name": "Todo",
+    "year": 2004,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Wood"
+    ],
+    "materials": "Metal, Wood",
+    "origin": "Germany",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Todo is a design object by Richard Sapper, from 2004, produced by Alessi. A tall tapering metal grater ends in a long wooden handle.",
+    "story": [
+      [
+        "Shape and construction",
+        "A tall tapering metal grater ends in a long wooden handle."
+      ],
+      [
+        "The idea in use",
+        "Its extended cone creates a generous working surface and makes a kitchen tool substantial enough to be placed directly on the dining table."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/todo-giant-grater",
+    "expansion": true,
+    "added": 77,
+    "designer": "richard-sapper"
+  },
+  {
+    "dept": "objects",
+    "slug": "5070-condiment-set",
+    "name": "5070",
+    "year": 1978,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Glass"
+    ],
+    "materials": "Metal, Glass",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "5070 is a design object by Ettore Sottsass, from 1978, produced by Alessi. Glass containers for oil, vinegar, salt and pepper sit within a compact metal carrier.",
+    "story": [
+      [
+        "Shape and construction",
+        "Glass containers for oil, vinegar, salt and pepper sit within a compact metal carrier."
+      ],
+      [
+        "The idea in use",
+        "The shared base gathers several small tools into one portable arrangement, balancing transparent vessels with a clearly outlined frame."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/5070-condiment-set",
+    "expansion": true,
+    "added": 74,
+    "designer": "ettore-sottsass"
+  },
+  {
+    "dept": "objects",
+    "slug": "5071-parmesan-cheese-cellar",
+    "name": "5071",
+    "year": 1978,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Glass"
+    ],
+    "materials": "Metal, Glass",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "5071 is a design object by Ettore Sottsass, from 1978, produced by Alessi. A glass cheese container rests inside a polished steel holder with a fitted lid and spoon.",
+    "story": [
+      [
+        "Shape and construction",
+        "A glass cheese container rests inside a polished steel holder with a fitted lid and spoon."
+      ],
+      [
+        "The idea in use",
+        "The contrasting materials keep the contents visible while giving the vessel a durable edge and a defined place in a table setting."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/5071-parmesan-cheese-cellar",
+    "expansion": true,
+    "added": 71,
+    "designer": "ettore-sottsass"
+  },
+  {
+    "dept": "objects",
+    "slug": "9097-sugar-bowl-with-spoon",
+    "name": "9097",
+    "year": 1988,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "USA",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "9097 is a design object by Michael Graves, from 1988, produced by Alessi. A rounded polished sugar bowl has small coloured handles and a matching spoon.",
+    "story": [
+      [
+        "Shape and construction",
+        "A rounded polished sugar bowl has small coloured handles and a matching spoon."
+      ],
+      [
+        "The idea in use",
+        "The miniature handles and spherical details give the vessel a character that links it to the broader Graves tableware family."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/9097-sugar-bowl-with-spoon",
+    "expansion": true,
+    "added": 68,
+    "designer": "michael-graves"
+  },
+  {
+    "dept": "objects",
+    "slug": "9098-pepper-mill",
+    "name": "9098",
+    "year": 1988,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "USA",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "9098 is a design object by Michael Graves, from 1988, produced by Alessi. A cylindrical metal pepper mill is topped by a coloured wing-like turning piece.",
+    "story": [
+      [
+        "Shape and construction",
+        "A cylindrical metal pepper mill is topped by a coloured wing-like turning piece."
+      ],
+      [
+        "The idea in use",
+        "The enlarged top makes the grinding action legible, allowing a functional grip to become the strongest visual feature."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/9098-pepper-mill",
+    "expansion": true,
+    "added": 65,
+    "designer": "michael-graves"
+  },
+  {
+    "dept": "objects",
+    "slug": "mami-pitcher",
+    "name": "Mami Pitcher",
+    "year": 2003,
+    "type": "Kitchen",
+    "material": [
+      "Glass"
+    ],
+    "materials": "Glass",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Mami Pitcher is a design object by Stefano Giovannoni, from 2003, produced by Alessi. A clear glass pitcher narrows at the waist before opening into a simple pouring rim.",
+    "story": [
+      [
+        "Shape and construction",
+        "A clear glass pitcher narrows at the waist before opening into a simple pouring rim."
+      ],
+      [
+        "The idea in use",
+        "The soft outline avoids extra handles or decoration, letting the thickness and transparency of the glass define the vessel."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/mami-pitcher",
+    "expansion": true,
+    "added": 62,
+    "designer": "stefano-giovannoni"
+  },
+  {
+    "dept": "objects",
+    "slug": "tigrito-cat-bowl",
+    "name": "Tigrito",
+    "year": 2005,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Tigrito is a design object by Miriam Mirri, from 2005, produced by Alessi. Two removable metal bowls sit on either side of a small cat-shaped central handle.",
+    "story": [
+      [
+        "Shape and construction",
+        "Two removable metal bowls sit on either side of a small cat-shaped central handle."
+      ],
+      [
+        "The idea in use",
+        "The raised tail gives the bowls a convenient carrying point, bringing a playful character into an ordinary feeding routine."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/tigrito-cat-bowl",
+    "expansion": true,
+    "added": 59,
+    "designer": "miriam-mirri"
+  },
+  {
+    "dept": "objects",
+    "slug": "girotondo-round-tray",
+    "name": "Girotondo Tray",
+    "year": 1989,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Girotondo Tray is a design object by Stefano Giovannoni & Guido Venturini, from 1989, produced by Alessi. A polished circular tray has a raised rim cut with a repeating paper-doll motif.",
+    "story": [
+      [
+        "Shape and construction",
+        "A polished circular tray has a raised rim cut with a repeating paper-doll motif."
+      ],
+      [
+        "The idea in use",
+        "The cutouts bring a familiar chain of figures into the metal edge, turning a retaining border into an immediately recognizable pattern."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/girotondo-round-tray",
+    "expansion": true,
+    "added": 56,
+    "designer": "stefano-giovannoni-guido-venturini"
+  },
+  {
+    "dept": "objects",
+    "slug": "ossidiana-espresso-coffee-maker",
+    "name": "Ossidiana",
+    "year": 2014,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Ossidiana is a design object by Mario Trimarchi, from 2014, produced by Alessi. Angular cuts interrupt the body of a metal espresso maker, giving it a stone-like faceted outline.",
+    "story": [
+      [
+        "Shape and construction",
+        "Angular cuts interrupt the body of a metal espresso maker, giving it a stone-like faceted outline."
+      ],
+      [
+        "The idea in use",
+        "The facets catch light differently as the vessel turns, connecting its name to the appearance of chipped volcanic glass."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/ossidiana-espresso-coffee-maker",
+    "expansion": true,
+    "added": 53,
+    "designer": "mario-trimarchi"
+  },
+  {
+    "dept": "objects",
+    "slug": "moka-espresso-coffee-maker",
+    "name": "Moka",
+    "year": 2019,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "United Kingdom",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Moka is a design object by David Chipperfield, from 2019, produced by Alessi. A faceted aluminium coffee maker has a flat-topped lid and a precisely shaped handle.",
+    "story": [
+      [
+        "Shape and construction",
+        "A faceted aluminium coffee maker has a flat-topped lid and a precisely shaped handle."
+      ],
+      [
+        "The idea in use",
+        "Its restrained revisions keep the familiar moka-pot type recognizable while sharpening the relationship between body, lid and grip."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/moka-espresso-coffee-maker",
+    "expansion": true,
+    "added": 50,
+    "designer": "david-chipperfield"
+  },
+  {
+    "dept": "objects",
+    "slug": "sg63-electric-citrus-juicer-european-plug",
+    "name": "SG63 Citrus Juicer",
+    "year": 2003,
+    "type": "Kitchen",
+    "material": [
+      "Metal",
+      "Plastic"
+    ],
+    "materials": "Metal, Plastic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "SG63 Citrus Juicer is a design object by Stefano Giovannoni, from 2003, produced by Alessi. A rounded polished body supports a clear upper cover and a compact citrus-pressing mechanism.",
+    "story": [
+      [
+        "Shape and construction",
+        "A rounded polished body supports a clear upper cover and a compact citrus-pressing mechanism."
+      ],
+      [
+        "The idea in use",
+        "The continuous shell gives an electrical kitchen tool a clear, contained outline, while the transparent top keeps its working area visible."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/sg63-electric-citrus-juicer-european-plug",
+    "expansion": true,
+    "added": 47,
+    "designer": "stefano-giovannoni"
+  },
+  {
+    "dept": "objects",
+    "slug": "la-bella-tavola-soup-bowl",
+    "name": "La Bella Tavola Bowl",
+    "year": 1993,
+    "type": "Kitchen",
+    "material": [
+      "Ceramic"
+    ],
+    "materials": "Ceramic",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "La Bella Tavola Bowl is a design object by Ettore Sottsass, from 1993, produced by Alessi. A broad white porcelain rim surrounds a shallow bowl with a slim outer profile.",
+    "story": [
+      [
+        "Shape and construction",
+        "A broad white porcelain rim surrounds a shallow bowl with a slim outer profile."
+      ],
+      [
+        "The idea in use",
+        "The generous border frames the food like a small architectural surface, using proportion instead of applied decoration to create character."
+      ],
+      [
+        "An original returned",
+        "The porcelain service was designed in 1993. Alessi reissued the collection in 2026, retaining its broad rims and spare white surfaces."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/la-bella-tavola-soup-bowl",
+    "expansion": true,
+    "added": 44,
+    "designer": "ettore-sottsass"
+  },
+  {
+    "dept": "objects",
+    "slug": "bulla-bottle-opener",
+    "name": "Bulla",
+    "year": 2015,
+    "type": "Kitchen",
+    "material": [
+      "Metal"
+    ],
+    "materials": "Metal",
+    "origin": "Italy",
+    "status": "In production",
+    "manufacturer": "Alessi",
+    "inShort": "Bulla is a design object by Valerio Sommella, from 2015, produced by Alessi. A compact polished bottle opener folds a curved shell-like shape around its working opening.",
+    "story": [
+      [
+        "Shape and construction",
+        "A compact polished bottle opener folds a curved shell-like shape around its working opening."
+      ],
+      [
+        "The idea in use",
+        "Its smooth external form is comfortable to hold, while the opening gives a small sculptural object a clear practical role."
+      ]
+    ],
+    "source": "https://eu.alessi.com/products/bulla-bottle-opener",
+    "expansion": true,
+    "added": 41,
+    "designer": "valerio-sommella"
+  }
+];
+  OBJECTS = OBJECTS.concat(ADDITIONAL_OBJECTS);
   OBJECTS.forEach(function (o) { if (!o.yearLabel) o.yearLabel = String(o.year); o.era = o.year < 1900 ? '1850s' : Math.floor(o.year / 10) * 10 + 's'; });
   var oBySlug = {}; OBJECTS.forEach(function (o) { oBySlug[o.slug] = o; });
 

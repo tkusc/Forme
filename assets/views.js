@@ -2395,6 +2395,5406 @@
         }
       }
     ]
+  },
+  "snoopy": {
+    "src": "/photos/studio/snoopy.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/snoopy/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Snoopy-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/snoopy.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/snoopy.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/snoopy.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/snoopy.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/snoopy.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/snoopy/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Snoopy-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/snoopy.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/snoopy.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/snoopy.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/snoopy.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "gatto": {
+    "src": "/photos/studio/gatto.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/gatto/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Gatto-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/gatto.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/gatto.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/gatto.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/gatto.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/gatto.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/gatto/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Gatto-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/gatto.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/gatto.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/gatto.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/gatto.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "viscontea": {
+    "src": "/photos/studio/viscontea.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/viscontea/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Viscontea-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/viscontea.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/viscontea.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/viscontea.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/viscontea.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/viscontea.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/viscontea/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Viscontea-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/viscontea.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/viscontea.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/viscontea.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/viscontea.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "taraxacum": {
+    "src": "/photos/studio/taraxacum.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/taraxacum/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Taraxacum-S-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/taraxacum.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/taraxacum.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/taraxacum.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/taraxacum.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/taraxacum.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/taraxacum/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Taraxacum-S-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/taraxacum.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/taraxacum.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/taraxacum.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/taraxacum.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "toio": {
+    "src": "/photos/studio/toio.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/toio/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Toio-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/toio.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/toio.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/toio.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/toio.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/toio.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/toio/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Toio-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/toio.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/toio.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/toio.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/toio.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "parentesi": {
+    "src": "/photos/studio/parentesi.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/parentesi/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Parentesi-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/parentesi.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/parentesi.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/parentesi.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/parentesi.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/parentesi.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/parentesi/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Parentesi-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/parentesi.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/parentesi.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/parentesi.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/parentesi.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "lampadina": {
+    "src": "/photos/studio/lampadina.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/lampadina/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Lampadina-Flos-Decorative-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/lampadina.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/lampadina.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/lampadina.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/lampadina.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/lampadina.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/lampadina/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Lampadina-Flos-Decorative-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/lampadina.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/lampadina.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/lampadina.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/lampadina.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "2097": {
+    "src": "/photos/studio/2097.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/2097/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-2097-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/2097.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/2097.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/2097.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/2097.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/2097.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/2097/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-2097-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/2097.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/2097.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/2097.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/2097.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "biagio": {
+    "src": "/photos/studio/biagio.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/biagio/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Biagio-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/biagio.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/biagio.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/biagio.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/biagio.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/biagio.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/biagio/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Biagio-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/biagio.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/biagio.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/biagio.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/biagio.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "chiara": {
+    "src": "/photos/studio/chiara.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/chiara/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Chiara-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/chiara.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/chiara.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/chiara.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/chiara.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/chiara.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/chiara/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Chiara-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/chiara.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/chiara.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/chiara.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/chiara.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "glo-ball": {
+    "src": "/photos/studio/glo-ball.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/glo-ball/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Glo-Ball-CW-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/glo-ball.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/glo-ball.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/glo-ball.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/glo-ball.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/glo-ball.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/glo-ball/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Glo-Ball-CW-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/glo-ball.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/glo-ball.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/glo-ball.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/glo-ball.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "mayday": {
+    "src": "/photos/studio/mayday.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/mayday/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-May-day-Flos-Outdoor-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/mayday.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/mayday.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/mayday.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/mayday.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/mayday.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/mayday/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-May-day-Flos-Outdoor-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/mayday.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/mayday.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/mayday.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/mayday.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "spun-light": {
+    "src": "/photos/studio/spun-light.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/spun-light/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Spun-Light-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/spun-light.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/spun-light.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/spun-light.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/spun-light.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/spun-light.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/spun-light/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Spun-Light-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/spun-light.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/spun-light.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/spun-light.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/spun-light.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "ic-lights": {
+    "src": "/photos/studio/ic-lights.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/ic-lights/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-IC-Lights-Wall-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/ic-lights.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/ic-lights.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/ic-lights.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ic-lights.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/ic-lights.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/ic-lights/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-IC-Lights-Wall-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/ic-lights.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/ic-lights.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/ic-lights.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ic-lights.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "aim": {
+    "src": "/photos/studio/aim.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/aim/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Aim-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/aim.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/aim.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/aim.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/aim.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/aim.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/aim/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Aim-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/aim.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/aim.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/aim.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/aim.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "coordinates": {
+    "src": "/photos/studio/coordinates.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/coordinates/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Coordinates-Wall-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/coordinates.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/coordinates.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/coordinates.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/coordinates.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/coordinates.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/coordinates/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Coordinates-Wall-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/coordinates.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/coordinates.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/coordinates.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/coordinates.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "bellhop": {
+    "src": "/photos/studio/bellhop.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/bellhop/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Bellhop-Table-Glass-Flos-Decorative-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/bellhop.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/bellhop.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/bellhop.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/bellhop.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/bellhop.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/bellhop/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Bellhop-Table-Glass-Flos-Decorative-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/bellhop.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/bellhop.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/bellhop.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/bellhop.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "arrangements": {
+    "src": "/photos/studio/arrangements.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/arrangements/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Arrangements-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/arrangements.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/arrangements.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/arrangements.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/arrangements.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/arrangements.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/arrangements/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Arrangements-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/arrangements.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/arrangements.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/arrangements.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/arrangements.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "ariette": {
+    "src": "/photos/studio/ariette.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/ariette/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Ariette-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/ariette.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/ariette.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/ariette.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ariette.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/ariette.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/ariette/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Ariette-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/ariette.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/ariette.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/ariette.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ariette.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tatou": {
+    "src": "/photos/studio/tatou.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/tatou/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Tatou-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/tatou.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tatou.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tatou.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tatou.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tatou.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/tatou/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Tatou-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/tatou.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tatou.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tatou.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tatou.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tight-light": {
+    "src": "/photos/studio/tight-light.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/tight-light/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Tight-Light-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/tight-light.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tight-light.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tight-light.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tight-light.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tight-light.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/tight-light/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Tight-Light-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/tight-light.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tight-light.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tight-light.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tight-light.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tab": {
+    "src": "/photos/studio/tab.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/tab/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Tab-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/tab.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tab.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tab.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tab.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tab.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/tab/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Tab-Table-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/tab.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tab.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tab.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tab.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "smithfield": {
+    "src": "/photos/studio/smithfield.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/smithfield/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Smithfield-C-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/smithfield.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/smithfield.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/smithfield.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/smithfield.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/smithfield.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/smithfield/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Smithfield-C-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/smithfield.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/smithfield.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/smithfield.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/smithfield.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "wan": {
+    "src": "/photos/studio/wan.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/wan/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Wan-Ceiling-Wall-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/wan.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/wan.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/wan.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/wan.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/wan.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/wan/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Wan-Ceiling-Wall-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/wan.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/wan.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/wan.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wan.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "pochette": {
+    "src": "/photos/studio/pochette.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/pochette/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Pochette-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/pochette.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/pochette.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/pochette.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pochette.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/pochette.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/pochette/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Pochette-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/pochette.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/pochette.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/pochette.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pochette.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "stylos": {
+    "src": "/photos/studio/stylos.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/stylos/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Stylos-Flos-Decorative-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/stylos.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/stylos.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/stylos.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/stylos.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/stylos.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/stylos/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Stylos-Flos-Decorative-Thubnail-life_over_grey_I.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/stylos.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/stylos.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/stylos.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/stylos.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "wirering": {
+    "src": "/photos/studio/wirering.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/wirering/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Wirering-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/wirering.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/wirering.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/wirering.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/wirering.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/wirering.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/wirering/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Wirering-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/wirering.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/wirering.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/wirering.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wirering.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "superloon": {
+    "src": "/photos/studio/superloon.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/superloon/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Superloon-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/superloon.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/superloon.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/superloon.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/superloon.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/superloon.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/superloon/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Superloon-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/superloon.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/superloon.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/superloon.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/superloon.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "ok": {
+    "src": "/photos/studio/ok.jpg",
+    "source": "Flos product reference",
+    "page": "https://professional.flos.com/en/global/family/ok/",
+    "original": "https://flos-assets.imgix.net/P_Sf_A-Ok-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+    "originalSrc": "/photos/originals/ok.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/ok.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/ok.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ok.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/ok.jpg",
+        "source": "Flos product reference",
+        "page": "https://professional.flos.com/en/global/family/ok/",
+        "original": "https://flos-assets.imgix.net/P_Sf_A-Ok-Flos-Decorative-Thubnail-life_over_grey.jpg?w=1600&fit=max&fm=jpg",
+        "originalSrc": "/photos/originals/ok.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/ok.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/ok.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ok.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "pendant-light-a330s-golden-bell": {
+    "src": "/photos/studio/pendant-light-a330s-golden-bell.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/pendant-light-a330s-golden-bell/",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--OFlHzeVG--/f_jpg,w_1600,c_limit/v1729603088/products/pendant-light-a330s-golden-bell/A330S_Golden_Bell_pendant_light_brass-5536671.jpg",
+    "originalSrc": "/photos/originals/pendant-light-a330s-golden-bell.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/pendant-light-a330s-golden-bell.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/pendant-light-a330s-golden-bell.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pendant-light-a330s-golden-bell.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/pendant-light-a330s-golden-bell.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/pendant-light-a330s-golden-bell/",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--OFlHzeVG--/f_jpg,w_1600,c_limit/v1729603088/products/pendant-light-a330s-golden-bell/A330S_Golden_Bell_pendant_light_brass-5536671.jpg",
+        "originalSrc": "/photos/originals/pendant-light-a330s-golden-bell.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/pendant-light-a330s-golden-bell.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/pendant-light-a330s-golden-bell.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pendant-light-a330s-golden-bell.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "pendant-light-a331-beehive": {
+    "src": "/photos/studio/pendant-light-a331-beehive.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/pendant-light-a331-beehive/",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--AxvoiUZu--/f_jpg,w_1600,c_limit/v1729603165/products/pendant-light-a331-beehive/A331_Beehive_pendant_light_white_brass-5537172.jpg",
+    "originalSrc": "/photos/originals/pendant-light-a331-beehive.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/pendant-light-a331-beehive.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/pendant-light-a331-beehive.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pendant-light-a331-beehive.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/pendant-light-a331-beehive.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/pendant-light-a331-beehive/",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--AxvoiUZu--/f_jpg,w_1600,c_limit/v1729603165/products/pendant-light-a331-beehive/A331_Beehive_pendant_light_white_brass-5537172.jpg",
+        "originalSrc": "/photos/originals/pendant-light-a331-beehive.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/pendant-light-a331-beehive.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/pendant-light-a331-beehive.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pendant-light-a331-beehive.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "pendant-light-a110-hand-grenade": {
+    "src": "/photos/studio/pendant-light-a110-hand-grenade.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/pendant-light-a110-hand-grenade/",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--8G6VCbr8--/f_jpg,w_1600,c_limit/v1777298217/products/pendant-light-a110-hand-grenade/A110_Hand_grenade_Pendant_light_white_brass-5516550.jpg",
+    "originalSrc": "/photos/originals/pendant-light-a110-hand-grenade.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/pendant-light-a110-hand-grenade.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/pendant-light-a110-hand-grenade.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pendant-light-a110-hand-grenade.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/pendant-light-a110-hand-grenade.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/pendant-light-a110-hand-grenade/",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--8G6VCbr8--/f_jpg,w_1600,c_limit/v1777298217/products/pendant-light-a110-hand-grenade/A110_Hand_grenade_Pendant_light_white_brass-5516550.jpg",
+        "originalSrc": "/photos/originals/pendant-light-a110-hand-grenade.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/pendant-light-a110-hand-grenade.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/pendant-light-a110-hand-grenade.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pendant-light-a110-hand-grenade.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "pendant-light-a333-turnip": {
+    "src": "/photos/studio/pendant-light-a333-turnip.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/pendant-light-a333-turnip/",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--Pq9XEdOC--/f_jpg,w_1600,c_limit/v1729603203/products/pendant-light-a333-turnip/A333_Turnip_white_brass-5537179.jpg",
+    "originalSrc": "/photos/originals/pendant-light-a333-turnip.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/pendant-light-a333-turnip.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/pendant-light-a333-turnip.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pendant-light-a333-turnip.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/pendant-light-a333-turnip.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/pendant-light-a333-turnip/",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--Pq9XEdOC--/f_jpg,w_1600,c_limit/v1729603203/products/pendant-light-a333-turnip/A333_Turnip_white_brass-5537179.jpg",
+        "originalSrc": "/photos/originals/pendant-light-a333-turnip.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/pendant-light-a333-turnip.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/pendant-light-a333-turnip.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pendant-light-a333-turnip.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "floor-light-a805-angel-wing": {
+    "src": "/photos/studio/floor-light-a805-angel-wing.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/floor-light-a805-angel-wing/",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--OjdY61Dy--/f_jpg,w_1600,c_limit/v1729602174/products/floor-light-a805-angel-wing/Floor-Light-A805-_Angel-Wing_-brass_on_WEB-1977963.jpg",
+    "originalSrc": "/photos/originals/floor-light-a805-angel-wing.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/floor-light-a805-angel-wing.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/floor-light-a805-angel-wing.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/floor-light-a805-angel-wing.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/floor-light-a805-angel-wing.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/floor-light-a805-angel-wing/",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--OjdY61Dy--/f_jpg,w_1600,c_limit/v1729602174/products/floor-light-a805-angel-wing/Floor-Light-A805-_Angel-Wing_-brass_on_WEB-1977963.jpg",
+        "originalSrc": "/photos/originals/floor-light-a805-angel-wing.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/floor-light-a805-angel-wing.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/floor-light-a805-angel-wing.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/floor-light-a805-angel-wing.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "floor-light-a808": {
+    "src": "/photos/studio/floor-light-a808.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/floor-light-a808/",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--MZLcI3Bd--/f_jpg,w_1600,c_limit/v1729602187/products/floor-light-a808/Floor-Light-A808-brass_WEB-1977964.jpg",
+    "originalSrc": "/photos/originals/floor-light-a808.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/floor-light-a808.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/floor-light-a808.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/floor-light-a808.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/floor-light-a808.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/floor-light-a808/",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--MZLcI3Bd--/f_jpg,w_1600,c_limit/v1729602187/products/floor-light-a808/Floor-Light-A808-brass_WEB-1977964.jpg",
+        "originalSrc": "/photos/originals/floor-light-a808.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/floor-light-a808.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/floor-light-a808.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/floor-light-a808.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "stool-60": {
+    "src": "/photos/studio/stool-60.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/stool-60",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--D3I6db_e--/f_jpg,w_1600,c_limit/v1729604375/products/stool-60/Stool-60-clear-lacquer_WEB-1977394.jpg",
+    "originalSrc": "/photos/originals/stool-60.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/stool-60.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/stool-60.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/stool-60.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/stool-60.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/stool-60",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--D3I6db_e--/f_jpg,w_1600,c_limit/v1729604375/products/stool-60/Stool-60-clear-lacquer_WEB-1977394.jpg",
+        "originalSrc": "/photos/originals/stool-60.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/stool-60.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/stool-60.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/stool-60.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "karuselli-lounge-chair": {
+    "src": "/photos/studio/karuselli-lounge-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/karuselli-lounge-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--7di5jidk--/f_jpg,w_1600,c_limit/v1729602479/products/karuselli-lounge-chair/Karuselli-Lounge-Chair-black-leather_WEB-1977277.jpg",
+    "originalSrc": "/photos/originals/karuselli-lounge-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/karuselli-lounge-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/karuselli-lounge-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/karuselli-lounge-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/karuselli-lounge-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/karuselli-lounge-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--7di5jidk--/f_jpg,w_1600,c_limit/v1729602479/products/karuselli-lounge-chair/Karuselli-Lounge-Chair-black-leather_WEB-1977277.jpg",
+        "originalSrc": "/photos/originals/karuselli-lounge-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/karuselli-lounge-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/karuselli-lounge-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/karuselli-lounge-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "armchair-400-tank": {
+    "src": "/photos/studio/armchair-400-tank.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/armchair-400-tank",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--iDIsq302--/f_jpg,w_1600,c_limit/v1729601514/products/armchair-400-tank/Armchair-400-_Tank_-clear-lacquer-zebra_WEB-1975913.jpg",
+    "originalSrc": "/photos/originals/armchair-400-tank.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/armchair-400-tank.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/armchair-400-tank.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/armchair-400-tank.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/armchair-400-tank.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/armchair-400-tank",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--iDIsq302--/f_jpg,w_1600,c_limit/v1729601514/products/armchair-400-tank/Armchair-400-_Tank_-clear-lacquer-zebra_WEB-1975913.jpg",
+        "originalSrc": "/photos/originals/armchair-400-tank.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/armchair-400-tank.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/armchair-400-tank.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/armchair-400-tank.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "domus-lounge-chair": {
+    "src": "/photos/studio/domus-lounge-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/domus-lounge-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--F991CHz4--/f_jpg,w_1600,c_limit/v1729602146/products/domus-lounge-chair/Domus-Lounge-Chair-oak-upholstered_WEB-1855920.jpg",
+    "originalSrc": "/photos/originals/domus-lounge-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/domus-lounge-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/domus-lounge-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/domus-lounge-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/domus-lounge-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/domus-lounge-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--F991CHz4--/f_jpg,w_1600,c_limit/v1729602146/products/domus-lounge-chair/Domus-Lounge-Chair-oak-upholstered_WEB-1855920.jpg",
+        "originalSrc": "/photos/originals/domus-lounge-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/domus-lounge-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/domus-lounge-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/domus-lounge-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "domus-chair": {
+    "src": "/photos/studio/domus-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/domus-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--N4uutMdg--/f_jpg,w_1600,c_limit/v1777297953/products/domus-chair/Domus-Chair-oak-natural-lacquered-upholstered-fabric-Wow-Re-cream-white-6511-leather-piping-Prestige-nougat-cut-out-9719448.jpg",
+    "originalSrc": "/photos/originals/domus-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/domus-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/domus-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/domus-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/domus-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/domus-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--N4uutMdg--/f_jpg,w_1600,c_limit/v1777297953/products/domus-chair/Domus-Chair-oak-natural-lacquered-upholstered-fabric-Wow-Re-cream-white-6511-leather-piping-Prestige-nougat-cut-out-9719448.jpg",
+        "originalSrc": "/photos/originals/domus-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/domus-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/domus-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/domus-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tea-trolley-901": {
+    "src": "/photos/studio/tea-trolley-901.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/tea-trolley-901",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--FQP-753o--/f_jpg,w_1600,c_limit/v1729604554/products/tea-trolley-901/Tea-Trolley-901-black-laquered-dark-version-by-Hella-Jongerius_WEB-1843756.jpg",
+    "originalSrc": "/photos/originals/tea-trolley-901.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tea-trolley-901.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tea-trolley-901.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tea-trolley-901.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tea-trolley-901.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/tea-trolley-901",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--FQP-753o--/f_jpg,w_1600,c_limit/v1729604554/products/tea-trolley-901/Tea-Trolley-901-black-laquered-dark-version-by-Hella-Jongerius_WEB-1843756.jpg",
+        "originalSrc": "/photos/originals/tea-trolley-901.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tea-trolley-901.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tea-trolley-901.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tea-trolley-901.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "clothes-tree-160": {
+    "src": "/photos/studio/clothes-tree-160.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/clothes-tree-160",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--_LC2qXyZ--/f_jpg,w_1600,c_limit/v1729602038/products/clothes-tree-160/Clothes-tree-160-black-lacquer_WEB-1843185.jpg",
+    "originalSrc": "/photos/originals/clothes-tree-160.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/clothes-tree-160.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/clothes-tree-160.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/clothes-tree-160.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/clothes-tree-160.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/clothes-tree-160",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--_LC2qXyZ--/f_jpg,w_1600,c_limit/v1729602038/products/clothes-tree-160/Clothes-tree-160-black-lacquer_WEB-1843185.jpg",
+        "originalSrc": "/photos/originals/clothes-tree-160.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/clothes-tree-160.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/clothes-tree-160.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/clothes-tree-160.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tea-trolley-900": {
+    "src": "/photos/studio/tea-trolley-900.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/tea-trolley-900",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--GwvR2BXI--/f_jpg,w_1600,c_limit/v1729604540/products/tea-trolley-900/Tea-Trolley-900-white-tiles_WEB-1975961.jpg",
+    "originalSrc": "/photos/originals/tea-trolley-900.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tea-trolley-900.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tea-trolley-900.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tea-trolley-900.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tea-trolley-900.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/tea-trolley-900",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--GwvR2BXI--/f_jpg,w_1600,c_limit/v1729604540/products/tea-trolley-900/Tea-Trolley-900-white-tiles_WEB-1975961.jpg",
+        "originalSrc": "/photos/originals/tea-trolley-900.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tea-trolley-900.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tea-trolley-900.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tea-trolley-900.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "armchair-402": {
+    "src": "/photos/studio/armchair-402.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/armchair-402",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--pjbe7BtK--/f_jpg,w_1600,c_limit/v1729601563/products/armchair-402/Armchair-402_birch-honey-stain_seat-fabric-upholstery-Artek-grey-2494508.jpg",
+    "originalSrc": "/photos/originals/armchair-402.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/armchair-402.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/armchair-402.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/armchair-402.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/armchair-402.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/armchair-402",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--pjbe7BtK--/f_jpg,w_1600,c_limit/v1729601563/products/armchair-402/Armchair-402_birch-honey-stain_seat-fabric-upholstery-Artek-grey-2494508.jpg",
+        "originalSrc": "/photos/originals/armchair-402.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/armchair-402.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/armchair-402.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/armchair-402.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "armchair-406": {
+    "src": "/photos/studio/armchair-406.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/armchair-406",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--MQ6G153G--/f_jpg,w_1600,c_limit/v1729601597/products/armchair-406/Armchair-406-natural-black-brown-webbing_F-2869203.jpg",
+    "originalSrc": "/photos/originals/armchair-406.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/armchair-406.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/armchair-406.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/armchair-406.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/armchair-406.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/armchair-406",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--MQ6G153G--/f_jpg,w_1600,c_limit/v1729601597/products/armchair-406/Armchair-406-natural-black-brown-webbing_F-2869203.jpg",
+        "originalSrc": "/photos/originals/armchair-406.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/armchair-406.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/armchair-406.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/armchair-406.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "rocket-bar-stool": {
+    "src": "/photos/studio/rocket-bar-stool.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/rocket-bar-stool",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--19dIakzH--/f_jpg,w_1600,c_limit/v1729603646/products/rocket-bar-stool/Rocket-Bar-Stool-white-lacquer-1847587.jpg",
+    "originalSrc": "/photos/originals/rocket-bar-stool.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/rocket-bar-stool.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/rocket-bar-stool.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/rocket-bar-stool.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/rocket-bar-stool.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/rocket-bar-stool",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--19dIakzH--/f_jpg,w_1600,c_limit/v1729603646/products/rocket-bar-stool/Rocket-Bar-Stool-white-lacquer-1847587.jpg",
+        "originalSrc": "/photos/originals/rocket-bar-stool.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/rocket-bar-stool.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/rocket-bar-stool.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/rocket-bar-stool.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "mademoiselle-lounge-chair": {
+    "src": "/photos/studio/mademoiselle-lounge-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/mademoiselle-lounge-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--JYAvaZMn--/f_jpg,w_1600,c_limit/v1729602876/products/mademoiselle-lounge-chair/Mademoiselle-Lounge-Chair-black-lacquer_WEB-1977279.jpg",
+    "originalSrc": "/photos/originals/mademoiselle-lounge-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/mademoiselle-lounge-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/mademoiselle-lounge-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/mademoiselle-lounge-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/mademoiselle-lounge-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/mademoiselle-lounge-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--JYAvaZMn--/f_jpg,w_1600,c_limit/v1729602876/products/mademoiselle-lounge-chair/Mademoiselle-Lounge-Chair-black-lacquer_WEB-1977279.jpg",
+        "originalSrc": "/photos/originals/mademoiselle-lounge-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/mademoiselle-lounge-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/mademoiselle-lounge-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/mademoiselle-lounge-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "mademoiselle-rocking-chair": {
+    "src": "/photos/studio/mademoiselle-rocking-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/mademoiselle-rocking-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--c6LOi_Ym--/f_jpg,w_1600,c_limit/v1729602886/products/mademoiselle-rocking-chair/Mademoiselle-Rocking-Chair-white-lacquer_WEB-1842172.jpg",
+    "originalSrc": "/photos/originals/mademoiselle-rocking-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/mademoiselle-rocking-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/mademoiselle-rocking-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/mademoiselle-rocking-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/mademoiselle-rocking-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/mademoiselle-rocking-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--c6LOi_Ym--/f_jpg,w_1600,c_limit/v1729602886/products/mademoiselle-rocking-chair/Mademoiselle-Rocking-Chair-white-lacquer_WEB-1842172.jpg",
+        "originalSrc": "/photos/originals/mademoiselle-rocking-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/mademoiselle-rocking-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/mademoiselle-rocking-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/mademoiselle-rocking-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "chair-66": {
+    "src": "/photos/studio/chair-66.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/chair-66",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--JQ6Ky2Hw--/f_jpg,w_1600,c_limit/v1729601962/products/chair-66/Chair-66-white-laminate_WEB-1975921.jpg",
+    "originalSrc": "/photos/originals/chair-66.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/chair-66.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/chair-66.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/chair-66.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/chair-66.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/chair-66",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--JQ6Ky2Hw--/f_jpg,w_1600,c_limit/v1729601962/products/chair-66/Chair-66-white-laminate_WEB-1975921.jpg",
+        "originalSrc": "/photos/originals/chair-66.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/chair-66.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/chair-66.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/chair-66.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "chair-69": {
+    "src": "/photos/studio/chair-69.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/chair-69",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--Xolm6OEY--/f_jpg,w_1600,c_limit/v1729602010/products/chair-69/Chair-69-orange-lacquer-seat-1843296.jpg",
+    "originalSrc": "/photos/originals/chair-69.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/chair-69.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/chair-69.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/chair-69.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/chair-69.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/chair-69",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--Xolm6OEY--/f_jpg,w_1600,c_limit/v1729602010/products/chair-69/Chair-69-orange-lacquer-seat-1843296.jpg",
+        "originalSrc": "/photos/originals/chair-69.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/chair-69.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/chair-69.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/chair-69.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "wall-shelf-112": {
+    "src": "/photos/studio/wall-shelf-112.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/wall-shelf-112",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--FkfayF24--/f_jpg,w_1600,c_limit/v1729604741/products/wall-shelf-112/Wall-Shelf-112B-black-lacquer_WEB-1975907.jpg",
+    "originalSrc": "/photos/originals/wall-shelf-112.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/wall-shelf-112.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/wall-shelf-112.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/wall-shelf-112.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/wall-shelf-112.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/wall-shelf-112",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--FkfayF24--/f_jpg,w_1600,c_limit/v1729604741/products/wall-shelf-112/Wall-Shelf-112B-black-lacquer_WEB-1975907.jpg",
+        "originalSrc": "/photos/originals/wall-shelf-112.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/wall-shelf-112.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/wall-shelf-112.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/wall-shelf-112.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "kaari-desk": {
+    "src": "/photos/studio/kaari-desk.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/kaari-desk",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--ooqBS4yX--/f_jpg,w_1600,c_limit/v1729602334/products/kaari-desk/Kaari-Desk-REB005-black-oak-black-Linoleum_WEB-1975929.jpg",
+    "originalSrc": "/photos/originals/kaari-desk.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/kaari-desk.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/kaari-desk.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/kaari-desk.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/kaari-desk.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/kaari-desk",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--ooqBS4yX--/f_jpg,w_1600,c_limit/v1729602334/products/kaari-desk/Kaari-Desk-REB005-black-oak-black-Linoleum_WEB-1975929.jpg",
+        "originalSrc": "/photos/originals/kaari-desk.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/kaari-desk.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/kaari-desk.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kaari-desk.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "kiki-low-table": {
+    "src": "/photos/studio/kiki-low-table.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/kiki-low-table",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--8dFom802--/f_jpg,w_1600,c_limit/v1729602638/products/kiki-low-table/Kiki-Low-Table-black_WEB-1851895.jpg",
+    "originalSrc": "/photos/originals/kiki-low-table.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/kiki-low-table.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/kiki-low-table.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/kiki-low-table.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/kiki-low-table.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/kiki-low-table",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--8dFom802--/f_jpg,w_1600,c_limit/v1729602638/products/kiki-low-table/Kiki-Low-Table-black_WEB-1851895.jpg",
+        "originalSrc": "/photos/originals/kiki-low-table.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/kiki-low-table.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/kiki-low-table.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kiki-low-table.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "kiki-bench": {
+    "src": "/photos/studio/kiki-bench.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/kiki-bench",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--mWsOtYIL--/f_jpg,w_1600,c_limit/v1729602589/products/kiki-bench/Kiki-Bench-2-Seater-yellow-upholstery_WEB-1975937.jpg",
+    "originalSrc": "/photos/originals/kiki-bench.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/kiki-bench.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/kiki-bench.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/kiki-bench.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/kiki-bench.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/kiki-bench",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--mWsOtYIL--/f_jpg,w_1600,c_limit/v1729602589/products/kiki-bench/Kiki-Bench-2-Seater-yellow-upholstery_WEB-1975937.jpg",
+        "originalSrc": "/photos/originals/kiki-bench.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/kiki-bench.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/kiki-bench.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kiki-bench.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "kiki-sofa": {
+    "src": "/photos/studio/kiki-sofa.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/kiki-sofa",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--6W2AlAgP--/f_jpg,w_1600,c_limit/v1729602656/products/kiki-sofa/Kiki_Sofa_3_Seater-5234595.jpg",
+    "originalSrc": "/photos/originals/kiki-sofa.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/kiki-sofa.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/kiki-sofa.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/kiki-sofa.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/kiki-sofa.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/kiki-sofa",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--6W2AlAgP--/f_jpg,w_1600,c_limit/v1729602656/products/kiki-sofa/Kiki_Sofa_3_Seater-5234595.jpg",
+        "originalSrc": "/photos/originals/kiki-sofa.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/kiki-sofa.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/kiki-sofa.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kiki-sofa.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "kiki-lounge-chair": {
+    "src": "/photos/studio/kiki-lounge-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/kiki-lounge-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--X_H3AGR6--/f_jpg,w_1600,c_limit/v1729602606/products/kiki-lounge-chair/Kiki_Lounge_Chair-5234613.jpg",
+    "originalSrc": "/photos/originals/kiki-lounge-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/kiki-lounge-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/kiki-lounge-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/kiki-lounge-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/kiki-lounge-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/kiki-lounge-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--X_H3AGR6--/f_jpg,w_1600,c_limit/v1729602606/products/kiki-lounge-chair/Kiki_Lounge_Chair-5234613.jpg",
+        "originalSrc": "/photos/originals/kiki-lounge-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/kiki-lounge-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/kiki-lounge-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/kiki-lounge-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "armchair-401": {
+    "src": "/photos/studio/armchair-401.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/armchair-401",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--zvHu-P2n--/f_jpg,w_1600,c_limit/v1729601541/products/armchair-401/Armchair-401-HJ-clear-lacquer-1843424.jpg",
+    "originalSrc": "/photos/originals/armchair-401.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/armchair-401.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/armchair-401.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/armchair-401.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/armchair-401.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/armchair-401",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--zvHu-P2n--/f_jpg,w_1600,c_limit/v1729601541/products/armchair-401/Armchair-401-HJ-clear-lacquer-1843424.jpg",
+        "originalSrc": "/photos/originals/armchair-401.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/armchair-401.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/armchair-401.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/armchair-401.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "bench-153a": {
+    "src": "/photos/studio/bench-153a.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/bench-153a",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--a0ys9Vhy--/f_jpg,w_1600,c_limit/v1729601852/products/bench-153a/Bench-153A-slatted-top-wild-birch-natural-lacquered-2-cut-out-8906012.jpg",
+    "originalSrc": "/photos/originals/bench-153a.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/bench-153a.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/bench-153a.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/bench-153a.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/bench-153a.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/bench-153a",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--a0ys9Vhy--/f_jpg,w_1600,c_limit/v1729601852/products/bench-153a/Bench-153A-slatted-top-wild-birch-natural-lacquered-2-cut-out-8906012.jpg",
+        "originalSrc": "/photos/originals/bench-153a.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/bench-153a.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/bench-153a.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/bench-153a.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "bar-stool-64": {
+    "src": "/photos/studio/bar-stool-64.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/bar-stool-64",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--65WDQdbz--/f_jpg,w_1600,c_limit/v1729601819/products/bar-stool-64/Bar-Stool-64-black-lacquer_cut_out_WEB-1974338.jpg",
+    "originalSrc": "/photos/originals/bar-stool-64.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/bar-stool-64.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/bar-stool-64.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/bar-stool-64.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/bar-stool-64.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/bar-stool-64",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--65WDQdbz--/f_jpg,w_1600,c_limit/v1729601819/products/bar-stool-64/Bar-Stool-64-black-lacquer_cut_out_WEB-1974338.jpg",
+        "originalSrc": "/photos/originals/bar-stool-64.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/bar-stool-64.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/bar-stool-64.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/bar-stool-64.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "chair-65": {
+    "src": "/photos/studio/chair-65.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/chair-65",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--KaRxJP-Z--/f_jpg,w_1600,c_limit/v1729601942/products/chair-65/Chair-65-white-lacquer-1903724.jpg",
+    "originalSrc": "/photos/originals/chair-65.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/chair-65.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/chair-65.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/chair-65.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/chair-65.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/chair-65",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--KaRxJP-Z--/f_jpg,w_1600,c_limit/v1729601942/products/chair-65/Chair-65-white-lacquer-1903724.jpg",
+        "originalSrc": "/photos/originals/chair-65.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/chair-65.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/chair-65.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/chair-65.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "chair-68": {
+    "src": "/photos/studio/chair-68.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/chair-68",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--YhHSHyaA--/f_jpg,w_1600,c_limit/v1729601973/products/chair-68/Chair-68-black-lacquer_WEB-1977267.jpg",
+    "originalSrc": "/photos/originals/chair-68.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/chair-68.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/chair-68.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/chair-68.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/chair-68.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/chair-68",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--YhHSHyaA--/f_jpg,w_1600,c_limit/v1729601973/products/chair-68/Chair-68-black-lacquer_WEB-1977267.jpg",
+        "originalSrc": "/photos/originals/chair-68.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/chair-68.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/chair-68.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/chair-68.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "chair-611": {
+    "src": "/photos/studio/chair-611.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/chair-611",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--eM8zIuib--/f_jpg,w_1600,c_limit/v1729601931/products/chair-611/Chair-611-clear-lacquered-birchnatural-red-new-webbing_F-2436468.jpg",
+    "originalSrc": "/photos/originals/chair-611.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/chair-611.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/chair-611.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/chair-611.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/chair-611.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/chair-611",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--eM8zIuib--/f_jpg,w_1600,c_limit/v1729601931/products/chair-611/Chair-611-clear-lacquered-birchnatural-red-new-webbing_F-2436468.jpg",
+        "originalSrc": "/photos/originals/chair-611.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/chair-611.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/chair-611.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/chair-611.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "lukki-chair": {
+    "src": "/photos/studio/lukki-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/lukki-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--6I-vDV3j--/f_jpg,w_1600,c_limit/v1729602861/products/lukki-chair/Lukki-Chair-black-lacquer_WEB-1848536.jpg",
+    "originalSrc": "/photos/originals/lukki-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/lukki-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/lukki-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/lukki-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/lukki-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/lukki-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--6I-vDV3j--/f_jpg,w_1600,c_limit/v1729602861/products/lukki-chair/Lukki-Chair-black-lacquer_WEB-1848536.jpg",
+        "originalSrc": "/photos/originals/lukki-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/lukki-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/lukki-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/lukki-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "rival-chair": {
+    "src": "/photos/studio/rival-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/rival-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--ma3_lHIx--/f_jpg,w_1600,c_limit/v1729603506/products/rival-chair-kg002/Rival-Chair-KG002-clear-lacquer-front_WEB-1975953.jpg",
+    "originalSrc": "/photos/originals/rival-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/rival-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/rival-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/rival-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/rival-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/rival-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--ma3_lHIx--/f_jpg,w_1600,c_limit/v1729603506/products/rival-chair-kg002/Rival-Chair-KG002-clear-lacquer-front_WEB-1975953.jpg",
+        "originalSrc": "/photos/originals/rival-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/rival-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/rival-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/rival-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "armchair-42": {
+    "src": "/photos/studio/armchair-42.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/armchair-42",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--Z1fPxVpk--/f_jpg,w_1600,c_limit/v1729601616/products/armchair-42/Armchair-42-black-lacquer_WEB-1975912.jpg",
+    "originalSrc": "/photos/originals/armchair-42.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/armchair-42.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/armchair-42.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/armchair-42.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/armchair-42.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/armchair-42",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--Z1fPxVpk--/f_jpg,w_1600,c_limit/v1729601616/products/armchair-42/Armchair-42-black-lacquer_WEB-1975912.jpg",
+        "originalSrc": "/photos/originals/armchair-42.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/armchair-42.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/armchair-42.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/armchair-42.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "lounge-chair-43": {
+    "src": "/photos/studio/lounge-chair-43.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/lounge-chair-43",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--8ovzu9Ax--/f_jpg,w_1600,c_limit/v1729602823/products/lounge-chair-43/Lounge-Chair-43-natural-natural-black-webbing_F-2897180.jpg",
+    "originalSrc": "/photos/originals/lounge-chair-43.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/lounge-chair-43.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/lounge-chair-43.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/lounge-chair-43.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/lounge-chair-43.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/lounge-chair-43",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--8ovzu9Ax--/f_jpg,w_1600,c_limit/v1729602823/products/lounge-chair-43/Lounge-Chair-43-natural-natural-black-webbing_F-2897180.jpg",
+        "originalSrc": "/photos/originals/lounge-chair-43.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/lounge-chair-43.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/lounge-chair-43.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/lounge-chair-43.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "day-bed-710": {
+    "src": "/photos/studio/day-bed-710.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/day-bed-710",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--PzEPaBCt--/f_jpg,w_1600,c_limit/v1729602066/products/day-bed-710/Day-Bed-710-Hallingdal65_750_blue-2494530.jpg",
+    "originalSrc": "/photos/originals/day-bed-710.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/day-bed-710.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/day-bed-710.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/day-bed-710.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/day-bed-710.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/day-bed-710",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--PzEPaBCt--/f_jpg,w_1600,c_limit/v1729602066/products/day-bed-710/Day-Bed-710-Hallingdal65_750_blue-2494530.jpg",
+        "originalSrc": "/photos/originals/day-bed-710.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/day-bed-710.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/day-bed-710.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/day-bed-710.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "side-table-606": {
+    "src": "/photos/studio/side-table-606.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/side-table-606",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--OxHyfZDx--/f_jpg,w_1600,c_limit/v1729603726/products/side-table-606/Side-Table-606_WEB-1834701.jpg",
+    "originalSrc": "/photos/originals/side-table-606.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/side-table-606.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/side-table-606.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/side-table-606.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/side-table-606.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/side-table-606",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--OxHyfZDx--/f_jpg,w_1600,c_limit/v1729603726/products/side-table-606/Side-Table-606_WEB-1834701.jpg",
+        "originalSrc": "/photos/originals/side-table-606.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/side-table-606.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/side-table-606.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/side-table-606.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "trienna-table": {
+    "src": "/photos/studio/trienna-table.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/trienna-table",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--Oscoo3O_--/f_jpg,w_1600,c_limit/v1729604617/products/trienna-table/Trienna-Table-oak_WEB-1975963.jpg",
+    "originalSrc": "/photos/originals/trienna-table.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/trienna-table.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/trienna-table.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/trienna-table.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/trienna-table.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/trienna-table",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--Oscoo3O_--/f_jpg,w_1600,c_limit/v1729604617/products/trienna-table/Trienna-Table-oak_WEB-1975963.jpg",
+        "originalSrc": "/photos/originals/trienna-table.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/trienna-table.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/trienna-table.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/trienna-table.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "rope-chair": {
+    "src": "/photos/studio/rope-chair.jpg",
+    "source": "Artek product reference",
+    "page": "https://www.artek.fi/en/products/rope-chair",
+    "original": "https://res.cloudinary.com/artek/image/upload/s--zLJz9OCF--/f_jpg,w_1600,c_limit/v1729603694/products/rope-chair/Rope-Chair-light-grey-F-3244048.jpg",
+    "originalSrc": "/photos/originals/rope-chair.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/rope-chair.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/rope-chair.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/rope-chair.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/rope-chair.jpg",
+        "source": "Artek product reference",
+        "page": "https://www.artek.fi/en/products/rope-chair",
+        "original": "https://res.cloudinary.com/artek/image/upload/s--zLJz9OCF--/f_jpg,w_1600,c_limit/v1729603694/products/rope-chair/Rope-Chair-light-grey-F-3244048.jpg",
+        "originalSrc": "/photos/originals/rope-chair.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/rope-chair.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/rope-chair.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/rope-chair.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "9093-kettle": {
+    "src": "/photos/studio/9093-kettle.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/9093-kettle",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1_9093.jpg",
+    "originalSrc": "/photos/originals/9093-kettle.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/9093-kettle.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/9093-kettle.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/9093-kettle.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/9093-kettle.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/9093-kettle",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1_9093.jpg",
+        "originalSrc": "/photos/originals/9093-kettle.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/9093-kettle.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/9093-kettle.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/9093-kettle.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "9090-espresso-coffee-maker": {
+    "src": "/photos/studio/9090-espresso-coffee-maker.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/9090-espresso-coffee-maker",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_9090.jpg",
+    "originalSrc": "/photos/originals/9090-espresso-coffee-maker.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/9090-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/9090-espresso-coffee-maker.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/9090-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/9090-espresso-coffee-maker.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/9090-espresso-coffee-maker",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_9090.jpg",
+        "originalSrc": "/photos/originals/9090-espresso-coffee-maker.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/9090-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/9090-espresso-coffee-maker.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/9090-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "la-conica-espresso-coffee-maker": {
+    "src": "/photos/studio/la-conica-espresso-coffee-maker.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/la-conica-espresso-coffee-maker",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_90002.jpg",
+    "originalSrc": "/photos/originals/la-conica-espresso-coffee-maker.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/la-conica-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/la-conica-espresso-coffee-maker.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/la-conica-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/la-conica-espresso-coffee-maker.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/la-conica-espresso-coffee-maker",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_90002.jpg",
+        "originalSrc": "/photos/originals/la-conica-espresso-coffee-maker.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/la-conica-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/la-conica-espresso-coffee-maker.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/la-conica-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "la-cupola-espresso-coffee-maker": {
+    "src": "/photos/studio/la-cupola-espresso-coffee-maker.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/la-cupola-espresso-coffee-maker",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/A9095-01.jpg",
+    "originalSrc": "/photos/originals/la-cupola-espresso-coffee-maker.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/la-cupola-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/la-cupola-espresso-coffee-maker.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/la-cupola-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/la-cupola-espresso-coffee-maker.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/la-cupola-espresso-coffee-maker",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/A9095-01.jpg",
+        "originalSrc": "/photos/originals/la-cupola-espresso-coffee-maker.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/la-cupola-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/la-cupola-espresso-coffee-maker.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/la-cupola-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "anna-g-corkscrew": {
+    "src": "/photos/studio/anna-g-corkscrew.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/anna-g-corkscrew",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/Z-01-new_AM01_e0ed2846-78f1-42cd-8d3c-a2cba213afcc.jpg",
+    "originalSrc": "/photos/originals/anna-g-corkscrew.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/anna-g-corkscrew.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/anna-g-corkscrew.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/anna-g-corkscrew.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/anna-g-corkscrew.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/anna-g-corkscrew",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/Z-01-new_AM01_e0ed2846-78f1-42cd-8d3c-a2cba213afcc.jpg",
+        "originalSrc": "/photos/originals/anna-g-corkscrew.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/anna-g-corkscrew.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/anna-g-corkscrew.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/anna-g-corkscrew.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "alessandro-m-corkscrew": {
+    "src": "/photos/studio/alessandro-m-corkscrew.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/alessandro-m-corkscrew",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/files/AAM23-044.jpg",
+    "originalSrc": "/photos/originals/alessandro-m-corkscrew.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/alessandro-m-corkscrew.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/alessandro-m-corkscrew.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/alessandro-m-corkscrew.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/alessandro-m-corkscrew.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/alessandro-m-corkscrew",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/files/AAM23-044.jpg",
+        "originalSrc": "/photos/originals/alessandro-m-corkscrew.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/alessandro-m-corkscrew.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/alessandro-m-corkscrew.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/alessandro-m-corkscrew.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "nuovo-milano-cutlery-set-24-pieces": {
+    "src": "/photos/studio/nuovo-milano-cutlery-set-24-pieces.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/nuovo-milano-cutlery-set-24-pieces",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/M-01_5180S24.jpg",
+    "originalSrc": "/photos/originals/nuovo-milano-cutlery-set-24-pieces.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/nuovo-milano-cutlery-set-24-pieces.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/nuovo-milano-cutlery-set-24-pieces.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/nuovo-milano-cutlery-set-24-pieces.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/nuovo-milano-cutlery-set-24-pieces.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/nuovo-milano-cutlery-set-24-pieces",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/M-01_5180S24.jpg",
+        "originalSrc": "/photos/originals/nuovo-milano-cutlery-set-24-pieces.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/nuovo-milano-cutlery-set-24-pieces.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/nuovo-milano-cutlery-set-24-pieces.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/nuovo-milano-cutlery-set-24-pieces.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "parmenide-grater-with-cheese-cellar": {
+    "src": "/photos/studio/parmenide-grater-with-cheese-cellar.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/parmenide-grater-with-cheese-cellar",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/AARU01-06.jpg",
+    "originalSrc": "/photos/originals/parmenide-grater-with-cheese-cellar.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/parmenide-grater-with-cheese-cellar.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/parmenide-grater-with-cheese-cellar.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/parmenide-grater-with-cheese-cellar.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/parmenide-grater-with-cheese-cellar.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/parmenide-grater-with-cheese-cellar",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/AARU01-06.jpg",
+        "originalSrc": "/photos/originals/parmenide-grater-with-cheese-cellar.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/parmenide-grater-with-cheese-cellar.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/parmenide-grater-with-cheese-cellar.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/parmenide-grater-with-cheese-cellar.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "plisse-electric-kettle-european-plug": {
+    "src": "/photos/studio/plisse-electric-kettle-european-plug.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/plisse-electric-kettle-european-plug",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/MDL06-07_c6edaa27-6f45-4d6f-acdc-af54dfa5f374.jpg",
+    "originalSrc": "/photos/originals/plisse-electric-kettle-european-plug.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/plisse-electric-kettle-european-plug.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/plisse-electric-kettle-european-plug.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/plisse-electric-kettle-european-plug.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/plisse-electric-kettle-european-plug.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/plisse-electric-kettle-european-plug",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/MDL06-07_c6edaa27-6f45-4d6f-acdc-af54dfa5f374.jpg",
+        "originalSrc": "/photos/originals/plisse-electric-kettle-european-plug.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/plisse-electric-kettle-european-plug.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/plisse-electric-kettle-european-plug.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/plisse-electric-kettle-european-plug.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "pulcina-espresso-coffee-maker-1": {
+    "src": "/photos/studio/pulcina-espresso-coffee-maker-1.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/pulcina-espresso-coffee-maker-1",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1_MDL02.jpg",
+    "originalSrc": "/photos/originals/pulcina-espresso-coffee-maker-1.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/pulcina-espresso-coffee-maker-1.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/pulcina-espresso-coffee-maker-1.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/pulcina-espresso-coffee-maker-1.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/pulcina-espresso-coffee-maker-1.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/pulcina-espresso-coffee-maker-1",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1_MDL02.jpg",
+        "originalSrc": "/photos/originals/pulcina-espresso-coffee-maker-1.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/pulcina-espresso-coffee-maker-1.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/pulcina-espresso-coffee-maker-1.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/pulcina-espresso-coffee-maker-1.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "caffa-travel-mug": {
+    "src": "/photos/studio/caffa-travel-mug.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/caffa-travel-mug",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/GIA24-01.jpg",
+    "originalSrc": "/photos/originals/caffa-travel-mug.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/caffa-travel-mug.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/caffa-travel-mug.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/caffa-travel-mug.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/caffa-travel-mug.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/caffa-travel-mug",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/GIA24-01.jpg",
+        "originalSrc": "/photos/originals/caffa-travel-mug.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/caffa-travel-mug.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/caffa-travel-mug.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/caffa-travel-mug.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tonale-small-bowl-4-pieces": {
+    "src": "/photos/studio/tonale-small-bowl-4-pieces.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/tonale-small-bowl-4-pieces",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/DC03-54-01-LG.jpg",
+    "originalSrc": "/photos/originals/tonale-small-bowl-4-pieces.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tonale-small-bowl-4-pieces.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tonale-small-bowl-4-pieces.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tonale-small-bowl-4-pieces.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tonale-small-bowl-4-pieces.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/tonale-small-bowl-4-pieces",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/DC03-54-01-LG.jpg",
+        "originalSrc": "/photos/originals/tonale-small-bowl-4-pieces.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tonale-small-bowl-4-pieces.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tonale-small-bowl-4-pieces.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tonale-small-bowl-4-pieces.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "mediterraneo-fruit-holder": {
+    "src": "/photos/studio/mediterraneo-fruit-holder.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/mediterraneo-fruit-holder",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/ESI01-01_df2607f6-ce1b-4732-b9cc-908759cdb2b6.jpg",
+    "originalSrc": "/photos/originals/mediterraneo-fruit-holder.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/mediterraneo-fruit-holder.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/mediterraneo-fruit-holder.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/mediterraneo-fruit-holder.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/mediterraneo-fruit-holder.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/mediterraneo-fruit-holder",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/ESI01-01_df2607f6-ce1b-4732-b9cc-908759cdb2b6.jpg",
+        "originalSrc": "/photos/originals/mediterraneo-fruit-holder.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/mediterraneo-fruit-holder.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/mediterraneo-fruit-holder.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/mediterraneo-fruit-holder.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "trinity-fruit-holder": {
+    "src": "/photos/studio/trinity-fruit-holder.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/trinity-fruit-holder",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/Trinity-SL-frontside-1_ACO03.jpg",
+    "originalSrc": "/photos/originals/trinity-fruit-holder.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/trinity-fruit-holder.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/trinity-fruit-holder.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/trinity-fruit-holder.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/trinity-fruit-holder.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/trinity-fruit-holder",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/Trinity-SL-frontside-1_ACO03.jpg",
+        "originalSrc": "/photos/originals/trinity-fruit-holder.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/trinity-fruit-holder.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/trinity-fruit-holder.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/trinity-fruit-holder.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "bark-centrepiece": {
+    "src": "/photos/studio/bark-centrepiece.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/bark-centrepiece",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_BM01.jpg",
+    "originalSrc": "/photos/originals/bark-centrepiece.jpg",
+    "width": 1121,
+    "height": 1403,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/bark-centrepiece.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/bark-centrepiece.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/bark-centrepiece.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/bark-centrepiece.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/bark-centrepiece",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_BM01.jpg",
+        "originalSrc": "/photos/originals/bark-centrepiece.jpg",
+        "width": 1121,
+        "height": 1403,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/bark-centrepiece.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/bark-centrepiece.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/bark-centrepiece.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "blow-up-citrus-basket": {
+    "src": "/photos/studio/blow-up-citrus-basket.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/blow-up-citrus-basket",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_FC03_ccb06a53-fd79-49a5-aff6-cfaa84b8f59a.jpg",
+    "originalSrc": "/photos/originals/blow-up-citrus-basket.jpg",
+    "width": 1121,
+    "height": 1403,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/blow-up-citrus-basket.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/blow-up-citrus-basket.jpg",
+    "nightWidth": 1121,
+    "nightHeight": 1403,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/blow-up-citrus-basket.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/blow-up-citrus-basket.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/blow-up-citrus-basket",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_FC03_ccb06a53-fd79-49a5-aff6-cfaa84b8f59a.jpg",
+        "originalSrc": "/photos/originals/blow-up-citrus-basket.jpg",
+        "width": 1121,
+        "height": 1403,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/blow-up-citrus-basket.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/blow-up-citrus-basket.jpg",
+        "nightWidth": 1121,
+        "nightHeight": 1403,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/blow-up-citrus-basket.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "la-stanza-dello-scirocco-wall-clock": {
+    "src": "/photos/studio/la-stanza-dello-scirocco-wall-clock.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/la-stanza-dello-scirocco-wall-clock",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1-1_MT19.jpg",
+    "originalSrc": "/photos/originals/la-stanza-dello-scirocco-wall-clock.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/la-stanza-dello-scirocco-wall-clock.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/la-stanza-dello-scirocco-wall-clock.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/la-stanza-dello-scirocco-wall-clock.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/la-stanza-dello-scirocco-wall-clock.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/la-stanza-dello-scirocco-wall-clock",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1-1_MT19.jpg",
+        "originalSrc": "/photos/originals/la-stanza-dello-scirocco-wall-clock.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/la-stanza-dello-scirocco-wall-clock.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/la-stanza-dello-scirocco-wall-clock.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/la-stanza-dello-scirocco-wall-clock.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "todo-giant-grater": {
+    "src": "/photos/studio/todo-giant-grater.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/todo-giant-grater",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1_RS08_28a74b53-cb71-4544-ab40-d920e18ed813.jpg",
+    "originalSrc": "/photos/originals/todo-giant-grater.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/todo-giant-grater.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/todo-giant-grater.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/todo-giant-grater.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/todo-giant-grater.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/todo-giant-grater",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01-1_RS08_28a74b53-cb71-4544-ab40-d920e18ed813.jpg",
+        "originalSrc": "/photos/originals/todo-giant-grater.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/todo-giant-grater.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/todo-giant-grater.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/todo-giant-grater.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "5070-condiment-set": {
+    "src": "/photos/studio/5070-condiment-set.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/5070-condiment-set",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_5070.jpg",
+    "originalSrc": "/photos/originals/5070-condiment-set.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/5070-condiment-set.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/5070-condiment-set.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/5070-condiment-set.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/5070-condiment-set.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/5070-condiment-set",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_5070.jpg",
+        "originalSrc": "/photos/originals/5070-condiment-set.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/5070-condiment-set.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/5070-condiment-set.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/5070-condiment-set.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "5071-parmesan-cheese-cellar": {
+    "src": "/photos/studio/5071-parmesan-cheese-cellar.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/5071-parmesan-cheese-cellar",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_5071.jpg",
+    "originalSrc": "/photos/originals/5071-parmesan-cheese-cellar.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/5071-parmesan-cheese-cellar.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/5071-parmesan-cheese-cellar.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/5071-parmesan-cheese-cellar.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/5071-parmesan-cheese-cellar.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/5071-parmesan-cheese-cellar",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_5071.jpg",
+        "originalSrc": "/photos/originals/5071-parmesan-cheese-cellar.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/5071-parmesan-cheese-cellar.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/5071-parmesan-cheese-cellar.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/5071-parmesan-cheese-cellar.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "9097-sugar-bowl-with-spoon": {
+    "src": "/photos/studio/9097-sugar-bowl-with-spoon.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/9097-sugar-bowl-with-spoon",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_9097.jpg",
+    "originalSrc": "/photos/originals/9097-sugar-bowl-with-spoon.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/9097-sugar-bowl-with-spoon.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/9097-sugar-bowl-with-spoon.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/9097-sugar-bowl-with-spoon.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/9097-sugar-bowl-with-spoon.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/9097-sugar-bowl-with-spoon",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_9097.jpg",
+        "originalSrc": "/photos/originals/9097-sugar-bowl-with-spoon.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/9097-sugar-bowl-with-spoon.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/9097-sugar-bowl-with-spoon.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/9097-sugar-bowl-with-spoon.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "9098-pepper-mill": {
+    "src": "/photos/studio/9098-pepper-mill.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/9098-pepper-mill",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_9098.jpg",
+    "originalSrc": "/photos/originals/9098-pepper-mill.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/9098-pepper-mill.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/9098-pepper-mill.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/9098-pepper-mill.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/9098-pepper-mill.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/9098-pepper-mill",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_9098.jpg",
+        "originalSrc": "/photos/originals/9098-pepper-mill.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/9098-pepper-mill.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/9098-pepper-mill.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/9098-pepper-mill.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "mami-pitcher": {
+    "src": "/photos/studio/mami-pitcher.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/mami-pitcher",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_SG52-3000.jpg",
+    "originalSrc": "/photos/originals/mami-pitcher.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/mami-pitcher.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/mami-pitcher.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/mami-pitcher.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/mami-pitcher.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/mami-pitcher",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_SG52-3000.jpg",
+        "originalSrc": "/photos/originals/mami-pitcher.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/mami-pitcher.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/mami-pitcher.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/mami-pitcher.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "tigrito-cat-bowl": {
+    "src": "/photos/studio/tigrito-cat-bowl.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/tigrito-cat-bowl",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/AMMI09-01.jpg",
+    "originalSrc": "/photos/originals/tigrito-cat-bowl.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/tigrito-cat-bowl.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/tigrito-cat-bowl.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/tigrito-cat-bowl.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/tigrito-cat-bowl.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/tigrito-cat-bowl",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/AMMI09-01.jpg",
+        "originalSrc": "/photos/originals/tigrito-cat-bowl.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/tigrito-cat-bowl.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/tigrito-cat-bowl.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/tigrito-cat-bowl.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "girotondo-round-tray": {
+    "src": "/photos/studio/girotondo-round-tray.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/girotondo-round-tray",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_AKKGT_b3a8c313-2b98-4399-8b62-f175409da743.jpg",
+    "originalSrc": "/photos/originals/girotondo-round-tray.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/girotondo-round-tray.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/girotondo-round-tray.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/girotondo-round-tray.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/girotondo-round-tray.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/girotondo-round-tray",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_AKKGT_b3a8c313-2b98-4399-8b62-f175409da743.jpg",
+        "originalSrc": "/photos/originals/girotondo-round-tray.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/girotondo-round-tray.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/girotondo-round-tray.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/girotondo-round-tray.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "ossidiana-espresso-coffee-maker": {
+    "src": "/photos/studio/ossidiana-espresso-coffee-maker.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/ossidiana-espresso-coffee-maker",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/MT18-01.jpg",
+    "originalSrc": "/photos/originals/ossidiana-espresso-coffee-maker.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/ossidiana-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/ossidiana-espresso-coffee-maker.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/ossidiana-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/ossidiana-espresso-coffee-maker.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/ossidiana-espresso-coffee-maker",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/MT18-01.jpg",
+        "originalSrc": "/photos/originals/ossidiana-espresso-coffee-maker.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/ossidiana-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/ossidiana-espresso-coffee-maker.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/ossidiana-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "moka-espresso-coffee-maker": {
+    "src": "/photos/studio/moka-espresso-coffee-maker.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/moka-espresso-coffee-maker",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/DC06-01_2f935f86-4a46-4e4f-82db-d454d6da1c0c.jpg",
+    "originalSrc": "/photos/originals/moka-espresso-coffee-maker.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/moka-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/moka-espresso-coffee-maker.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/moka-espresso-coffee-maker.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/moka-espresso-coffee-maker.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/moka-espresso-coffee-maker",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/DC06-01_2f935f86-4a46-4e4f-82db-d454d6da1c0c.jpg",
+        "originalSrc": "/photos/originals/moka-espresso-coffee-maker.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/moka-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/moka-espresso-coffee-maker.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/moka-espresso-coffee-maker.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "sg63-electric-citrus-juicer-european-plug": {
+    "src": "/photos/studio/sg63-electric-citrus-juicer-european-plug.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/sg63-electric-citrus-juicer-european-plug",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/SG63-01.jpg",
+    "originalSrc": "/photos/originals/sg63-electric-citrus-juicer-european-plug.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/sg63-electric-citrus-juicer-european-plug.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/sg63-electric-citrus-juicer-european-plug.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/sg63-electric-citrus-juicer-european-plug.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/sg63-electric-citrus-juicer-european-plug.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/sg63-electric-citrus-juicer-european-plug",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/SG63-01.jpg",
+        "originalSrc": "/photos/originals/sg63-electric-citrus-juicer-european-plug.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/sg63-electric-citrus-juicer-european-plug.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/sg63-electric-citrus-juicer-european-plug.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/sg63-electric-citrus-juicer-european-plug.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "la-bella-tavola-soup-bowl": {
+    "src": "/photos/studio/la-bella-tavola-soup-bowl.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/la-bella-tavola-soup-bowl",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/files/01_ES21-2.jpg",
+    "originalSrc": "/photos/originals/la-bella-tavola-soup-bowl.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/la-bella-tavola-soup-bowl.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/la-bella-tavola-soup-bowl.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/la-bella-tavola-soup-bowl.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/la-bella-tavola-soup-bowl.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/la-bella-tavola-soup-bowl",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/files/01_ES21-2.jpg",
+        "originalSrc": "/photos/originals/la-bella-tavola-soup-bowl.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/la-bella-tavola-soup-bowl.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/la-bella-tavola-soup-bowl.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/la-bella-tavola-soup-bowl.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
+  },
+  "bulla-bottle-opener": {
+    "src": "/photos/studio/bulla-bottle-opener.jpg",
+    "source": "Alessi product reference",
+    "page": "https://eu.alessi.com/products/bulla-bottle-opener",
+    "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_VS01.jpg",
+    "originalSrc": "/photos/originals/bulla-bottle-opener.jpg",
+    "width": 1122,
+    "height": 1402,
+    "fit": "cover",
+    "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+    "aiEdit": {
+      "tool": "built-in image_gen",
+      "source": "/photos/originals/bulla-bottle-opener.jpg",
+      "styleReference": "/photos/studio/ph-5.jpg",
+      "treatment": "Matching warm greige editorial daylight studio"
+    },
+    "nightSrc": "/photos/night/bulla-bottle-opener.jpg",
+    "nightWidth": 1122,
+    "nightHeight": 1402,
+    "nightEdit": {
+      "tool": "built-in image_gen",
+      "daySource": "/photos/studio/bulla-bottle-opener.jpg",
+      "styleReference": "/photos/night/ph-5.jpg",
+      "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+    },
+    "images": [
+      {
+        "src": "/photos/studio/bulla-bottle-opener.jpg",
+        "source": "Alessi product reference",
+        "page": "https://eu.alessi.com/products/bulla-bottle-opener",
+        "original": "https://cdn.shopify.com/s/files/1/0337/3603/2392/products/01_VS01.jpg",
+        "originalSrc": "/photos/originals/bulla-bottle-opener.jpg",
+        "width": 1122,
+        "height": 1402,
+        "fit": "cover",
+        "rights": "Manufacturer reference; rights unverified. AI-relit preview photography.",
+        "aiEdit": {
+          "tool": "built-in image_gen",
+          "source": "/photos/originals/bulla-bottle-opener.jpg",
+          "styleReference": "/photos/studio/ph-5.jpg",
+          "treatment": "Matching warm greige editorial daylight studio"
+        },
+        "nightSrc": "/photos/night/bulla-bottle-opener.jpg",
+        "nightWidth": 1122,
+        "nightHeight": 1402,
+        "nightEdit": {
+          "tool": "built-in image_gen",
+          "daySource": "/photos/studio/bulla-bottle-opener.jpg",
+          "styleReference": "/photos/night/ph-5.jpg",
+          "treatment": "Matching cozy night exposure; lamps on, other objects under warm external lighting"
+        }
+      }
+    ]
   }
 };
   var TONES = ['#EAE4DA', '#E3DCD1', '#DDD5CA'];
@@ -2474,7 +7874,7 @@
   }
   function pad(n) { return String(n).padStart(2, '0'); }
 
-  function secHead(label, route, linkText, lighting) {
+  function secHead(label, route, linkText) {
     return '<div class="sec-head"><h2 class="label" style="font-weight:400">' + label + '</h2>' + '<div class="sec-actions">' + (route ? link(route, linkText || 'View all') : '') + '</div></div>';
   }
   function objCard(o) {
@@ -2546,7 +7946,7 @@
     var h = '';
     h += '<section class="wrap g home-intro"><h1 data-reveal-01="words" class="serif hero-h1">The stories behind iconic design.</h1>' +
       '<p class="muted home-description">A showroom for the lamps, chairs and objects that shaped design history, and the ideas behind them.</p></section>';
-    h += '<section class="sec wrap home-recent"><div class="g">' + secHead('Recently added', 'collection:lighting', 'View all', true) + '</div><div class="grid home-gallery">' + recent.map(objCard).join('') + '</div></section>';
+    h += '<section class="sec wrap home-recent"><div class="g">' + secHead('Recently added', 'collection:lighting') + '</div><div class="grid home-gallery">' + recent.map(objCard).join('') + '</div></section>';
     h += '<div class="wrap home-feature">' + link('story:' + latest.slug, '<div class="home-feature-image" style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div><p class="latest-lede">' + esc(latest.lede) + '</p></div>', 'scard latest') + '</div>';
     h += '<section class="sec wrap g">' + secHead('Collection') + '<div style="margin-top:8px">' + DEPTS.map(function (d, i) {
       var n = OBJECTS.filter(function (o) { return o.dept === d.id; }).length;
@@ -2619,10 +8019,11 @@
     var designerLink = d && d.page ? link('designer:' + d.id, esc(dName) + ', ' + esc(o.yearLabel) + ' <span aria-hidden="true">→</span>') : '<span>' + esc(dName) + ', ' + esc(o.yearLabel) + '</span>';
     var facts = [['Designer', d && d.page ? link('designer:' + d.id, esc(dName)) : esc(dName)], ['Year', esc(o.yearLabel)]];
     if (o.manufacturer) facts.push(['Manufacturer', esc(o.manufacturer)]);
+    if (o.source) facts.push(['Source', '<a class="link" href="' + esc(o.source) + '" target="_blank" rel="noopener">Product archive</a>']);
     if (o.materials) facts.push(['Materials', esc(o.materials)]);
     if (o.dimensions) facts.push(['Dimensions', esc(o.dimensions)]);
     facts.push(['Origin', esc(o.origin)]); facts.push(['Status', esc(o.status)]);
-    var related = STORIES.filter(function (s) { return s.featured.indexOf(o.slug) > -1; })[0] || STORIES.filter(function (s) { return s.featured.some(function (f) { return oBySlug[f].dept === o.dept; }); })[0] || STORIES[0];
+    var related = STORIES.filter(function (s) { return s.featured.indexOf(o.slug) > -1; })[0] || STORIES.filter(function (s) { return s.featured.some(function (f) { return oBySlug[f].dept === o.dept; }); })[0] || (o.expansion ? null : STORIES[0]);
     var more = OBJECTS.filter(function (x) { return x !== o && x.designer && x.designer === o.designer; });
     if (more.length < 2) more = more.concat(OBJECTS.filter(function (x) { return x !== o && more.indexOf(x) < 0 && x.era === o.era && x.dept === o.dept; }));
     if (more.length < 2) more = more.concat(OBJECTS.filter(function (x) { return x !== o && more.indexOf(x) < 0 && x.dept === o.dept; }));
@@ -2646,7 +8047,7 @@
     h += '<article class="sec wrap g"><div class="read"><div class="sec-head"><h2 class="label" style="font-weight:400">The story</h2><span class="label muted">' + Math.max(2, o.story.length + 1) + ' min</span></div>' +
       '<div class="prose" style="margin-top:32px">' + o.story.map(function (p) { return '<h2 data-reveal-01="lines" data-scroll>' + esc(p[0]) + '</h2><p>' + esc(p[1]) + '</p>'; }).join('') + '</div></div></article>';
     h += '</div></div>';
-    h += '<section class="sec wrap"><div class="g">' + secHead('Related story', 'stories') + '</div><div style="margin-top:24px" class="read">' + storyCard(related) + '</div></section>';
+    if (related) h += '<section class="sec wrap"><div class="g">' + secHead('Related story', 'stories') + '</div><div style="margin-top:24px" class="read">' + storyCard(related) + '</div></section>';
     h += '<section class="sec wrap"><div class="g">' + secHead('More from the collection', 'collection:' + dept.id) + '</div><div class="grid" style="margin-top:24px">' + more.map(objCard).join('') + '</div></section>';
     h += follow() + credits(creditsFor([o])) + footer();
     return h;

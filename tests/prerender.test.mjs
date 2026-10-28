@@ -22,6 +22,8 @@ test('every route has usable HTML, the two shared containers and an accurate tit
     const html = await readFile(fileFor(page.path), 'utf8');
     assert.equal((html.match(/<header\b/g) || []).length, 1, route);
     assert.equal((html.match(/<main\b/g) || []).length, 1, route);
+    assert.equal((html.match(/class="photo-mode"/g) || []).length, 1, route + ' has one shared lighting control');
+    assert.match(html.match(/<header\b[\s\S]*?<\/header>/)[0], /class="photo-mode"/);
     assert.match(html, /<header class="header nav transition-swup/);
     assert.match(html, /<main id="swup" class="transition-swup hide-scrollbar/);
     assert.match(html, /<h1\b[^>]*>[^<]+<\/h1>/);

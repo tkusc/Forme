@@ -17,6 +17,9 @@ test('every object gallery contains only locally hosted photographs with recorde
     assert.ok(images?.length, slug);
     const gallery = render(route).html.match(/<div class="gallery"[\s\S]*?<\/div><\/div>/)[0];
     assert.equal((gallery.match(/<img /g) || []).length, images.length * 2, slug);
+    assert.equal((gallery.match(/class="ph ph-day"/g) || []).length, images.length, slug + ' has a base exposure');
+    assert.equal((gallery.match(/class="ph ph-night"/g) || []).length, images.length, slug + ' has a night layer');
+    assert.equal((gallery.match(/<img class="ph ph-night"[^>]+aria-hidden="true"/g) || []).length, images.length, slug + ' night layers are decorative');
     for (const image of images) {
       assert.ok(image.width >= 400 && image.height >= 400, image.src);
       assert.match(image.page, /^https:\/\//);

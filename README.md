@@ -24,9 +24,9 @@ The preview serves `dist/` at http://127.0.0.1:8765, including clean route URLs 
 - `assets/navigation.js`: Swup with Head, Preload and Parallel plugins; nested scroll and history restoration; route announcements and focus.
 - `assets/styles.css`: brand, responsive layouts and the parallel transition states.
 - `scripts/render.mjs`: browser-independent rendering of all content routes.
-- `scripts/build.mjs`: builds the local browser bundle and renders 51 content pages plus `404.html` into ignored `dist/`.
-- `photos/`: licensed images, credited on each page.
-- `tests/`: route, link/asset and content-preservation checks. `content-baseline.json` records the pre-migration view output; update it deliberately when editing content.
+- `scripts/build.mjs`: builds the local browser bundle and renders 151 content pages plus `404.html` into ignored `dist/`.
+- `photos/`: locally hosted reference photographs and AI studio edits, with per-image provenance.
+- `tests/`: route, link/asset and content-preservation checks. `content-baseline.json` records the approved view output; update it deliberately when editing content.
 
 ## Navigation and scrolling
 
@@ -64,7 +64,7 @@ The search pill morphs in width and position while keeping its full pill radius 
 
 ### Photography
 
-All 30 collection objects now have real, locally hosted photographs. Galleries,
+All 130 collection objects have locally hosted photographs derived from documented source references. Galleries,
 category tiles, list thumbnails, story cards and related-object cards share this
 photo catalogue. `photos/sources.json` records every source page, original image
 URL, dimensions and known licence or unverified-rights status. Manufacturer and
@@ -104,7 +104,7 @@ The baked colour grade is displayed without the earlier CSS multiply tint.
 
 ### Day / Night photographs
 
-Each of the 58 daytime studio views has a corresponding cozy nighttime edit in
+Each of the 158 daytime studio views has a corresponding cozy nighttime edit in
 `photos/night/`, referenced by `nightSrc` and `nightEdit` in the source manifest.
 The night edit prompt locks the daytime camera, framing, geometry and pose.
 Lighting products are switched on with warm, physically appropriate light;
@@ -112,11 +112,12 @@ non-lighting objects receive warm off-camera practical lighting without emitting
 light themselves. Daytime files are unchanged. Exact night prompts are saved in
 `photos/night/prompts.json`.
 
-Day/Night controls appear in the homepage's recent section, collection toolbar
-and object galleries. They switch photographic exposures only, preserving the
-active gallery view and scroll position. The preference is stored separately
-from per-page navigation state and reapplied to incoming Swup pages, local
-rerenders and search results. Gallery/home night counterparts preload for a
-smoother first switch. The page colour theme remains unchanged.
+The shared navbar owns the only Day/Night control on every page. Each photographic frame keeps its day image mounted beneath an aria-hidden night exposure. Changing mode animates the night layer’s opacity for 1.4 seconds, so the light dims smoothly without replacing URLs or moving the gallery. The saved preference is restored after Swup header replacement, page navigation, local filtering and search. Both exposures load lazily; the night layer does not trigger the daytime loading skeleton. Reduced motion removes the fade. The page colour theme remains unchanged.
 
-The shared navbar now owns the only Day/Night control. Each photographic frame keeps its day image mounted beneath an aria-hidden night exposure. Changing mode animates the night layer’s opacity for 1.4 seconds, so the light dims smoothly without replacing URLs or moving the gallery. Reduced motion removes the fade. Header replacements restore the saved pressed state.
+### Catalogue expansion
+
+The catalogue includes 100 additional models: 35 lighting, 35 furniture and 30 objects, for totals of 47, 48 and 35. Each new object has a dedicated prerendered page, designer attribution, dated facts, two editorial notes, an archive source link and matching day/night images. The designer index contains 61 records. Wall/Ceiling lighting and Bench/Sofa/Storage/Desk furniture filters cover the new types.
+
+`data/catalogue-sources.json` records all 100 additions and their source URLs, exact photographed models and paired asset paths. Manufacturer product references are retained under `photos/originals/`. The 100 new bright studio edits and 100 matching cozy night edits use the existing PH 5 references; their exact prompts join the shared manifests. Dates distinguish specific models from earlier families or reissues (for example Bellhop Glass T, the Scirocco clock and the reissued La Bella Tavola service). No unrelated story is inserted when a new object has no matching story category.
+
+The build generates 151 content routes plus 404. Seven tests verify the 100 additions, department/filter/designer coverage, all photographic sources and exposure layers, the shared navbar control, approved content, page HTML and local links/assets.

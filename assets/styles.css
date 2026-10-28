@@ -155,12 +155,12 @@ ol, ul { padding: 0; list-style: none; }
 .plate img.ph, .sthumb img.ph { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; transition: opacity .5s var(--ease-out); }
 .plate img.ph.in, .sthumb img.ph.in { opacity: 1; }
 .plate img.ph.err, .sthumb img.ph.err { display: none; }
-.plate:has(> img.ph:not(.err)) > svg, .sthumb:has(> img.ph:not(.err)) > svg { visibility: hidden; }
+.plate:has(> img.ph-day:not(.err)) > svg, .sthumb:has(> img.ph-day:not(.err)) > svg { visibility: hidden; }
 .plate { transition: background-color .5s ease; }
-.plate:has(> img.ph:not(.in):not(.err)) { background-color: var(--plate) !important; }
+.plate:has(> img.ph-day:not(.in):not(.err)) { background-color: var(--plate) !important; }
 .plate::after, .sthumb::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .35s ease;
   background: linear-gradient(100deg, transparent 25%, rgba(255, 253, 248, .55) 50%, transparent 75%); transform: translateX(-100%); }
-.plate:has(> img.ph:not(.in):not(.err))::after, .sthumb:has(> img.ph:not(.in):not(.err))::after { opacity: 1; animation: sweep 1.6s cubic-bezier(.45, 0, .25, 1) infinite; }
+.plate:has(> img.ph-day:not(.in):not(.err))::after, .sthumb:has(> img.ph-day:not(.in):not(.err))::after { opacity: 1; animation: sweep 1.6s cubic-bezier(.45, 0, .25, 1) infinite; }
 @keyframes sweep { to { transform: translateX(100%); } }
 @keyframes pulse { 50% { opacity: .35; } }
 .sthumb { position: relative; overflow: hidden; }
@@ -315,7 +315,7 @@ a, button, input { touch-action: manipulation; }
   .sheet.open { opacity: 1; pointer-events: auto; }
   .spanel { transform: translate(-50%, 0); }
   .plate.fade svg { animation: none; }
-  .plate:has(> img.ph:not(.in):not(.err))::after, .sthumb:has(> img.ph:not(.in):not(.err))::after { transform: none; background: rgba(255, 253, 248, .4); animation: pulse 1.6s ease-in-out infinite; }
+  .plate:has(> img.ph-day:not(.in):not(.err))::after, .sthumb:has(> img.ph-day:not(.in):not(.err))::after { transform: none; background: rgba(255, 253, 248, .4); animation: pulse 1.6s ease-in-out infinite; }
 }
 
 /* ---------- Object page columns ---------- */
@@ -782,7 +782,7 @@ html[data-photo-mode="night"] .plate img.ph-night.in, html[data-photo-mode="nigh
 @media (max-width: 680px) {
   .nav-center { --closed-search-width: calc(100% - 222px); left: 100px; transform: none; }
   .header.searching .nav-center { left: 50%; transform: translateX(-50%); }
-  .header .photo-mode button { min-width: 40px; padding-inline: 7px; min-height: 34px; }
+  .header .photo-mode button { min-width: 40px; padding-inline: 7px; min-height: 36px; }
 }
 @media (prefers-reduced-motion: reduce) { .plate img.ph-night, .sthumb img.ph-night { transition: none !important; } }
 @media (prefers-reduced-motion: reduce) { .photo-mode button { transition: none; } }
