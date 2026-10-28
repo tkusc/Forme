@@ -31,14 +31,13 @@ export function setupOnce(navigateTo) {
 }
 
 // Persistent overlays and document listeners are mounted exactly once.
-var closeSearch, closeSheets, openSearch, renderSearch, renderMenu, showSheet, measure;
+var closeSearch, closeSheets, openSearch, renderSearch, renderMenu, showSheet;
 function setupInteractions() {
   /* ---------- Search ---------- */
   var spanel = document.getElementById('spanel');
   var sres = document.getElementById('sresults');
   var searchScrim = document.getElementById('searchScrim');
   var searchOpen = false, clearTimer = null, openSheet = null;
-  measure = function () { updateNavPill(); };
   openSearch = function () {
     if (searchOpen) return;
     if (openSheet) closeSheets(true);
@@ -248,29 +247,6 @@ export function initHeader(scope) {
   cancelBtn.addEventListener('click', closeSearch, options);
   q.addEventListener('input', function () { document.getElementById('spanel').classList.remove('stagger'); renderSearch(); }, options);
   q.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeSearch(); }, options);
-  var primary = scope.querySelector('.nav-primary');
-  primary.querySelectorAll('a').forEach(function (link) {
-    link.addEventListener('pointerenter', function () { updateNavPill(link); }, options);
-    link.addEventListener('focus', function () { updateNavPill(link); }, options);
-  });
-  primary.addEventListener('pointerleave', function () { updateNavPill(); }, options);
-  primary.addEventListener('focusout', function (e) {
-    if (!primary.contains(e.relatedTarget)) updateNavPill(primary.querySelector('[aria-current]'));
-  }, options);
-  measure();
-}
-
-function updateNavPill(target) {
-  var primary = nav?.querySelector('.nav-primary');
-  if (!primary) return;
-  var pill = primary.querySelector('.nav-pill');
-  target = target || primary.querySelector(':focus-visible') || primary.querySelector('[aria-current]');
-  if (!target || !target.offsetWidth) { pill.style.opacity = '0'; return; }
-  primary.classList.add('has-pill');
-  pill.style.width = target.offsetWidth + 'px';
-  pill.style.height = target.offsetHeight + 'px';
-  pill.style.transform = 'translate(' + target.offsetLeft + 'px, ' + target.offsetTop + 'px)';
-  pill.style.opacity = '1';
 }
 
 export function initPage(scope, reset = true, snapshot) {
@@ -309,10 +285,6 @@ export function beforeVisit() {
   nav.classList.remove('hide');
   pageEvents?.abort();
   headerEvents?.abort();
-}
-
-export function installResizeHandler() {
-  window.addEventListener('resize', function () { if (nav?.isConnected) measure(); });
 }
 
 export function capturePageState() {

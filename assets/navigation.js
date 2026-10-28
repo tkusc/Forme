@@ -3,7 +3,7 @@ import Swup from 'swup';
 import SwupHeadPlugin from '@swup/head-plugin';
 import SwupParallelPlugin from '@swup/parallel-plugin';
 import SwupPreloadPlugin from '@swup/preload-plugin';
-import { setupOnce, initPage, initHeader, beforeVisit, installResizeHandler, capturePageState } from './app.js';
+import { setupOnce, initPage, initHeader, beforeVisit, capturePageState } from './app.js';
 
 function start() {
   const swup = new Swup({
@@ -21,7 +21,6 @@ function start() {
   setupOnce(url => swup.navigate(url));
   initHeader(document.querySelector('header'));
   initPage(document.querySelector('#swup'));
-  installResizeHandler();
   matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', () => {
     initTextReveals(document.querySelector('#swup'));
   });
