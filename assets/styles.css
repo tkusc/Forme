@@ -348,3 +348,56 @@ a, button, input { touch-action: manipulation; }
 #filterBody fieldset { padding: 0 !important; margin-top: 28px !important; }
 #filterBody legend { float: left; width: 100%; margin-bottom: 12px; }
 #filterBody .chips { clear: both; margin-top: 0 !important; }
+
+/* Homepage: a quiet introduction above a four-frame editorial spread.
+   Scoped to this route so collection and detail layouts keep their own rhythm. */
+.home-intro { padding-top: 48px; display: grid; gap: 28px; }
+.home-intro .hero-h1 { max-width: 540px; font-size: clamp(42px, 9vw, 64px); line-height: .98; letter-spacing: -.025em; text-wrap: balance; }
+.home-description { max-width: 360px; font-size: var(--t16); line-height: 1.6; }
+.home-recent { margin-top: 64px; }
+.home-recent .sec-head { border-top: 0; padding-top: 0; align-items: center; gap: 16px; }
+.home-recent .sec-head a { min-height: 44px; display: inline-flex; align-items: center; }
+.home-gallery { margin-top: 16px; padding-inline: var(--gl) var(--gr); gap: 32px 12px; align-items: start; }
+.home-gallery .card { min-width: 0; gap: 12px; }
+.home-gallery .card:nth-child(even) { margin-top: 56px; }
+.home-gallery .card:nth-child(n) .cap { padding: 0 !important; }
+.home-gallery .plate { aspect-ratio: 2 / 3; }
+.home-gallery .cap .label { font-size: 11px; letter-spacing: .06em; line-height: 1.5; }
+.home-gallery .cap .name { font-size: clamp(22px, 5vw, 28px); margin-top: 6px; }
+.home-feature { margin-top: 80px; padding-inline: var(--gl) var(--gr); }
+.home-feature .scard.latest { padding: 0; gap: 24px; }
+.home-feature .scard.latest > .g { padding: 0; }
+.home-feature .latest-lede { display: block; margin-top: 16px; max-width: 42ch; font-size: var(--t16); line-height: 1.6; color: var(--muted); }
+.home-page #app > .sec:not(.home-recent) { margin-top: clamp(80px, 9vw, 144px); }
+
+@media (min-width: 720px) and (max-width: 959px) {
+  .home-intro { grid-template-columns: 1fr 1fr; gap: 48px; padding-top: 64px; }
+  .home-intro .hero-h1 { font-size: 44px; }
+  .home-gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .home-gallery .card:nth-child(n) { margin-top: 0; }
+  .home-gallery .cap .name { font-size: 24px; }
+}
+
+@media (min-width: 960px) {
+  .home-page .wrap { max-width: 1600px; }
+  .home-page .nav-in { height: 104px; padding-right: var(--gr); }
+  .home-page .navlinks { position: absolute; left: 50%; transform: translateX(-50%); margin-left: 0; gap: clamp(18px, 2.2vw, 36px); font-size: 12px; }
+  .home-page .sfield { top: 30px; right: calc(var(--slot) + var(--gr)); }
+  .home-page .spanel { top: calc(104px + env(safe-area-inset-top, 0px)); }
+  .home-intro { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 12px; padding-top: 52px; min-height: clamp(300px, 30vw, 440px); align-content: start; }
+  .home-intro .hero-h1 { grid-column: 1 / 3; max-width: 380px !important; font-size: clamp(30px, 2.8vw, 42px); line-height: 1.08; }
+  .home-description { grid-column: 4; max-width: 360px; font-size: 14px; line-height: 1.55; }
+  .home-recent { margin-top: 0; }
+  .home-gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 12px; margin-top: 12px; }
+  .home-gallery .card:nth-child(n) { margin-top: 0; }
+  .home-gallery .plate { aspect-ratio: 0.52; max-height: 720px; }
+  .home-gallery .cap .name { font-size: 26px; }
+  .home-feature { margin-top: 144px; }
+  .home-feature .scard.latest { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: clamp(40px, 8vw, 128px); align-items: center; }
+  .home-feature .scard.latest .title { font-size: clamp(36px, 3.6vw, 58px); }
+  .home-page #app > .sec > .story-list { column-gap: 24px; }
+}
+
+@media (min-width: 1600px) {
+  .home-gallery .plate { aspect-ratio: 1 / 2; }
+}

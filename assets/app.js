@@ -222,10 +222,10 @@
     var recent = OBJECTS.slice().sort(function (a, b) { return b.added - a.added; }).slice(0, 4);
     var profiled = DESIGNERS.filter(function (d) { return d.page; });
     var h = '';
-    h += '<section class="wrap g" style="padding-top:64px;display:flex;flex-direction:column;gap:24px"><h1 class="serif hero-h1" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance;max-width:720px">The stories behind iconic design.</h1>' +
-      '<p class="muted" style="font-size:var(--t16);line-height:1.6;max-width:330px">A showroom for the lamps, chairs and objects that shaped design history, and the ideas behind them.</p></section>';
-    h += '<div class="wrap" style="margin-top:64px">' + link('story:' + latest.slug, '<div style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div><p class="latest-lede">' + esc(latest.lede) + '</p></div>', 'scard latest') + '</div>';
-    h += '<section class="sec wrap"><div class="g">' + secHead('Recently added', 'collection:lighting') + '</div><div class="grid" style="margin-top:24px">' + recent.map(objCard).join('') + '</div></section>';
+    h += '<section class="wrap g home-intro"><h1 class="serif hero-h1">The stories behind iconic design.</h1>' +
+      '<p class="muted home-description">A showroom for the lamps, chairs and objects that shaped design history, and the ideas behind them.</p></section>';
+    h += '<section class="sec wrap home-recent"><div class="g">' + secHead('Recently added', 'collection:lighting') + '</div><div class="grid home-gallery">' + recent.map(objCard).join('') + '</div></section>';
+    h += '<div class="wrap home-feature">' + link('story:' + latest.slug, '<div class="home-feature-image" style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div><p class="latest-lede">' + esc(latest.lede) + '</p></div>', 'scard latest') + '</div>';
     h += '<section class="sec wrap g">' + secHead('Collection') + '<div style="margin-top:8px">' + DEPTS.map(function (d, i) {
       var n = OBJECTS.filter(function (o) { return o.dept === d.id; }).length;
       return link('collection:' + d.id, '<span class="no">' + pad(i + 1) + '</span><span class="nm">' + d.label + '</span><span class="meta">' + n + '</span><span aria-hidden="true">→</span>', 'irow');
@@ -412,6 +412,8 @@
   function render() {
     var parts = state.route.split(':');
     var fn = views[parts[0]] || views.home;
+    document.body.classList.toggle('home-page', parts[0] === 'home');
+    measure();
     app.innerHTML = fn(parts[1]);
     var top = ({ collection: 'collection:' + state.dept, object: 'collection:' + state.dept, story: 'stories', stories: 'stories', designer: 'designers', designers: 'designers', about: 'about' })[parts[0]];
     Array.prototype.forEach.call(document.querySelectorAll('.navlinks a'), function (l) { if (l.getAttribute('data-go') === top) l.setAttribute('aria-current', 'page'); else l.removeAttribute('aria-current'); });
