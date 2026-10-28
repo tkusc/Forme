@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>formé</title>
+<meta name="description" content="formé is a showroom for iconic design: the lamps, chairs and objects that shaped design history, and the stories behind them.">
+<meta name="theme-color" content="#F5F2EC">
+<meta property="og:site_name" content="formé">
+<meta property="og:title" content="formé">
+<meta property="og:description" content="The stories behind iconic design.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+<script defer src="/assets/data.js"></script>
+<script defer src="/assets/views.js"></script>
+<script defer src="/assets/app.bundle.js"></script>
+<noscript><style>[data-reveal-01] { visibility: visible; } .plate img.ph-day { opacity: 1; } .plate img.ph-night { display: none; } .plate:has(> img.ph)::after { display: none; }</style></noscript>
+</head>
+<body>
+<div class="app">
+<a class="skip" href="#swup">Skip to content</a>
+<header class="header nav transition-swup{{home}}" id="nav">
+  <div class="nav-in">
+    <div class="nav-left">
+      <a href="/" class="brand" data-go="home" aria-label="formé, home" translate="no">formé</a>
+    </div>
+    <div class="nav-center">
+      <div class="sfield" id="sfield">
+        <span class="sframe" aria-hidden="true"></span>
+        <span class="sicon" id="sicon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></span>
+        <span class="search-label" aria-hidden="true">Lamps, chairs, designers…</span>
+        <label for="q" class="sr">Search formé</label>
+        <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="Lamps, chairs, designers…" tabindex="-1" aria-controls="spanel" aria-hidden="true" disabled>
+        <button class="cancel" id="closeSearch" tabindex="-1" aria-label="Close search and menu"><span></span><span></span></button>
+        <button class="sopen" id="openSearch" aria-label="Search and menu" aria-keyshortcuts="F" aria-controls="spanel" aria-expanded="false"></button>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="photo-mode" role="group" aria-label="Photo lighting">
+        <button type="button" data-photo-mode="day" aria-pressed="true">Day</button>
+        <button type="button" data-photo-mode="night" aria-pressed="false">Night</button>
+      </div>
+      <nav class="navlinks nav-secondary" aria-label="More pages">
+        <a href="/stories" data-go="stories">Stories</a>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <a href="/designers" data-go="designers" class="nav-solid">Designers</a>
+        <a href="/about" data-go="about" class="nav-outline">About</a>
+      </nav>
+
+    </div>
+  </div>
+</header>
+
+<div class="spanel" id="spanel" role="region" aria-label="Navigation and search results" inert><div class="search-content"><div class="wrap g" id="sresults" aria-live="polite"></div>
+  <footer class="search-meta" aria-label="Social and legal links">
+    <div class="search-social"><a class="btn sq" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a class="btn sq" href="https://www.threads.com/" target="_blank" rel="noopener">Threads</a></div>
+    <div class="search-legal label muted"><a href="/imprint" data-go="page:imprint">Imprint</a><a href="/privacy" data-go="page:privacy">Privacy</a><a href="/credits" data-go="page:credits">Credits</a></div>
+  </footer>
+</div></div>
+
+<main id="swup" class="transition-swup hide-scrollbar{{home}}" data-route="{{route}}" data-dept="{{dept}}" tabindex="-1"><!-- PAGE --></main>
+
+<div class="scrim search-scrim" id="searchScrim" aria-hidden="true"></div>
+<div class="scrim" id="scrim" aria-hidden="true"></div>
+
+<section class="sheet" id="filterSheet" role="dialog" aria-label="Filter" aria-modal="true">
+  <div class="handle" aria-hidden="true"></div>
+  <div class="g" style="height: 56px; display: flex; justify-content: space-between; align-items: center; flex: none;">
+    <h2 style="font-size: var(--t22); font-weight: 500; letter-spacing: -.02em;">Filter</h2>
+    <button class="link" id="resetFilter" style="height: 44px; font-size: var(--t14);">Reset</button>
+  </div>
+  <div class="sheet-body g" id="filterBody" style="border-top: 1px solid var(--ink); padding-bottom: 16px;"></div>
+  <div class="g" style="padding-top: 12px; padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); flex: none;">
+    <button class="btn fill wide sq" id="applyFilter">Show objects</button>
+  </div>
+</section>
+
+<!-- Persistent viewport edges, outside both Swup containers. -->
+<div class="progressive-blur top-blur" aria-hidden="true">
+  <div class="layer blur-1"></div>
+  <div class="layer blur-2"></div>
+  <div class="layer blur-3"></div>
+  <div class="layer blur-4"></div>
+  <div class="layer blur-5"></div>
+  <div class="layer blur-6"></div>
+  <div class="layer blur-7"></div>
+  <div class="layer blur-8"></div>
+</div>
+
+<div class="progressive-blur bottom-blur" aria-hidden="true">
+  <div class="layer blur-1"></div>
+  <div class="layer blur-2"></div>
+  <div class="layer blur-3"></div>
+  <div class="layer blur-4"></div>
+  <div class="layer blur-5"></div>
+  <div class="layer blur-6"></div>
+  <div class="layer blur-7"></div>
+  <div class="layer blur-8"></div>
+</div>
+</div>
+<div id="route-status" class="sr" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
