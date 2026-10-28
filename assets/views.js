@@ -1,7 +1,7 @@
 /* formé: routing, views, search, sheets. Reads the globals defined in data.js. */
 (function () {
   'use strict';
-  /* ---------- Illustrations (placeholders until licensed photos are added) ---------- */
+  /* ---------- Illustrations (network-error fallbacks only) ---------- */
   function ring(n, r, cx, cy, fn) { var s = ''; for (var i = 0; i < n; i++) { var a = (i / n) * Math.PI * 2 - Math.PI / 2; s += fn(cx + Math.cos(a) * r, cy + Math.sin(a) * r, i); } return s; }
   var ART = {
     ph5: '<line x1="60" y1="0" x2="60" y2="74" stroke="#2B1A16" stroke-width=".6"/><path d="M42 82 Q60 64 78 82 Z" fill="#FAF6EE"/><path d="M26 98 Q60 72 94 98 Z" fill="#FAF6EE"/><path d="M36 106 Q60 94 84 106 Z" fill="#E3DACB"/>',
@@ -40,68 +40,1049 @@
   };
   function art(kind) { return '<svg viewBox="0 0 120 160" aria-hidden="true">' + (ART[kind] || '') + '</svg>'; }
   var PHOTOS = {
- "taccia": {
-  "src": "/photos/taccia.jpg",
-  "artist": "Azienda Flos",
-  "lic": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Taccia-table-a-pg-castiglioni-flos-F6602004-product-still-life-big.jpg",
-  "note": "",
-  "fit": "contain",
-  "bg": "#FFFFFF"
- },
- "atollo": {
-  "src": "/photos/atollo.jpg",
-  "artist": "Pava",
-  "lic": "CC BY-SA 3.0 it",
-  "page": "https://commons.wikimedia.org/wiki/File:%22_11_-_ITALY_-_Atollo_-_Oluce_-_Vico_Magistretti_1977.jpg",
-  "note": "",
-  "fit": "cover",
-  "bg": ""
- },
- "tolomeo": {
-  "src": "/photos/tolomeo.jpg",
-  "artist": "Sailko",
-  "lic": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Michele_de_lucchi_e_giancarlo_fassina_per_artemide,_lampada_da_tavolo_tolomeo,_1987.jpg",
-  "note": "",
-  "fit": "cover",
-  "bg": ""
- },
- "panton-chair": {
-  "src": "/photos/panton-chair.jpg",
-  "artist": "Tokumeigakarinoaoshima",
-  "lic": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
-  "note": "",
-  "fit": "cover",
-  "bg": ""
- },
- "akari-1a": {
-  "src": "/photos/akari-1a.jpg",
-  "artist": "Jean-Pierre Dalbéra from Paris, France",
-  "lic": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Akari_light_sculpture_model_10A_by_Isamu_Noguchi.jpg",
-  "note": "Photo shows Akari model 10A, a larger lamp from the same series.",
-  "fit": "cover",
-  "bg": ""
- },
- "wishbone-chair": {
-  "src": "/photos/wishbone-chair.jpg",
-  "artist": "Robert B. Moffatt",
-  "lic": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Hans_Wegner_Wishbone_Chair.jpg",
-  "note": "",
-  "fit": "cover",
-  "bg": ""
- }
+  "anglepoise-1227": {
+    "src": "/photos/anglepoise-1227.jpg",
+    "source": "zenkki.co.uk",
+    "page": "https://www.zenkki.co.uk/products/anglepoise-original",
+    "original": "https://www.zenkki.co.uk/cdn/shop/products/original-1227-desk-lamp-jet-black-2_6_white.jpg?v=1755860470",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1283,
+    "height": 896,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/anglepoise-1227.jpg",
+        "source": "zenkki.co.uk",
+        "page": "https://www.zenkki.co.uk/products/anglepoise-original",
+        "original": "https://www.zenkki.co.uk/cdn/shop/products/original-1227-desk-lamp-jet-black-2_6_white.jpg?v=1755860470",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1283,
+        "height": 896,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/anglepoise-1227-2.jpg",
+        "source": "gnr8.jp",
+        "page": "https://www.gnr8.jp/products/anglepoise-original-1227",
+        "original": "https://www.gnr8.jp/cdn/shop/products/3dba323164d68884448e9f9b0beb705a_1024x1024.jpg?v=1597405442",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1024,
+        "height": 768,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "ph-artichoke": {
+    "src": "/photos/ph-artichoke.jpg",
+    "source": "finnishdesignshop.com",
+    "page": "https://www.finnishdesignshop.com/en-ch/product/ph-artichoke-480-mm-copper",
+    "original": "https://media.fds.fi/product_image/2000/1194LouisPoulsen_19_TH.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1500,
+    "height": 1500,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/ph-artichoke.jpg",
+        "source": "finnishdesignshop.com",
+        "page": "https://www.finnishdesignshop.com/en-ch/product/ph-artichoke-480-mm-copper",
+        "original": "https://media.fds.fi/product_image/2000/1194LouisPoulsen_19_TH.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1500,
+        "height": 1500,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/ph-artichoke-2.jpg",
+        "source": "danishdesignstore.com",
+        "page": "https://www.danishdesignstore.com/products/ph-artichoke-lamp-by-poul-henningsen-louis-poulsen",
+        "original": "https://www.danishdesignstore.com/cdn/shop/files/PH_Artichoke_Copper_US_480_02A_2_5_90145_Product_Image_louis_poulsen.jpg?v=1724306931",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1080,
+        "height": 1080,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "arco": {
+    "src": "/photos/arco.jpg",
+    "source": "jamesbondlifestyle.com",
+    "page": "https://www.jamesbondlifestyle.com/product/flos-arco-floor-lamp",
+    "original": "https://www.jamesbondlifestyle.com/sites/default/files/styles/fancybox_popup/public/images/product/ac085-flos-arco-floor-lamp.jpg?itok=B_4RsW1T",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 835,
+    "height": 1000,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/arco.jpg",
+        "source": "jamesbondlifestyle.com",
+        "page": "https://www.jamesbondlifestyle.com/product/flos-arco-floor-lamp",
+        "original": "https://www.jamesbondlifestyle.com/sites/default/files/styles/fancybox_popup/public/images/product/ac085-flos-arco-floor-lamp.jpg?itok=B_4RsW1T",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 835,
+        "height": 1000,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/arco-2.jpg",
+        "source": "nest.co.uk",
+        "page": "https://www.nest.co.uk/product/flos-arco-floor-lamp",
+        "original": "https://dm4c9mjc2jvtf.cloudfront.net/product-media/1YBS/1200/900/Flos-Arco-Floor-Lamp-Lifestyle-1.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1200,
+        "height": 900,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "tizio": {
+    "src": "/photos/tizio.jpg",
+    "source": "italianfurniture.com",
+    "page": "https://italianfurniture.com/products/adjustable-arm-table-lamp-artemide-tizio",
+    "original": "https://italianfurniture.com/cdn/shop/files/ARTA009218.png?v=1756989951&width=2048",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/tizio.jpg",
+        "source": "italianfurniture.com",
+        "page": "https://italianfurniture.com/products/adjustable-arm-table-lamp-artemide-tizio",
+        "original": "https://italianfurniture.com/cdn/shop/files/ARTA009218.png?v=1756989951&width=2048",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/tizio-2.jpg",
+        "source": "madeindesign.co.uk",
+        "page": "https://www.madeindesign.co.uk/prod-tizio-table-lamp-metal-black-richard-sapper-1972-artemide-refa009010.html",
+        "original": "https://media.madeindesign.com/cdn-cgi/image/fit%3Dscale-down%2Cbackground%3Dwhite%2Cformat%3Dauto%2Cquality%3D80%2Cheight%3D2000%2Cwidth%3D2000/nuxeo/products/3/4/lampe-de-table-tizio-black-artemide_madeindesign_119947_original.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1398,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "thonet-no-14": {
+    "src": "/photos/thonet-no-14.jpg",
+    "source": "smow.de",
+    "page": "https://www.smow.de/thonet/kaffeehausstuehle/214-214-m-stuhl-ohne-armlehnen-buche-gebeizt-nussbaumfarbig-rohrgeflecht-mit-stuetzgewebe-unter-sitzflaeche.html",
+    "original": "https://www.smow.de/pics/w3840/3b546528/th-045-000/thonet-214-ohne-armlehnen-buche-gebeizt-nussbaumfarbig-geflecht-gestuetzt.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/thonet-no-14.jpg",
+        "source": "smow.de",
+        "page": "https://www.smow.de/thonet/kaffeehausstuehle/214-214-m-stuhl-ohne-armlehnen-buche-gebeizt-nussbaumfarbig-rohrgeflecht-mit-stuetzgewebe-unter-sitzflaeche.html",
+        "original": "https://www.smow.de/pics/w3840/3b546528/th-045-000/thonet-214-ohne-armlehnen-buche-gebeizt-nussbaumfarbig-geflecht-gestuetzt.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/thonet-no-14-2.jpg",
+        "source": "designcollectors.com",
+        "page": "https://www.designcollectors.com/en/thonet/thonet-design-team/home/2812-thonet-214-black",
+        "original": "https://www.designcollectors.com/17890/thonet-214-black.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 500,
+        "height": 500,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "wassily-chair": {
+    "src": "/photos/wassily-chair.jpg",
+    "source": "en.smow.ch",
+    "page": "https://en.smow.ch/marcel-breuer/wassily-chair-cattle-hide-light-brown.html",
+    "original": "https://en.smow.ch/pics/w3840/20251001161505/MtZtCeQogtv6/knoll-intl-wassily-varianten-leder-schwarz-03.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/wassily-chair.jpg",
+        "source": "en.smow.ch",
+        "page": "https://en.smow.ch/marcel-breuer/wassily-chair-cattle-hide-light-brown.html",
+        "original": "https://en.smow.ch/pics/w3840/20251001161505/MtZtCeQogtv6/knoll-intl-wassily-varianten-leder-schwarz-03.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/wassily-chair-2.jpg",
+        "source": "used-design.com",
+        "page": "https://www.used-design.com/angebot/132107/knoll-international-wassily-chair-leder-sessel-schwarz-bauhaus-vintage",
+        "original": "https://d246b83yaxkr1n.cloudfront.net/1280x1280xfitNC/4a486562-b623-44e3-a356-c1abec1fb79c.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1280,
+        "height": 1280,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "lc4": {
+    "src": "/photos/lc4.jpg",
+    "source": "silvera.fr",
+    "page": "https://www.silvera.fr/eshop/fauteuil-chaise-longue-lc4-cassina-5428-548-noir.html",
+    "original": "https://www.silvera.fr/media/cache/sylius_shop_product_original/product_15009_7122_chaise-longue-lc4.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 800,
+    "height": 800,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/lc4.jpg",
+        "source": "silvera.fr",
+        "page": "https://www.silvera.fr/eshop/fauteuil-chaise-longue-lc4-cassina-5428-548-noir.html",
+        "original": "https://www.silvera.fr/media/cache/sylius_shop_product_original/product_15009_7122_chaise-longue-lc4.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 800,
+        "height": 800,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/lc4-2.jpg",
+        "source": "bukowskis.com",
+        "page": "https://www.bukowskis.com/sv/lots/1138806-le-corbusier-vilstol-lc4-cassina",
+        "original": "https://d2mpxrrcad19ou.cloudfront.net/item_images/1138806/11552272_fullsize.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "barcelona-chair": {
+    "src": "/photos/barcelona-chair.jpg",
+    "source": "amoble.fr",
+    "page": "https://www.amoble.fr/fr/sejour/canapes-et-fauteuils/chaises-longues/knoll-fauteuil-barcelona.3.174.136.gp.19130.uw",
+    "original": "https://www.amoble.fr/files/archivio2_1_Files/Foto/184005.JPG",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 880,
+    "height": 880,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/barcelona-chair.jpg",
+        "source": "amoble.fr",
+        "page": "https://www.amoble.fr/fr/sejour/canapes-et-fauteuils/chaises-longues/knoll-fauteuil-barcelona.3.174.136.gp.19130.uw",
+        "original": "https://www.amoble.fr/files/archivio2_1_Files/Foto/184005.JPG",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 880,
+        "height": 880,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "paimio-chair": {
+    "src": "/photos/paimio-chair.jpg",
+    "source": "artek.fi",
+    "page": "https://www.artek.fi/en/products/armchair-41-paimio",
+    "original": "https://res.cloudinary.com/artek/image/upload/w_1200/v1587981606/products/armchair-41-paimio/Armchair-41-Paimio-black-lacquer-1842999.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1200,
+    "height": 1200,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/paimio-chair.jpg",
+        "source": "artek.fi",
+        "page": "https://www.artek.fi/en/products/armchair-41-paimio",
+        "original": "https://res.cloudinary.com/artek/image/upload/w_1200/v1587981606/products/armchair-41-paimio/Armchair-41-Paimio-black-lacquer-1842999.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1200,
+        "height": 1200,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/paimio-chair-2.jpg",
+        "source": "designpublic.com",
+        "page": "https://www.designpublic.com/products/artek-41-armchair-paimio",
+        "original": "https://www.designpublic.com/cdn/shop/files/Artek_armchair_41_black_2_photo_Juha_Nenonen_JPG.jpg?v=1770410784&width=1200",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1080,
+        "height": 1080,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "noguchi-table": {
+    "src": "/photos/noguchi-table.jpg",
+    "source": "innes.co.uk",
+    "page": "https://www.innes.co.uk/products/vitra-noguchi-glass-coffee-table",
+    "original": "https://www.innes.co.uk/cdn/shop/files/Vitra_Noguchi_Coffee_Table_Walnut.jpg?v=1716564488",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/noguchi-table.jpg",
+        "source": "innes.co.uk",
+        "page": "https://www.innes.co.uk/products/vitra-noguchi-glass-coffee-table",
+        "original": "https://www.innes.co.uk/cdn/shop/files/Vitra_Noguchi_Coffee_Table_Walnut.jpg?v=1716564488",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/noguchi-table-2.jpg",
+        "source": "blou-paris.fr",
+        "page": "https://www.blou-paris.fr/table-basse/vitra/4842-table-basse-coffee-table-noguchi.html",
+        "original": "https://www.blou-paris.fr/20262-large_default/table-basse-coffee-table-noguchi.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1434,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "butterfly-stool": {
+    "src": "/photos/butterfly-stool.jpg",
+    "source": "think-furniture.com",
+    "page": "https://www.think-furniture.com/vitra-butterfly-stool/",
+    "original": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/original/products/605/7672/vitra_butterfly_stool_Yanagi_m__14341.1426523203.jpg?c=2",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 628,
+    "height": 751,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/butterfly-stool.jpg",
+        "source": "think-furniture.com",
+        "page": "https://www.think-furniture.com/vitra-butterfly-stool/",
+        "original": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/original/products/605/7672/vitra_butterfly_stool_Yanagi_m__14341.1426523203.jpg?c=2",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 628,
+        "height": 751,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "series-7": {
+    "src": "/photos/series-7.jpg",
+    "source": "paletteandparlor.com",
+    "page": "https://www.paletteandparlor.com/products/series-7-chair",
+    "original": "https://www.paletteandparlor.com/cdn/shop/products/arne-jacobsen-series-7-chair-walnut-fritz-hansen_807x.jpg?v=1547093222",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 807,
+    "height": 807,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/series-7.jpg",
+        "source": "paletteandparlor.com",
+        "page": "https://www.paletteandparlor.com/products/series-7-chair",
+        "original": "https://www.paletteandparlor.com/cdn/shop/products/arne-jacobsen-series-7-chair-walnut-fritz-hansen_807x.jpg?v=1547093222",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 807,
+        "height": 807,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/series-7-2.jpg",
+        "source": "battenhome.co",
+        "page": "https://www.battenhome.co/products/fritz-hansen-series-7-chair-lacquered",
+        "original": "https://www.battenhome.co/cdn/shop/files/4_4b7d03c4-a172-4415-8c93-dbd4c6962319.png?v=1694125545&width=1080",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1080,
+        "height": 1080,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "eames-lounge-chair": {
+    "src": "/photos/eames-lounge-chair.jpg",
+    "source": "1stdibs.com",
+    "page": "https://www.1stdibs.com/furniture/seating/lounge-chairs/eames-lounge-chair-ottoman-1950s/id-f_49312972/",
+    "original": "https://a.1stdibscdn.com/classic-eames-swiveling-lounge-chair-ottoman-for-sale/f_106262/f_468349321758923172548/f_46834932_1758923173060_bg_processed.jpg?auto=webp&disable=upscale&quality=60&width=640",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 640,
+    "height": 640,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/eames-lounge-chair.jpg",
+        "source": "1stdibs.com",
+        "page": "https://www.1stdibs.com/furniture/seating/lounge-chairs/eames-lounge-chair-ottoman-1950s/id-f_49312972/",
+        "original": "https://a.1stdibscdn.com/classic-eames-swiveling-lounge-chair-ottoman-for-sale/f_106262/f_468349321758923172548/f_46834932_1758923173060_bg_processed.jpg?auto=webp&disable=upscale&quality=60&width=640",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 640,
+        "height": 640,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/eames-lounge-chair-2.jpg",
+        "source": "rifyo.com",
+        "page": "https://rifyo.com/products/herman-miller-eames-lounge-chair-ottoman",
+        "original": "https://rifyo.com/cdn/shop/products/eames-lounge-chair-and-ottoman-product-cover.jpg?v=1678953385&width=640",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 640,
+        "height": 640,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "tulip-chair": {
+    "src": "/photos/tulip-chair.jpg",
+    "source": "trdst.com",
+    "page": "https://trdst.com/products/knoll-saarinen-tulip-side-chair-with-fabric-seat-cushion-category-g",
+    "original": "https://trdst.com/cdn/shop/files/W-KNO_7230_100506147_caviar_a.jpg?v=1725332739&width=1946",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/tulip-chair.jpg",
+        "source": "trdst.com",
+        "page": "https://trdst.com/products/knoll-saarinen-tulip-side-chair-with-fabric-seat-cushion-category-g",
+        "original": "https://trdst.com/cdn/shop/files/W-KNO_7230_100506147_caviar_a.jpg?v=1725332739&width=1946",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/tulip-chair-2.jpg",
+        "source": "chaplins.co.uk",
+        "page": "https://chaplins.co.uk/shop/knoll-saarinen-tulip-dining-set-white-137.html",
+        "original": "https://cdn11.bigcommerce.com/s-hi9nbuups9/images/stencil/1280x1280/products/18091/100076/6a814ffd69ecefef1e8cd67c2585ac7a60a94331_chaplins_knoll_tulip_dining_chair_3_3_1__86554.1718723717.jpg?c=1",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1000,
+        "height": 750,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "egg-chair": {
+    "src": "/photos/egg-chair.jpg",
+    "source": "think-furniture.com",
+    "page": "https://think-furniture.com/fritz-hansen-egg-chair/",
+    "original": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/original/products/2036/12011/5943_Egg_-_Leather__walnut___20260.1507041556.jpg?c=2",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 516,
+    "height": 653,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/egg-chair.jpg",
+        "source": "think-furniture.com",
+        "page": "https://think-furniture.com/fritz-hansen-egg-chair/",
+        "original": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/original/products/2036/12011/5943_Egg_-_Leather__walnut___20260.1507041556.jpg?c=2",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 516,
+        "height": 653,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/egg-chair-2.jpg",
+        "source": "smow.fr",
+        "page": "https://www.smow.fr/arne-jacobsen/fauteuil-egg-oeuf.html",
+        "original": "https://www.smow.fr/pics/w3840/20251001121919/3JjXpSMpu7c4/fritz-hansen-egg-chair-lifestyle-smow-09.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "aalto-vase": {
+    "src": "/photos/aalto-vase.jpg",
+    "source": "morandinstore.com",
+    "page": "https://www.morandinstore.com/collections/oggettistica/products/iittala-vaso-alvar-aalto-160-mm-trasparente",
+    "original": "https://www.morandinstore.com/cdn/shop/products/Aalto_vase_160mm_clear-2048x2048_1024x.jpg?v=1690476538",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1024,
+    "height": 1024,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/aalto-vase.jpg",
+        "source": "morandinstore.com",
+        "page": "https://www.morandinstore.com/collections/oggettistica/products/iittala-vaso-alvar-aalto-160-mm-trasparente",
+        "original": "https://www.morandinstore.com/cdn/shop/products/Aalto_vase_160mm_clear-2048x2048_1024x.jpg?v=1690476538",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1024,
+        "height": 1024,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/aalto-vase-2.jpg",
+        "source": "norwaydesigns.no",
+        "page": "https://www.norwaydesigns.no/en/products/iittala-aalto-vase-160mm-klar",
+        "original": "https://www.norwaydesigns.no/cdn/shop/files/Iittala_aaltovase_03.jpg?v=1716821580&width=480",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 480,
+        "height": 480,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "ball-clock": {
+    "src": "/photos/ball-clock.jpg",
+    "source": "paletteandparlor.com",
+    "page": "https://www.paletteandparlor.com/products/george-nelson-ball-clock",
+    "original": "https://www.paletteandparlor.com/cdn/shop/products/george-nelson-ball-clock-natural-wood-vitra_700x.jpg?v=1468873980",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 700,
+    "height": 700,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/ball-clock.jpg",
+        "source": "paletteandparlor.com",
+        "page": "https://www.paletteandparlor.com/products/george-nelson-ball-clock",
+        "original": "https://www.paletteandparlor.com/cdn/shop/products/george-nelson-ball-clock-natural-wood-vitra_700x.jpg?v=1468873980",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 700,
+        "height": 700,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/ball-clock-2.jpg",
+        "source": "theconranshop.com.kw",
+        "page": "https://www.theconranshop.com.kw/products/ball-clock-diameter-330-mm-natural",
+        "original": "https://www.theconranshop.com.kw/cdn/shop/files/TCS123187_0.jpg?v=1708453827",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "hang-it-all": {
+    "src": "/photos/hang-it-all.jpg",
+    "source": "einrichten-design.fr",
+    "page": "https://www.einrichten-design.fr/fr_fr/eames-hang-it-all-portemanteau-multicolore-vitra.html",
+    "original": "https://www.einrichten-design.fr/media/42/cb/48/1754317589/Vitra-Eames-Hang-it-all-Garderobe-mehrfarbig002_%281%29.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1233,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/hang-it-all.jpg",
+        "source": "einrichten-design.fr",
+        "page": "https://www.einrichten-design.fr/fr_fr/eames-hang-it-all-portemanteau-multicolore-vitra.html",
+        "original": "https://www.einrichten-design.fr/media/42/cb/48/1754317589/Vitra-Eames-Hang-it-all-Garderobe-mehrfarbig002_%281%29.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1233,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/hang-it-all-2.jpg",
+        "source": "nest.co.uk",
+        "page": "https://www.nest.co.uk/product/vitra-hang-it-all-coat-rack",
+        "original": "https://dm4c9mjc2jvtf.cloudfront.net/product-media/1QKP/1200/900/Vitra-Hang-It-All-lifestyle.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1200,
+        "height": 900,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "juicy-salif": {
+    "src": "/photos/juicy-salif.jpg",
+    "source": "courthouseinteriors.com",
+    "page": "https://courthouseinteriors.com/products/juicy-salif-citrus-squeezer-alessi?variant=39933879320705",
+    "original": "https://courthouseinteriors.com/cdn/shop/files/Juicy-Salif-Citrus-Squeezer-Alessi-1.jpg?v=1727812018",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1200,
+    "height": 1200,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/juicy-salif.jpg",
+        "source": "courthouseinteriors.com",
+        "page": "https://courthouseinteriors.com/products/juicy-salif-citrus-squeezer-alessi?variant=39933879320705",
+        "original": "https://courthouseinteriors.com/cdn/shop/files/Juicy-Salif-Citrus-Squeezer-Alessi-1.jpg?v=1727812018",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1200,
+        "height": 1200,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/juicy-salif-2.jpg",
+        "source": "us.alessi.com",
+        "page": "https://us.alessi.com/collections/kitchen-tools",
+        "original": "https://us.alessi.com/cdn/shop/products/01_PSJS_aaf8c62d-b352-4aa9-b63a-2a52c9ae15aa.jpg?v=1652871135&width=1066",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1066,
+        "height": 1334,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "ph-5": {
+    "src": "/photos/ph-5.jpg",
+    "source": "louispoulsen.com",
+    "page": "https://www.louispoulsen.com/en/catalog/professional/decorative-lighting/pendants/ph-5?v=90293-5741099870-01",
+    "original": "https://dam.louispoulsen.dk/DigizuiteCore/LegacyService/api/assetstream/7642/50422.webp?doneby=ImageResizerUtil&fit=crop&height=2000&quality=90&timestamp=2026-03-17T15%253a05%253a46.1948086&width=2000",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/ph-5.jpg",
+        "source": "louispoulsen.com",
+        "page": "https://www.louispoulsen.com/en/catalog/professional/decorative-lighting/pendants/ph-5?v=90293-5741099870-01",
+        "original": "https://dam.louispoulsen.dk/DigizuiteCore/LegacyService/api/assetstream/7642/50422.webp?doneby=ImageResizerUtil&fit=crop&height=2000&quality=90&timestamp=2026-03-17T15%253a05%253a46.1948086&width=2000",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/ph-5-2.jpg",
+        "source": "skandium.com",
+        "page": "https://www.skandium.com/products/louis-poulsen-ph-5-pendant-lamp",
+        "original": "https://www.skandium.com/cdn/shop/products/2c6ffc22ad30d0b4e252f42fa8569998.jpg?v=1708223805&width=1920",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "akari-1a": {
+    "src": "/photos/akari-1a.jpg",
+    "source": "utilitydesign.co.uk",
+    "page": "https://www.utilitydesign.co.uk/vitra-akari-1a-table-lamp",
+    "original": "https://www.utilitydesign.co.uk/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/a/k/akari-1a_0.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1000,
+    "height": 1000,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/akari-1a.jpg",
+        "source": "utilitydesign.co.uk",
+        "page": "https://www.utilitydesign.co.uk/vitra-akari-1a-table-lamp",
+        "original": "https://www.utilitydesign.co.uk/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/a/k/akari-1a_0.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1000,
+        "height": 1000,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/akari-1a-2.jpg",
+        "source": "auctionet.com",
+        "page": "https://auctionet.com/en/2586656-isamu-noguchi-table-lamp-akari-1a",
+        "original": "https://images.auctionet.com/thumbs/large_item_2586656_c18e01bf89.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1290,
+        "height": 1290,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "kubus": {
+    "src": "/photos/kubus.jpg",
+    "source": "us.audocph.com",
+    "page": "https://us.audocph.com/products/kubus-4",
+    "original": "https://us.audocph.com/cdn/shop/files/4817649_Kubus_4_Ivory_Angle.jpg?v=1696611973&width=1946",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 900,
+    "height": 1200,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/kubus.jpg",
+        "source": "us.audocph.com",
+        "page": "https://us.audocph.com/products/kubus-4",
+        "original": "https://us.audocph.com/cdn/shop/files/4817649_Kubus_4_Ivory_Angle.jpg?v=1696611973&width=1946",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 900,
+        "height": 1200,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/kubus-2.jpg",
+        "source": "us.audocph.com",
+        "page": "https://us.audocph.com/products/kubus-4-white",
+        "original": "https://us.audocph.com/cdn/shop/products/10104_pack_1_cc3f9601-bd4c-49e6-bcfa-ded890608860.jpg?v=1708992457&width=1445",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1200,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "murano-globe": {
+    "src": "/photos/murano-globe.jpg",
+    "source": "pamono.de",
+    "page": "https://www.pamono.de/weisse-murano-haengelampe-von-vetri-murano-italien-1970er",
+    "original": "https://cdn20.pamono.com/p/z/1/5/1545342_uyz2uchrqx/weisse-murano-haengelampe-von-vetri-murano-italien-1970er-1.jpg",
+    "fit": "cover",
+    "bg": "#FFFFFF",
+    "width": 1000,
+    "height": 1000,
+    "rights": "Unverified; reference photograph for the preview.",
+    "note": "Vintage Murano globe, 1970s; the photograph shows a white patterned glass variant.",
+    "images": [
+      {
+        "src": "/photos/murano-globe.jpg",
+        "source": "pamono.de",
+        "page": "https://www.pamono.de/weisse-murano-haengelampe-von-vetri-murano-italien-1970er",
+        "original": "https://cdn20.pamono.com/p/z/1/5/1545342_uyz2uchrqx/weisse-murano-haengelampe-von-vetri-murano-italien-1970er-1.jpg",
+        "fit": "cover",
+        "bg": "#FFFFFF",
+        "width": 1000,
+        "height": 1000,
+        "rights": "Unverified; reference photograph for the preview.",
+        "note": "Vintage Murano globe, 1970s; the photograph shows a white patterned glass variant."
+      }
+    ]
+  },
+  "pipistrello": {
+    "src": "/photos/pipistrello.jpg",
+    "source": "designitch.com",
+    "page": "https://designitch.com/products/pipistrello-table-lamp-black",
+    "original": "https://designitch.com/cdn/shop/products/PipistrelloTableLamp-Black-Lif2.jpg?v=1651049993&width=2000",
+    "fit": "cover",
+    "bg": "#FFFFFF",
+    "width": 1600,
+    "height": 1600,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/pipistrello.jpg",
+        "source": "designitch.com",
+        "page": "https://designitch.com/products/pipistrello-table-lamp-black",
+        "original": "https://designitch.com/cdn/shop/products/PipistrelloTableLamp-Black-Lif2.jpg?v=1651049993&width=2000",
+        "fit": "cover",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/pipistrello-2.jpg",
+        "source": "rarify.co",
+        "page": "https://rarify.co/products/pipistrello-table-lamp-large-gae-aulenti-martinelli-luce-620-us-bi",
+        "original": "https://rarify.co/cdn/shop/files/620_NE-web_1.jpg?v=1751513514",
+        "fit": "cover",
+        "bg": "#FFFFFF",
+        "width": 1600,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  },
+  "taccia": {
+    "src": "/photos/taccia.jpg",
+    "source": "ddcnyc.com",
+    "page": "https://www.ddcnyc.com/product/taccia/",
+    "original": "https://www.ddcnyc.com/wp-content/uploads/2024/11/Flos_Taccia_Table_Lamp_Lighting_005.jpg",
+    "fit": "cover",
+    "bg": "#FFFFFF",
+    "width": 1000,
+    "height": 777,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/taccia.jpg",
+        "source": "ddcnyc.com",
+        "page": "https://www.ddcnyc.com/product/taccia/",
+        "original": "https://www.ddcnyc.com/wp-content/uploads/2024/11/Flos_Taccia_Table_Lamp_Lighting_005.jpg",
+        "fit": "cover",
+        "bg": "#FFFFFF",
+        "width": 1000,
+        "height": 777,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/taccia-archive.jpg",
+        "artist": "Azienda Flos",
+        "lic": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Taccia-table-a-pg-castiglioni-flos-F6602004-product-still-life-big.jpg",
+        "note": "",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 900,
+        "height": 1035,
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  "atollo": {
+    "src": "/photos/atollo.jpg",
+    "source": "wohn-cultur.de",
+    "page": "https://www.wohn-cultur.de/product_info.php?products_id=1846",
+    "original": "https://www.wohn-cultur.de/images/product_images/popup_images/1846_2.jpg",
+    "fit": "cover",
+    "bg": "#FFFFFF",
+    "width": 700,
+    "height": 467,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/atollo.jpg",
+        "source": "wohn-cultur.de",
+        "page": "https://www.wohn-cultur.de/product_info.php?products_id=1846",
+        "original": "https://www.wohn-cultur.de/images/product_images/popup_images/1846_2.jpg",
+        "fit": "cover",
+        "bg": "#FFFFFF",
+        "width": 700,
+        "height": 467,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/atollo-2.jpg",
+        "source": "wohn-cultur.de",
+        "page": "https://www.wohn-cultur.de/product_info.php?products_id=1846",
+        "original": "https://www.wohn-cultur.de/images/product_images/popup_images/1846_1.jpg",
+        "fit": "cover",
+        "bg": "#FFFFFF",
+        "width": 700,
+        "height": 467,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/atollo-archive.jpg",
+        "artist": "Pava",
+        "lic": "CC BY-SA 3.0 it",
+        "page": "https://commons.wikimedia.org/wiki/File:%22_11_-_ITALY_-_Atollo_-_Oluce_-_Vico_Magistretti_1977.jpg",
+        "note": "",
+        "fit": "cover",
+        "bg": "",
+        "width": 883,
+        "height": 1200,
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  "tolomeo": {
+    "src": "/photos/tolomeo.jpg",
+    "source": "blennemann.de",
+    "page": "https://blennemann.de/artemide-schreibtischlampe-tolomeo-tavolo-mit-fuss-in-alu/",
+    "original": "https://blennemann.de/media/a7/88/53/1725267663/Schreibtischlampe-Tolomeo-Tavolo-mit-Fuss-in-Alu-070800902-005.jpeg?width=3000",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1500,
+    "height": 1500,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/tolomeo.jpg",
+        "source": "blennemann.de",
+        "page": "https://blennemann.de/artemide-schreibtischlampe-tolomeo-tavolo-mit-fuss-in-alu/",
+        "original": "https://blennemann.de/media/a7/88/53/1725267663/Schreibtischlampe-Tolomeo-Tavolo-mit-Fuss-in-Alu-070800902-005.jpeg?width=3000",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1500,
+        "height": 1500,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/tolomeo-archive.jpg",
+        "artist": "Sailko",
+        "lic": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Michele_de_lucchi_e_giancarlo_fassina_per_artemide,_lampada_da_tavolo_tolomeo,_1987.jpg",
+        "note": "",
+        "fit": "cover",
+        "bg": "",
+        "width": 725,
+        "height": 1200,
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  "wishbone-chair": {
+    "src": "/photos/wishbone-chair.jpg",
+    "source": "skandium.com",
+    "page": "https://www.skandium.com/products/ch24-wishbone-chair-oak",
+    "original": "https://www.skandium.com/cdn/shop/products/83b8d1f0052d42a7ab43e2ffeba602e3.jpg?v=1708211754&width=1200",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1200,
+    "height": 1200,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/wishbone-chair.jpg",
+        "source": "skandium.com",
+        "page": "https://www.skandium.com/products/ch24-wishbone-chair-oak",
+        "original": "https://www.skandium.com/cdn/shop/products/83b8d1f0052d42a7ab43e2ffeba602e3.jpg?v=1708211754&width=1200",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1200,
+        "height": 1200,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/wishbone-chair-archive.jpg",
+        "artist": "Robert B. Moffatt",
+        "lic": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Hans_Wegner_Wishbone_Chair.jpg",
+        "note": "",
+        "fit": "cover",
+        "bg": "",
+        "width": 800,
+        "height": 1200,
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  "panton-chair": {
+    "src": "/photos/panton-chair.jpg",
+    "source": "danishdesignstore.com",
+    "page": "https://www.danishdesignstore.com/products/vitra-new-panton-chair",
+    "original": "https://www.danishdesignstore.com/cdn/shop/files/3350061_Panton-Chair_F_v_fullbleed_1440x_5f618cbc-2439-425e-a3b7-1a3e290c3e0a.jpg?v=1772808792&width=1200",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1080,
+    "height": 1080,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/panton-chair.jpg",
+        "source": "danishdesignstore.com",
+        "page": "https://www.danishdesignstore.com/products/vitra-new-panton-chair",
+        "original": "https://www.danishdesignstore.com/cdn/shop/files/3350061_Panton-Chair_F_v_fullbleed_1440x_5f618cbc-2439-425e-a3b7-1a3e290c3e0a.jpg?v=1772808792&width=1200",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1080,
+        "height": 1080,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/panton-chair-archive.jpg",
+        "artist": "Tokumeigakarinoaoshima",
+        "lic": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Panton_Chair_by_Verner_Panton.JPG",
+        "note": "",
+        "fit": "cover",
+        "bg": "",
+        "width": 895,
+        "height": 1200,
+        "source": "Wikimedia Commons"
+      }
+    ]
+  },
+  "panthella": {
+    "src": "/photos/panthella.jpg",
+    "source": "architare.shop",
+    "page": "https://architare.shop/en-en/products/louis-poulsen-panthella-400-tischleuchte",
+    "original": "https://architare.shop/cdn/shop/files/Panthella400opalweiss.webp?v=1729605835&width=2048",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "width": 1000,
+    "height": 1000,
+    "rights": "Unverified; reference photograph for the preview.",
+    "images": [
+      {
+        "src": "/photos/panthella.jpg",
+        "source": "architare.shop",
+        "page": "https://architare.shop/en-en/products/louis-poulsen-panthella-400-tischleuchte",
+        "original": "https://architare.shop/cdn/shop/files/Panthella400opalweiss.webp?v=1729605835&width=2048",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1000,
+        "height": 1000,
+        "rights": "Unverified; reference photograph for the preview."
+      },
+      {
+        "src": "/photos/panthella-2.jpg",
+        "source": "einrichten-design.de",
+        "page": "https://www.einrichten-design.de/de/panthella-tischleuchte-louis-poulsen.html",
+        "original": "https://www.einrichten-design.de/thumbnail/9a/e9/e3/1597947733/Louis%20Poulsen%20Panthella%20Table%20Tischleuchte%205744163415324fb_1920x1920.jpg",
+        "fit": "contain",
+        "bg": "#FFFFFF",
+        "width": 1526,
+        "height": 1600,
+        "rights": "Unverified; reference photograph for the preview."
+      }
+    ]
+  }
 };
   var TONES = ['#EAE4DA', '#E3DCD1', '#DDD5CA'];
   /* Open the page with #slow to delay every photo by 1–2.5 s and watch the skeletons. */
   var SLOW = (function () { try { return location.hash === '#slow'; } catch (e) { return false; } })();
   /* The illustration sits underneath as a fallback: hidden while the photo loads, shown if it fails. */
-  function photoTag(slug, fallbackArt) {
-    var p = PHOTOS[slug];
-    return (fallbackArt ? art(fallbackArt) : '') + '<img class="ph" ' + (SLOW ? 'data-src' : 'src') + '="' + p.src + '" alt="' + esc(altFor(slug)) + '" decoding="async" loading="lazy" style="object-fit:' + p.fit + '">';
+  function photoTag(slug, fallbackArt, index) {
+    var p = PHOTOS[slug].images[index || 0];
+    return (fallbackArt ? art(fallbackArt) : '') + '<img class="ph" ' + (SLOW ? 'data-src' : 'src') + '="' + p.src + '" alt="' + esc(altFor(slug) + (p.note ? '. ' + p.note : '')) + '" width="' + p.width + '" height="' + p.height + '" decoding="async" loading="lazy" style="object-fit:' + p.fit + '">';
   }
   function altFor(slug) { var o = oBySlug[slug]; return o ? o.name + (dFull(o) ? ' by ' + dFull(o) : '') : ''; }
   function visual(o) { return PHOTOS[o.slug] ? photoTag(o.slug, o.art) : art(o.art); }
@@ -117,9 +1098,10 @@
   }
   function plateBg(o) { return PHOTOS[o.slug] && PHOTOS[o.slug].bg ? ' style="background:' + PHOTOS[o.slug].bg + '"' : ''; }
   function creditLine(o) {
-    var p = PHOTOS[o.slug];
-    if (!p) return esc(o.name) + ': illustration by formé, placeholder until a licensed photo is added';
-    return esc(o.name) + ': photo by ' + esc(p.artist) + ', <a class="link" href="' + p.page + '" target="_blank" rel="noopener">' + esc(p.lic) + ', Wikimedia Commons</a>, resized.' + (p.note ? ' ' + esc(p.note) : '');
+    return esc(o.name) + ': ' + PHOTOS[o.slug].images.map(function (p, i) {
+      var label = p.artist ? 'photo by ' + p.artist + ' · ' + p.lic : p.source;
+      return '<a class="link" href="' + esc(p.page) + '" target="_blank" rel="noopener">' + esc(label) + '</a>' + (p.note ? ' (' + esc(p.note) + ')' : '');
+    }).join('; ') + '.';
   }
 
   /* ---------- Helpers ---------- */
@@ -257,7 +1239,7 @@
       var items = OBJECTS.filter(function (o) { return o.dept === dept.id && o.type === t; });
       if (!items.length) return '';
       var on = state.type === t;
-      return '<button class="type" data-type="' + t + '" aria-pressed="' + on + '"><div class="plate" style="width:100%">' + art(items[0].art) + '</div><span>' + (on ? '<i class="dot"></i>' : '') + t + ' <span class="muted">' + items.length + '</span></span></button>';
+      return '<button class="type" data-type="' + t + '" aria-pressed="' + on + '"><div class="plate" style="width:100%">' + visual(items[0]) + '</div><span>' + (on ? '<i class="dot"></i>' : '') + t + ' <span class="muted">' + items.length + '</span></span></button>';
     }).join('');
     var h = '';
     h += '<div class="wrap g" style="padding-top:16px"><div class="dept" role="tablist" aria-label="Collection">' + DEPTS.map(function (d) {
@@ -283,7 +1265,7 @@
       h += '<div class="wrap"><div class="grid" style="margin-top:24px">' + shown.map(objCard).join('') + '</div></div>';
     } else {
       h += '<div class="wrap g" style="margin-top:16px">' + shown.map(function (o, i) {
-        return link('object:' + o.slug, '<span class="no">' + pad(i + 1) + '</span><span class="sthumb">' + art(o.art) + '</span><span style="flex:1;display:flex;flex-direction:column;gap:4px;min-width:0"><span class="serif" style="font-size:var(--t22);line-height:1.1">' + esc(o.name) + '</span><span class="meta">' + esc(dFull(o)) + '</span></span><span class="meta">' + esc(o.yearLabel) + '</span>', 'irow', ' style="padding:12px 0"');
+        return link('object:' + o.slug, '<span class="no">' + pad(i + 1) + '</span><span class="sthumb">' + visual(o) + '</span><span style="flex:1;display:flex;flex-direction:column;gap:4px;min-width:0"><span class="serif" style="font-size:var(--t22);line-height:1.1">' + esc(o.name) + '</span><span class="meta">' + esc(dFull(o)) + '</span></span><span class="meta">' + esc(o.yearLabel) + '</span>', 'irow', ' style="padding:12px 0"');
       }).join('') + '</div>';
     }
     if (list.length > state.shown) h += '<div class="wrap g" style="padding-top:48px"><button class="button-02 wide" id="loadMore">' + pillContent('Load more · ' + (list.length - state.shown)) + '</button></div>';
@@ -310,8 +1292,9 @@
     more = more.slice(0, 2);
     var dept = deptOf(o.dept);
     var h = '';
-    var slides = PHOTOS[o.slug] ? ['<div class="plate fade gslide"' + (PHOTOS[o.slug].bg ? ' style="background:' + PHOTOS[o.slug].bg + '"' : '') + '>' + photoTag(o.slug, o.art) + '</div>', '<div class="plate fade gslide" style="background:' + TONES[1] + '">' + art(o.art) + '</div>']
-      : TONES.map(function (t) { return '<div class="plate fade gslide" style="background:' + t + '">' + art(o.art) + '</div>'; });
+    var slides = PHOTOS[o.slug].images.map(function (p, index) {
+      return '<div class="plate fade gslide" style="background:' + (p.bg || '#FFFFFF') + '">' + photoTag(o.slug, o.art, index) + '</div>';
+    });
     state.slides = slides.length;
     h += '<div class="obj-top"><div class="obj-media">';
     h += '<div class="wrap gwrap"><div class="gallery" id="gallery" tabindex="0" role="region" aria-label="Images of ' + esc(o.name) + '">' + slides.join('') + '</div>' +
@@ -344,7 +1327,7 @@
     h += '<section class="wrap g" style="margin-top:48px"><div class="inshort read"><h2 class="label" style="font-weight:400">In short</h2><p class="lede">' + esc(s.inShort) + '</p></div></section>';
     h += '<section class="wrap" style="margin-top:48px"><div class="g" style="display:flex;justify-content:space-between;align-items:baseline"><h2 class="label" style="font-weight:400">Featured in this story</h2><span class="muted" style="font-size:var(--t14)">' + s.featured.length + '</span></div>' +
       '<div class="types g" style="margin-top:16px">' + s.featured.map(function (f) { var o = oBySlug[f];
-        return link('object:' + o.slug, '<div class="plate r45" style="width:150px">' + art(o.art) + '</div><div><div class="label muted" style="letter-spacing:.14em">' + esc(dLabel(o)) + ' · ' + esc(o.yearLabel) + '</div><div class="serif" style="font-size:var(--t22);margin-top:4px">' + esc(o.name) + '</div></div>', 'card', ' style="flex:none;width:150px"'); }).join('') + '</div></section>';
+        return link('object:' + o.slug, '<div class="plate r45" style="width:150px">' + visual(o) + '</div><div><div class="label muted" style="letter-spacing:.14em">' + esc(dLabel(o)) + ' · ' + esc(o.yearLabel) + '</div><div class="serif" style="font-size:var(--t22);margin-top:4px">' + esc(o.name) + '</div></div>', 'card', ' style="flex:none;width:150px"'); }).join('') + '</div></section>';
     var body = '';
     s.sections.forEach(function (sec, i) {
       body += '<h2 data-reveal-01="lines" data-scroll>' + esc(sec[0]) + '</h2>' + sec[1].map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
@@ -394,7 +1377,7 @@
       '<section class="sec wrap g"><div class="read">' + secHead('How we choose') + '<ol style="margin-top:8px">' + crit.map(function (c, i) {
         return '<li style="display:flex;gap:16px;padding:20px 0;border-bottom:1px solid ' + (i === crit.length - 1 ? 'var(--ink)' : 'var(--line)') + '"><span class="muted" style="width:20px;flex:none;font-size:var(--t11);padding-top:6px">' + pad(i + 1) + '</span><span><span class="serif" style="display:block;font-size:var(--t22)">' + c[0] + '</span><span style="display:block;margin-top:6px;line-height:1.5;color:var(--ink-soft)">' + c[1] + '</span></span></li>';
       }).join('') + '</ol></div></section>' +
-      '<article class="sec wrap g"><div class="read">' + secHead('How we work') + '<div class="prose" style="margin-top:24px"><p>Facts come from manufacturers, museums and published sources. Images are used with permission or under open licences, and credited on every page. If you spot a mistake, tell us and we will correct it.</p></div></div></article>' +
+      '<article class="sec wrap g"><div class="read">' + secHead('How we work') + '<div class="prose" style="margin-top:24px"><p>Facts come from manufacturers, museums and published sources. Image sources are documented on every page and in the image credits. If you spot a mistake, tell us and we will correct it.</p></div></div></article>' +
       '<section class="sec wrap g"><div class="read" style="display:flex;flex-direction:column;gap:16px">' + secHead('Contact') + '<p class="serif" style="font-size:var(--t32);line-height:1.1;user-select:all">hello@[domain]</p><p class="muted" style="line-height:1.5">Corrections, image permissions and suggestions are welcome.</p></div></section>' + footer();
   };
 
@@ -404,7 +1387,7 @@
   views.page = function (which) {
     var titles = { imprint: 'Imprint', privacy: 'Privacy', credits: 'Credits' };
     var body = which === 'credits'
-      ? '<p>All images in this prototype are illustrations by formé and serve as placeholders. Licensed photographs will be credited here and on each page.</p>'
+      ? '<p>Product and archive photographs are credited to their source pages below and alongside the objects. Source links document provenance; they do not imply permission or a licence. Preview image rights are recorded in the photo manifest.</p><div class="credits">' + creditsFor(OBJECTS).map(function (line) { return '<div>' + line + '</div>'; }).join('') + '</div>'
       : '<p>[' + titles[which] + ' text to be added before launch.]</p>';
     return '<section class="wrap g" style="padding-top:48px"><div class="read" style="display:flex;flex-direction:column;gap:24px"><h1 data-reveal-01="words" class="page-title">' + titles[which] + '</h1><div class="prose">' + body + '</div></div></section>' + footer();
   };

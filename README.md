@@ -61,3 +61,16 @@ The stylesheet contains the source mask/clipping rules and turns off balanced wr
 The shared header follows the Details.so layout with formé's own branding and links: Lighting, Furniture and Objects beside the wordmark, a centered search pill, and Stories, Designers, About and the menu control on the right. The primary navigation has a moving selection pill for hover and keyboard focus. The bar measures 72px on larger layouts and 56px on phones; below 1120px, all six links remain available through the anchored dropdown.
 
 Search opens the existing formé results in a floating panel, supports the F shortcut, Escape, outside click and keyboard focus containment. The dropdown can be toggled with the hamburger or dismissed with Escape/outside click. Its contents and the collection filter remain unchanged. The menu is non-modal with the page surface inert; filters retain their modal side/bottom sheet. Listeners are scoped to the incoming Swup header and disposed on replacement. Reduced motion removes selection-pill travel.
+
+### Photography
+
+All 30 collection objects now have real, locally hosted photographs. Galleries,
+category tiles, list thumbnails, story cards and related-object cards share this
+photo catalogue. `photos/sources.json` records every source page, original image
+URL, dimensions and known licence or unverified-rights status. Manufacturer and
+retailer source links are provenance, not a claim of permission. Existing Commons
+credits are retained for alternate archive views. The Murano photo is explicitly
+labelled as a white patterned vintage variant; Akari now shows the correct 1A.
+JPEGs are capped at 1600px for the newly imported images. Error-only illustrations
+remain as a fallback when an image fails to load. Update the content snapshots
+when deliberately changing the catalogue's image markup or credits.
