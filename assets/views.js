@@ -150,6 +150,9 @@
     return 'notfound';
   }
   function link(route, inner, cls, extra) { return '<a href="' + pathFor(route) + '" data-go="' + route + '"' + (cls ? ' class="' + cls + '"' : '') + (extra || '') + '>' + inner + '</a>'; }
+  function pillContent(label) {
+    return '<div class="inner">' + esc(label) + '</div><div class="circle" aria-hidden="true"><span>→</span></div>';
+  }
   function pad(n) { return String(n).padStart(2, '0'); }
 
   function secHead(label, route, linkText) {
@@ -283,7 +286,7 @@
         return link('object:' + o.slug, '<span class="no">' + pad(i + 1) + '</span><span class="sthumb">' + art(o.art) + '</span><span style="flex:1;display:flex;flex-direction:column;gap:4px;min-width:0"><span class="serif" style="font-size:var(--t22);line-height:1.1">' + esc(o.name) + '</span><span class="meta">' + esc(dFull(o)) + '</span></span><span class="meta">' + esc(o.yearLabel) + '</span>', 'irow', ' style="padding:12px 0"');
       }).join('') + '</div>';
     }
-    if (list.length > state.shown) h += '<div class="wrap g" style="padding-top:48px"><button class="btn wide sq" id="loadMore">Load more · ' + (list.length - state.shown) + '</button></div>';
+    if (list.length > state.shown) h += '<div class="wrap g" style="padding-top:48px"><button class="button-02 wide" id="loadMore">' + pillContent('Load more · ' + (list.length - state.shown)) + '</button></div>';
     h += '<section class="sec wrap g"><div class="read">' + secHead('About design ' + dept.label.toLowerCase()) + '<div class="prose" style="margin-top:24px"><p style="font-size:var(--t16)">' + esc(dept.about) + '</p></div></div></section>';
     h += credits(creditsFor(shown)) + footer();
     return h;
@@ -396,7 +399,7 @@
   };
 
   views.notfound = function () {
-    return '<section class="wrap g" style="padding-top:64px"><div class="read" style="display:flex;flex-direction:column;gap:24px;align-items:flex-start"><div class="label muted">Not found</div><h1 class="serif" style="font-size:var(--t48);line-height:1;letter-spacing:-.02em;text-wrap:balance">This page has moved or never existed.</h1><p class="muted" style="line-height:1.6">Try the collection or search for a designer.</p><div style="display:flex;gap:8px;flex-wrap:wrap">' + link('collection:lighting', 'Open Collection', 'btn fill sq') + link('home', 'Go Home', 'btn sq') + '</div></div></section>' + footer();
+    return '<section class="wrap g" style="padding-top:64px"><div class="read" style="display:flex;flex-direction:column;gap:24px;align-items:flex-start"><div class="label muted">Not found</div><h1 class="serif" style="font-size:var(--t48);line-height:1;letter-spacing:-.02em;text-wrap:balance">This page has moved or never existed.</h1><p class="muted" style="line-height:1.6">Try the collection or search for a designer.</p><div style="display:flex;gap:8px;flex-wrap:wrap">' + link('collection:lighting', pillContent('Open Collection'), 'button-02') + link('home', 'Go Home', 'btn sq') + '</div></div></section>' + footer();
   };
   views.page = function (which) {
     var titles = { imprint: 'Imprint', privacy: 'Privacy', credits: 'Credits' };
