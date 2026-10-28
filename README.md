@@ -45,3 +45,13 @@ Netlify runs `npm run build` and publishes `dist/`. Pull requests receive a depl
 ## Image credits
 
 Photo licences and authors are listed in `assets/views.js` (`PHOTOS`) and shown under “Image credits” on the relevant pages.
+
+## Text Reveal 01
+
+GSAP, SplitText and ScrollTrigger are bundled locally. Primary headings opt in with `data-reveal-01="words"`; article subheadings use `data-reveal-01="lines" data-scroll`. The helper in `assets/text-reveal.js` also supports `chars`, scrubbed scrolling (`data-scroll="scrub"`), replay (`data-once="false"`), and `data-duration`, `data-stagger`, `data-delay` and `data-ease` overrides.
+
+`textReveal01(scope = document, delay = 0, { ignoreManual = false } = {})` preserves the original API and returns a cleanup function. Its `.splits` array exposes SplitText instances for custom timelines. `data-manual` splits without revealing or animating; `ignoreManual: true` opts those elements back into automatic animation.
+
+`initPage()` initializes the incoming page after its markup exists, waiting for `document.fonts.ready`. The helper uses `autoSplit: true`, returned `onSplit()` tweens and default accessible SplitText labels. Scroll triggers explicitly use the containing `#swup`. `visit:end` refreshes trigger geometry after the parallel transition. Before navigation, tweens and triggers are stopped and font/resize observers detached while outgoing text stays visually frozen. Local collection/FAQ rerenders revert and dispose their previous splits first. Pending font work is cancelled when its page is left.
+
+The stylesheet contains the source mask/clipping rules and turns off balanced wrapping only for opted-in elements so SplitText can measure real line breaks. Automatic reveals are skipped for reduced motion, and the shared template provides a `noscript` visibility fallback. No content or demo sections were added.

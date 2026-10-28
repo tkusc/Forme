@@ -725,3 +725,26 @@ html.is-changing .transition-swup.header:not(.is-previous-container) {
   .button-02 .circle,
   .button-02 .circle span { transition: none; }
 }
+
+/* Text Reveal 01: mask spacing and clipping are part of the split-text contract. */
+[data-reveal-01] { visibility: hidden; }
+[data-reveal-01] > * { margin-bottom: -0.18em; }
+[data-reveal-01] .word-mask,
+[data-reveal-01] .char-mask { vertical-align: top; }
+[data-reveal-01] .line-mask,
+[data-reveal-01] .word-mask,
+[data-reveal-01] .char-mask {
+  overflow: clip;
+  overflow-clip-margin: 0.06em;
+}
+[data-reveal-01] .line-mask > *,
+[data-reveal-01] .word-mask > *,
+[data-reveal-01] .char-mask > * {
+  padding-bottom: 0.18em;
+  will-change: transform;
+}
+/* SplitText measures real lines; balanced wrapping would fight its autoSplit pass. */
+#swup [data-reveal-01] { text-wrap: wrap !important; }
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal-01]:not([data-manual]) { visibility: visible; }
+}

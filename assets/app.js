@@ -1,3 +1,5 @@
+import { initTextReveals, disposeTextReveals } from './text-reveal.js';
+
 /* Browser interactions. Views and content are shared with the static build. */
 var { views, state, pathFor, wireImages, FILTERS, passes, optsFor,
   esc, link, dFull, deptOf, visual, plateBg, designerRows } = globalThis.Forme;
@@ -8,6 +10,7 @@ var pageEvents, headerEvents;
 function render() {
   var y = app.scrollTop;
   var parts = state.route.split(':');
+  disposeTextReveals(app);
   app.innerHTML = views[parts[0]](parts[1]);
   initPage(app, false);
   app.scrollTop = y;
@@ -250,6 +253,7 @@ export function initPage(scope, reset = true, snapshot) {
   var hero = scope.querySelector('#gallery img.ph');
   if (hero) { hero.loading = 'eager'; hero.setAttribute('fetchpriority', 'high'); }
   wireImages(scope);
+  initTextReveals(scope, document.documentElement.classList.contains('is-changing') ? 0.7 : 0);
   var gallery = scope.querySelector('#gallery');
   if (gallery) gallery.addEventListener('scroll', function () {
     scope.querySelector('#gcount').textContent = (Math.round(gallery.scrollLeft / gallery.clientWidth) + 1) + ' / ' + gallery.children.length;
@@ -257,6 +261,7 @@ export function initPage(scope, reset = true, snapshot) {
 }
 
 export function beforeVisit() {
+  disposeTextReveals(app, { preserve: true });
   closeSearch(); closeSheets(true);
   nav.classList.remove('hide');
   pageEvents?.abort();

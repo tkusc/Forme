@@ -225,7 +225,7 @@
     var recent = OBJECTS.slice().sort(function (a, b) { return b.added - a.added; }).slice(0, 4);
     var profiled = DESIGNERS.filter(function (d) { return d.page; });
     var h = '';
-    h += '<section class="wrap g home-intro"><h1 class="serif hero-h1">The stories behind iconic design.</h1>' +
+    h += '<section class="wrap g home-intro"><h1 data-reveal-01="words" class="serif hero-h1">The stories behind iconic design.</h1>' +
       '<p class="muted home-description">A showroom for the lamps, chairs and objects that shaped design history, and the ideas behind them.</p></section>';
     h += '<section class="sec wrap home-recent"><div class="g">' + secHead('Recently added', 'collection:lighting') + '</div><div class="grid home-gallery">' + recent.map(objCard).join('') + '</div></section>';
     h += '<div class="wrap home-feature">' + link('story:' + latest.slug, '<div class="home-feature-image" style="position:relative">' + storyPlate(latest) + '<span class="badge sq">NEW</span></div><div class="g"><div class="label muted">Latest story · ' + latest.min + ' min</div><div class="title">' + esc(latest.title) + '</div><p class="latest-lede">' + esc(latest.lede) + '</p></div>', 'scard latest') + '</div>';
@@ -264,7 +264,7 @@
       var on = d.id === dept.id;
       return '<button role="tab" class="label" aria-selected="' + on + '" data-go="collection:' + d.id + '">' + (on ? '<i class="dot"></i>' : '') + d.label + '</button>';
     }).join('') + '</div></div>';
-    h += '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 class="page-title">' + dept.label + '</h1><p class="lede read">' + esc(dept.lede) + '</p></section>';
+    h += '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 data-reveal-01="words" class="page-title">' + dept.label + '</h1><p class="lede read">' + esc(dept.lede) + '</p></section>';
     h += '<div class="wrap"><nav class="types g" aria-label="' + dept.label + ' types" style="margin-top:48px">' + types + '</nav></div>';
     h += '<div class="wrap g" style="margin-top:48px"><div class="toolbar">' +
       '<button class="icon-btn vbtn' + (state.view === 'grid' ? ' on' : '') + '" data-view="grid" aria-label="Grid view" aria-pressed="' + (state.view === 'grid') + '" style="margin-left:-12px"><svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="1.5" y="1.5" width="7" height="7"/><rect x="11.5" y="1.5" width="7" height="7"/><rect x="1.5" y="11.5" width="7" height="7"/><rect x="11.5" y="11.5" width="7" height="7"/></svg></button>' +
@@ -320,11 +320,11 @@
     h += '</div><div class="obj-body">';
     h += '<section class="wrap g obj-head" style="padding-top:24px;display:flex;flex-direction:column;gap:12px">' +
       '<nav class="label muted" aria-label="Breadcrumb" style="display:flex;gap:8px">' + link('collection:' + dept.id, dept.label) + '<span aria-hidden="true">/</span><button data-type-go="' + o.type + '" class="label">' + esc(o.type) + '</button></nav>' +
-      '<h1 class="serif" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance">' + esc(o.name) + '</h1><div style="font-size:var(--t16)">' + designerLink + '</div></section>';
+      '<h1 data-reveal-01="words" class="serif" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance">' + esc(o.name) + '</h1><div style="font-size:var(--t16)">' + designerLink + '</div></section>';
     h += '<section class="wrap g" style="margin-top:48px"><div class="inshort read"><h2 class="label" style="font-weight:400">In short</h2><p class="lede">' + esc(o.inShort) + '</p></div></section>';
     h += '<section class="sec wrap g"><div class="read">' + secHead('Facts') + '<dl class="facts">' + facts.map(function (f) { return '<div><dt>' + f[0] + '</dt><dd>' + f[1] + '</dd></div>'; }).join('') + '</dl></div></section>';
     h += '<article class="sec wrap g"><div class="read"><div class="sec-head"><h2 class="label" style="font-weight:400">The story</h2><span class="label muted">' + Math.max(2, o.story.length + 1) + ' min</span></div>' +
-      '<div class="prose" style="margin-top:32px">' + o.story.map(function (p) { return '<h2>' + esc(p[0]) + '</h2><p>' + esc(p[1]) + '</p>'; }).join('') + '</div></div></article>';
+      '<div class="prose" style="margin-top:32px">' + o.story.map(function (p) { return '<h2 data-reveal-01="lines" data-scroll>' + esc(p[0]) + '</h2><p>' + esc(p[1]) + '</p>'; }).join('') + '</div></div></article>';
     h += '</div></div>';
     h += '<section class="sec wrap"><div class="g">' + secHead('Related story', 'stories') + '</div><div style="margin-top:24px" class="read">' + storyCard(related) + '</div></section>';
     h += '<section class="sec wrap"><div class="g">' + secHead('More from the collection', 'collection:' + dept.id) + '</div><div class="grid" style="margin-top:24px">' + more.map(objCard).join('') + '</div></section>';
@@ -338,7 +338,7 @@
     var h = '';
     h += '<section class="wrap g" style="padding-top:48px"><div class="read" style="display:flex;flex-direction:column;gap:16px">' +
       '<nav class="label muted" aria-label="Breadcrumb" style="display:flex;gap:8px">' + link('stories', 'Stories') + '<span aria-hidden="true">·</span><span>' + s.min + ' min read</span></nav>' +
-      '<h1 class="serif" style="font-size:var(--t48);line-height:.98;letter-spacing:-.025em;text-wrap:balance">' + esc(s.title) + '</h1>' +
+      '<h1 data-reveal-01="words" class="serif" style="font-size:var(--t48);line-height:.98;letter-spacing:-.025em;text-wrap:balance">' + esc(s.title) + '</h1>' +
       '<p class="lede" style="color:var(--ink-soft)">' + esc(s.lede) + '</p><div class="muted" style="font-size:var(--t14)">By formé · ' + esc(s.date) + '</div></div></section>';
     h += '<div class="wrap" style="margin-top:32px">' + storyPlate(s) + '</div>';
     h += '<section class="wrap g" style="margin-top:48px"><div class="inshort read"><h2 class="label" style="font-weight:400">In short</h2><p class="lede">' + esc(s.inShort) + '</p></div></section>';
@@ -347,7 +347,7 @@
         return link('object:' + o.slug, '<div class="plate r45" style="width:150px">' + art(o.art) + '</div><div><div class="label muted" style="letter-spacing:.14em">' + esc(dLabel(o)) + ' · ' + esc(o.yearLabel) + '</div><div class="serif" style="font-size:var(--t22);margin-top:4px">' + esc(o.name) + '</div></div>', 'card', ' style="flex:none;width:150px"'); }).join('') + '</div></section>';
     var body = '';
     s.sections.forEach(function (sec, i) {
-      body += '<h2>' + esc(sec[0]) + '</h2>' + sec[1].map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      body += '<h2 data-reveal-01="lines" data-scroll>' + esc(sec[0]) + '</h2>' + sec[1].map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
       if (i === 0) body += '<p class="highlight">' + esc(s.highlight) + '</p>';
     });
     h += '<article class="sec wrap g"><div class="read prose">' + body + '</div></article>';
@@ -366,7 +366,7 @@
     var stories = STORIES.filter(function (s) { return s.featured.some(function (f) { return oBySlug[f].designer === id; }); });
     var h = '';
     h += '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><nav class="label muted" aria-label="Breadcrumb">' + link('designers', 'Designers') + '</nav>' +
-      '<h1 class="serif" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance">' + esc(d.name) + '</h1><div class="muted">' + esc(d.years) + ' · ' + esc(d.country) + '</div></section>';
+      '<h1 data-reveal-01="words" class="serif" style="font-size:var(--t64);line-height:.92;letter-spacing:-.03em;text-wrap:balance">' + esc(d.name) + '</h1><div class="muted">' + esc(d.years) + ' · ' + esc(d.country) + '</div></section>';
     h += '<section class="wrap g" style="margin-top:48px"><div class="inshort read"><h2 class="label" style="font-weight:400">In short</h2><p class="lede">' + esc(d.inShort) + '</p></div></section>';
     h += '<section class="sec wrap"><div class="g"><div class="sec-head"><h2 class="label" style="font-weight:400">Objects</h2><span class="muted" style="font-size:var(--t14)">' + objs.length + '</span></div></div><div class="grid" style="margin-top:24px">' + objs.map(objCard).join('') + '</div></section>';
     h += '<section class="sec wrap g"><div class="read">' + secHead('Facts') + '<dl class="facts">' + [['Lived', d.years], ['Nationality', d.nationality], ['Known for', d.knownFor], ['Worked with', d.collaborators]].map(function (f) { return '<div><dt>' + f[0] + '</dt><dd>' + esc(f[1]) + '</dd></div>'; }).join('') + '</dl></div></section>';
@@ -377,19 +377,19 @@
   };
 
   views.stories = function () {
-    return '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 class="page-title">Stories</h1><p class="lede read">Essays on the ideas, materials and people behind iconic design.</p></section>' +
+    return '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 data-reveal-01="words" class="page-title">Stories</h1><p class="lede read">Essays on the ideas, materials and people behind iconic design.</p></section>' +
       '<div class="wrap" style="margin-top:48px"><div class="story-list two">' + STORIES.map(function (s) { return storyCard(s); }).join('') + '</div></div>' + follow() + footer();
   };
 
   views.designers = function () {
     var sorted = DESIGNERS.slice().sort(function (a, b) { return a.sort.localeCompare(b.sort); });
-    return '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 class="page-title">Designers</h1><p class="lede read">The people behind the objects. Profiles appear once a designer has two objects in the collection.</p></section>' +
+    return '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:16px"><h1 data-reveal-01="words" class="page-title">Designers</h1><p class="lede read">The people behind the objects. Profiles appear once a designer has two objects in the collection.</p></section>' +
       '<section class="wrap g" style="margin-top:48px"><div class="read">' + secHead('A–Z · ' + sorted.length) + designerRows(sorted) + '</div></section>' + footer();
   };
 
   views.about = function () {
     var crit = [['A clear idea', 'Every object answers a question, of light, material or use.'], ['Lasting influence', 'It changed how others designed, or how people lived.'], ['Still meaningful', 'It would feel right in a room today.'], ['A story worth telling', 'If we can’t tell you something new about it, it doesn’t belong here.']];
-    return '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:24px"><h1 class="page-title">About</h1><p class="serif read" style="font-size:var(--t32);line-height:1.1;letter-spacing:-.01em;text-wrap:balance">We collect the stories behind iconic design, starting with light.</p></section>' +
+    return '<section class="wrap g" style="padding-top:48px;display:flex;flex-direction:column;gap:24px"><h1 data-reveal-01="words" class="page-title">About</h1><p class="serif read" style="font-size:var(--t32);line-height:1.1;letter-spacing:-.01em;text-wrap:balance">We collect the stories behind iconic design, starting with light.</p></section>' +
       '<article class="sec wrap g"><div class="read">' + secHead('Why stories') + '<div class="prose" style="margin-top:24px"><p>A great object is more than its shape. Behind it is a problem someone wanted to solve, a material someone dared to try, a time that made it possible. formé is a quiet place to discover those stories, one object at a time.</p><p>We don’t sell anything. We show, explain and connect.</p></div></div></article>' +
       '<section class="sec wrap g"><div class="read">' + secHead('How we choose') + '<ol style="margin-top:8px">' + crit.map(function (c, i) {
         return '<li style="display:flex;gap:16px;padding:20px 0;border-bottom:1px solid ' + (i === crit.length - 1 ? 'var(--ink)' : 'var(--line)') + '"><span class="muted" style="width:20px;flex:none;font-size:var(--t11);padding-top:6px">' + pad(i + 1) + '</span><span><span class="serif" style="display:block;font-size:var(--t22)">' + c[0] + '</span><span style="display:block;margin-top:6px;line-height:1.5;color:var(--ink-soft)">' + c[1] + '</span></span></li>';
@@ -399,14 +399,14 @@
   };
 
   views.notfound = function () {
-    return '<section class="wrap g" style="padding-top:64px"><div class="read" style="display:flex;flex-direction:column;gap:24px;align-items:flex-start"><div class="label muted">Not found</div><h1 class="serif" style="font-size:var(--t48);line-height:1;letter-spacing:-.02em;text-wrap:balance">This page has moved or never existed.</h1><p class="muted" style="line-height:1.6">Try the collection or search for a designer.</p><div style="display:flex;gap:8px;flex-wrap:wrap">' + link('collection:lighting', pillContent('Open Collection'), 'button-02') + link('home', 'Go Home', 'btn sq') + '</div></div></section>' + footer();
+    return '<section class="wrap g" style="padding-top:64px"><div class="read" style="display:flex;flex-direction:column;gap:24px;align-items:flex-start"><div class="label muted">Not found</div><h1 data-reveal-01="words" class="serif" style="font-size:var(--t48);line-height:1;letter-spacing:-.02em;text-wrap:balance">This page has moved or never existed.</h1><p class="muted" style="line-height:1.6">Try the collection or search for a designer.</p><div style="display:flex;gap:8px;flex-wrap:wrap">' + link('collection:lighting', pillContent('Open Collection'), 'button-02') + link('home', 'Go Home', 'btn sq') + '</div></div></section>' + footer();
   };
   views.page = function (which) {
     var titles = { imprint: 'Imprint', privacy: 'Privacy', credits: 'Credits' };
     var body = which === 'credits'
       ? '<p>All images in this prototype are illustrations by formé and serve as placeholders. Licensed photographs will be credited here and on each page.</p>'
       : '<p>[' + titles[which] + ' text to be added before launch.]</p>';
-    return '<section class="wrap g" style="padding-top:48px"><div class="read" style="display:flex;flex-direction:column;gap:24px"><h1 class="page-title">' + titles[which] + '</h1><div class="prose">' + body + '</div></div></section>' + footer();
+    return '<section class="wrap g" style="padding-top:48px"><div class="read" style="display:flex;flex-direction:column;gap:24px"><h1 data-reveal-01="words" class="page-title">' + titles[which] + '</h1><div class="prose">' + body + '</div></div></section>' + footer();
   };
 
   function titleFor(parts) {

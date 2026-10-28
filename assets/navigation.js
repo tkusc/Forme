@@ -1,3 +1,4 @@
+import { refreshTextReveals, initTextReveals } from './text-reveal.js';
 import Swup from 'swup';
 import SwupHeadPlugin from '@swup/head-plugin';
 import SwupParallelPlugin from '@swup/parallel-plugin';
@@ -21,6 +22,9 @@ function start() {
   initHeader(document.querySelector('header'));
   initPage(document.querySelector('#swup'));
   installResizeHandler();
+  matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', () => {
+    initTextReveals(document.querySelector('#swup'));
+  });
 
   swup.hooks.on('visit:start', visit => {
     const page = document.querySelector('#swup');
@@ -65,6 +69,7 @@ function start() {
     restore = undefined;
   });
   swup.hooks.on('visit:end', () => {
+    refreshTextReveals();
     document.querySelector('#swup').focus({ preventScroll: true });
     document.getElementById('route-status').textContent = document.title;
   });
