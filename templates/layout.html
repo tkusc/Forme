@@ -56,11 +56,17 @@
   </div>
 </header>
 
-<div class="spanel" id="spanel" role="region" aria-label="Navigation and search results" inert><div class="search-content"><div class="wrap g" id="sresults" aria-live="polite"></div></div></div>
+<div class="spanel" id="spanel" role="region" aria-label="Navigation and search results" inert><div class="search-content"><div class="wrap g" id="sresults" aria-live="polite"></div>
+  <footer class="search-meta" aria-label="Social and legal links">
+    <div class="search-social"><a class="btn sq" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a class="btn sq" href="https://www.threads.com/" target="_blank" rel="noopener">Threads</a></div>
+    <div class="search-legal label muted"><a href="/imprint" data-go="page:imprint">Imprint</a><a href="/privacy" data-go="page:privacy">Privacy</a><a href="/credits" data-go="page:credits">Credits</a></div>
+  </footer>
+</div></div>
 
 <main id="swup" class="transition-swup hide-scrollbar{{home}}" data-route="{{route}}" data-dept="{{dept}}" tabindex="-1"><!-- PAGE --></main>
 
-<div class="scrim" id="scrim"></div>
+<div class="scrim search-scrim" id="searchScrim" aria-hidden="true"></div>
+<div class="scrim" id="scrim" aria-hidden="true"></div>
 
 <section class="sheet" id="filterSheet" role="dialog" aria-label="Filter" aria-modal="true">
   <div class="handle" aria-hidden="true"></div>

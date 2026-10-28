@@ -36,6 +36,7 @@ function setupInteractions() {
   /* ---------- Search ---------- */
   var spanel = document.getElementById('spanel');
   var sres = document.getElementById('sresults');
+  var searchScrim = document.getElementById('searchScrim');
   var searchOpen = false, clearTimer = null, openSheet = null;
   measure = function () { updateNavPill(); };
   openSearch = function () {
@@ -47,7 +48,7 @@ function setupInteractions() {
     renderSearch();
     spanel.inert = false;
     spanel.classList.add('open', 'stagger');
-    scrim.classList.add('open', 'search-scrim');
+    searchScrim.classList.add('open');
     nav.querySelector('#openSearch').setAttribute('aria-expanded', 'true');
     nav.querySelectorAll('.navlinks, .brand').forEach(function (el) { el.inert = true; });
     app.inert = true;
@@ -61,9 +62,9 @@ function setupInteractions() {
     searchOpen = false;
     q.blur();
     nav.classList.remove('searching'); document.body.classList.remove('searching');
-    spanel.classList.remove('open', 'stagger');
+    spanel.classList.remove('open');
     spanel.inert = true;
-    scrim.classList.remove('open', 'search-scrim');
+    searchScrim.classList.remove('open');
     nav.querySelector('#openSearch').setAttribute('aria-expanded', 'false');
     nav.querySelectorAll('.navlinks, .brand').forEach(function (el) { el.inert = false; });
     app.inert = !!openSheet;
@@ -71,11 +72,12 @@ function setupInteractions() {
     q.tabIndex = -1; cancelBtn.tabIndex = -1;
     if (!openSheet) app.style.overflowY = '';
     var previousInput = q;
-    clearTimer = setTimeout(function () { previousInput.value = ''; }, 260);
+    clearTimer = setTimeout(function () { previousInput.value = ''; spanel.classList.remove('stagger'); }, 300);
     nav.querySelector('#openSearch').focus({ preventScroll: true });
   }
   function hay(o) { return [o.name, dFull(o), o.type, o.era, o.origin, o.materials, o.status, o.manufacturer || '', deptOf(o.dept).label].join(' ').toLowerCase(); }
   renderSearch = function () {
+    spanel.querySelector('.search-content').scrollTop = 0;
     var t = q.value.trim().toLowerCase();
     if (!t) {
       sres.innerHTML = renderMenu() + '<div class="sgroup"><div class="label muted">Popular designers</div><div style="margin-top:8px">' +
@@ -119,13 +121,14 @@ function setupInteractions() {
   closeSheets = function (navigating) {
     var wasOpen = !!openSheet;
     [filterSheet].forEach(function (s) { s.classList.remove('open'); s.style.transform = ''; });
-    scrim.classList.remove('open', 'menu-scrim');
+    scrim.classList.remove('open');
     openSheet = null; if (!searchOpen) app.style.overflowY = '';
     app.inert = false; nav.inert = false;
     if (wasOpen && navigating !== true && returnFocus && returnFocus.focus) { try { returnFocus.focus({ preventScroll: true }); } catch (e) {} }
     returnFocus = null;
   }
-  scrim.addEventListener('click', function () { if (searchOpen) closeSearch(); else closeSheets(); });
+  searchScrim.addEventListener('click', function () { closeSearch(); });
+  scrim.addEventListener('click', function () { closeSheets(); });
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Tab') return;
     var f = openSheet ? focusables(openSheet) : searchOpen ? [q, cancelBtn].concat(focusables(spanel)) : [];
@@ -165,7 +168,7 @@ function setupInteractions() {
     var items = [['collection:lighting', 'Lighting'], ['collection:furniture', 'Furniture'], ['collection:objects', 'Objects'], ['stories', 'Stories'], ['designers', 'Designers'], ['about', 'About']];
     return '<nav class="search-navigation" aria-label="Main navigation">' + items.map(function (m) {
       return link(m[0], '<span class="mslot">' + (active === m[0] ? '<i class="dot"></i>' : '') + '</span>' + m[1], 'menu-link', active === m[0] ? ' aria-current="page"' : '');
-    }).join('') + '</nav><div class="search-meta" style="display:flex;flex-direction:column;gap:16px"><div style="display:flex;gap:8px"><a class="btn sq" href="https://www.instagram.com/" target="_blank" rel="noopener" style="height:44px">Instagram</a><a class="btn sq" href="https://www.threads.com/" target="_blank" rel="noopener" style="height:44px">Threads</a></div><div class="label muted" style="display:flex;gap:16px">' + link('page:imprint', 'Imprint') + link('page:privacy', 'Privacy') + link('page:credits', 'Credits') + '</div></div>';
+    }).join('') + '</nav>';
   }
 
   var draft = {};

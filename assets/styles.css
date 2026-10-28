@@ -17,6 +17,7 @@ img { max-width: 100%; }
   --on-ink-muted: #D9C9C3;
   --on-ink-line: #7A4A42;
   --scrim: rgba(46, 15, 11, 0.42);
+  --edge-blur-height: 200px;
   --serif: 'Instrument Serif', 'Iowan Old Style', 'Times New Roman', serif;
   --sans: 'Helvetica Neue', Helvetica, 'TeX Gyre Heros', 'Nimbus Sans', Arial, sans-serif;
   --gl: max(20px, env(safe-area-inset-left, 0px));
@@ -119,10 +120,13 @@ ol, ul { padding: 0; list-style: none; }
 .search-navigation .menu-link:hover, .search-navigation .menu-link[aria-current] { background: var(--nav-wash); }
 .search-navigation .menu-link:hover { transform: translateX(3px); }
 .search-navigation .mslot { display: none; }
-.search-meta { border-bottom: 1px solid var(--line); padding-block: 20px; }
+.search-meta { margin: 32px 24px 0; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 16px; }
+.search-social, .search-legal { display: flex; flex-wrap: wrap; gap: 8px; }
+.search-social .btn { height: 44px; }
+.search-legal { gap: 16px; }
 .search-meta .btn { border-radius: 999px; font-size: 14px; }
 .spanel.stagger .search-navigation, .spanel.stagger .search-meta { animation: rise .5s var(--ease-out) .12s both; }
-@media (max-width: 680px) { .spanel { width: calc(100vw - 24px); } #sresults { padding-inline: 16px; } }
+@media (max-width: 680px) { .spanel { width: calc(100vw - 24px); } #sresults { padding-inline: 16px; } .search-meta { margin-inline: 16px; } }
 @media (prefers-reduced-motion: reduce) { .nav-pill, .nav-center, .nav-left, .nav-right, .sfield, .sicon, .search-label, .sfield input, .cancel, .spanel, .search-navigation .menu-link { transition: none !important; } .spanel.stagger .search-navigation, .spanel.stagger .search-meta { animation: none; } }
 
 .sgroup { padding-top: var(--s32); }
@@ -245,7 +249,7 @@ ol, ul { padding: 0; list-style: none; }
 .faq-a { padding-bottom: 20px; font-size: var(--t16); line-height: 1.6; color: var(--ink-soft); }
 
 /* Footer */
-.foot { margin-top: var(--s64); background: var(--ink); color: var(--on-ink); padding-block: var(--s48) calc(var(--s32) + env(safe-area-inset-bottom, 0px)); }
+.foot { margin-top: var(--s64); background: var(--ink); color: var(--on-ink); padding-block: var(--s48) calc(var(--edge-blur-height) + var(--s32) + env(safe-area-inset-bottom, 0px)); }
 .foot-in { display: flex; flex-direction: column; gap: var(--s32); }
 .foot .mark { font-family: var(--serif); font-size: 96px; line-height: .85; letter-spacing: -.03em; }
 .foot .links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -511,7 +515,7 @@ html.is-changing .transition-swup.header:not(.is-previous-container) {
   z-index: 10;
   right: 0;
   left: 0;
-  height: 200px;
+  height: var(--edge-blur-height);
   overflow: hidden;
   pointer-events: none;
 }
@@ -673,9 +677,7 @@ html.is-changing .transition-swup.header:not(.is-previous-container) {
 }
 
 @media (max-width: 680px) {
-  .progressive-blur {
-    height: 160px;
-  }
+  :root { --edge-blur-height: 160px; }
 }
 
 /* Pill actions: the fixed outer footprint makes room for a 48px arrow and 4px gap. */

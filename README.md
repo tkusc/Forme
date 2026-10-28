@@ -79,3 +79,10 @@ All photographic surfaces use centered cover cropping to fill their frame, with
 the same paper background and multiply treatment. Pipistrello and Taccia lead
 with their quieter studio photographs. Sources and known licence metadata remain
 attached when gallery ordering changes.
+
+The popup keeps its Instagram/Threads and legal links in a persistent footer after
+all suggestions or search results. Search and filters use separate backdrop
+elements with fixed colour and stacking order, so closing search only fades its
+backdrop opacity. Entry animations finish before their classes are cleaned up.
+The page footer reserves the progressive blur height plus 32px (and safe area)
+below its legal row, keeping those links above the blurred viewport edge.
